@@ -24,12 +24,26 @@ export default function CtaHero() {
     <section className="relative w-full bg-black overflow-hidden flex items-center justify-center  md:py-20 px-4">
       <GridBackground />
       <div className="relative z-10 flex flex-col items-center text-center">
-        <Image
-          src={animation_icon}
-          alt="animation icon"
-          width={400}
-          height={400}
-        />
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            y: [0, -15, 0]
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+          }}
+        >
+          <Image
+            src={animation_icon}
+            alt="animation icon"
+            width={400}
+            height={400}
+          />
+        </motion.div>
         <motion.h2
           className="text-xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-10"
           initial={{ opacity: 0, y: 24 }}

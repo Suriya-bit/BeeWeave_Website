@@ -20,6 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   overscroll-behavior: smooth;
+  overflow: hidden; 
   -webkit-overflow-scrolling: touch;
 }
 

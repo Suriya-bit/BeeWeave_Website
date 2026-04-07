@@ -14,7 +14,7 @@ const fadeUp = {
   }),
 };
 
-const cell = "p-8 flex flex-col gap-4";
+const cell = "px-4 py-8 flex flex-col gap-4";
 const statNum = "text-4xl font-bold text-[#7400FA]";
 const statTxt = "text-xs text-white leading-tight max-w-[100px]";
 const borderT = "border-t border-[#7400FA]/30";
@@ -23,10 +23,9 @@ const borderLOnly = "border-l border-[#7400FA]/30";
 
 const ResultsSection = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-14 py-20 overflow-hidden">
+    <MainLayout className="relative px-6 lg:px-30 py-20 overflow-hidden ">
       <div className="absolute left-[-250px] bottom-0 w-[380px] h-[500px] bg-[#7400FA] opacity-30 blur-[60px] rounded-full pointer-events-none" />
       <div className="absolute right-[-250px] top-0 w-[380px] h-[500px] bg-[#7400FA] opacity-30 blur-[60px] rounded-full pointer-events-none" />
-
       <div className="relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 rounded-2xl overflow-hidden">
           <motion.div
@@ -35,7 +34,7 @@ const ResultsSection = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="p-8 flex items-center"
+            className="p-4 flex items-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-[#7400FB] to-[#C016F4] bg-clip-text text-transparent leading-tight">
               Results You Can Expect with Our SAP Solutions

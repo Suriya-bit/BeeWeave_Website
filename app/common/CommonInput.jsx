@@ -14,6 +14,7 @@ const InputField = ({
                     Enter your {name.replace(/([A-Z])/g, " $1")}
                 </label>
             )}
+            
             <input
                 type={type}
                 name={name}

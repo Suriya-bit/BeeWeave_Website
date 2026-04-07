@@ -1,4 +1,3 @@
-import SmoothScrollProvider from "./common/SmoothScrollProvider";
 import Footer from "./components/Common/Footer/Footer";
 import Header from "./components/Common/Header/Header";
 import { Plus_Jakarta_Sans } from "next/font/google";
@@ -21,11 +20,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jakarta.variable} suppressHydrationWarning={true}>
-        <SmoothScrollProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </SmoothScrollProvider>
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

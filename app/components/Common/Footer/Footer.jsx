@@ -38,7 +38,7 @@ const socials = [
 const Footer = () => {
   return (
     <footer className="bg-black px-6 lg:px-30 py-16 border-t border-white/10">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+     <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex flex-col gap-6">
           <div className="relative w-16 h-16">
             <Image

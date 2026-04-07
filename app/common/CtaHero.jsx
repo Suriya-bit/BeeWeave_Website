@@ -21,7 +21,7 @@ function GridBackground() {
 
 export default function CtaHero() {
   return (
-    <section className="relative w-full bg-black overflow-hidden flex items-center justify-center  md:py-20 px-4">
+    <section className="relative w-full bg-black overflow-hidden flex items-center justify-center  md:py-10 px-4">
       <GridBackground />
       <div className="relative z-10 flex flex-col items-center text-center">
         <motion.div

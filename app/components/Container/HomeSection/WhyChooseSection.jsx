@@ -17,7 +17,7 @@ const fadeUp = {
 
 const WhyChooseSection = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-30 py-28 overflow-hidden">
+    <MainLayout className="relative px-6 lg:px-30 py-10 overflow-hidden">
       <div
         className="absolute inset-0 
 bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.15),transparent_65%)] 
@@ -35,7 +35,7 @@ pointer-events-none"
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-2xl md:text-3xl font-bold text-white text-center mb-14 leading-snug"
+          className="text-2xl md:text-3xl font-bold text-white text-center mb-10 leading-snug"
         >
           Why Choose Bee Weave for SAP & Odoo
           <br />

@@ -59,5 +59,8 @@ body {
 }
 
 .animate-marquee2 {
+  display: flex;
+  width: max-content;
   animation: marquee 20s linear infinite;
+  will-change: transform;
 }

@@ -15,10 +15,12 @@ const navLinks = [
 ];
 
 const serviceItems = [
-  "Web Development",
-  "Mobile Apps",
-  "UI/UX Design",
-  "Consulting",
+  "AI with SAP",
+  "Cloud Transformation",
+  "Odoo ERP Software",
+  "RISE with SAP",
+  "SAP S/4HANA",
+  "SAP BTP",
 ];
 
 const arrowVariants = {
@@ -68,9 +70,8 @@ const Header = () => {
   return (
     <>
       <header
-        className={`w-full z-50 absolute top-0 left-0 ${
-          pathname === "/" ? "md:bg-transparent" : "bg-[#0d0a1a]"
-        }`}
+        className={`w-full z-50 absolute top-0 left-0 ${pathname === "/" ? "md:bg-transparent" : "bg-[#0d0a1a]"
+          }`}
       >
         <div className="px-6 lg:px-30">
           <div className="flex items-center h-24 gap-6">
@@ -193,20 +194,18 @@ const Header = () => {
       </header>
 
       <div
-        className={`md:hidden fixed inset-0 z-40 transition-all duration-300 ${
-          menuOpen
+        className={`md:hidden fixed inset-0 z-40 transition-all duration-300 ${menuOpen
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
-        }`}
+          }`}
       >
         <div
           className="absolute inset-0 bg-black/60 backdrop-blur-sm"
           onClick={closeMenu}
         />
         <div
-          className={`absolute top-0 right-0 h-full w-72 bg-[#0D0B1E] border-l border-white/10 shadow-2xl flex flex-col transition-transform duration-300 ${
-            menuOpen ? "translate-x-0" : "translate-x-full"
-          }`}
+          className={`absolute top-0 right-0 h-full w-72 bg-[#0D0B1E] border-l border-white/10 shadow-2xl flex flex-col transition-transform duration-300 ${menuOpen ? "translate-x-0" : "translate-x-full"
+            }`}
         >
           <div className="flex items-center justify-between px-6 h-24 border-b border-white/10 shrink-0">
             <Link href="/" onClick={closeMenu}>

@@ -7,11 +7,7 @@
 }
 
 body {
-  font-family:
-    "Plus Jakarta Sans",
-    system-ui,
-    -apple-system,
-    sans-serif;
+  font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
   font-size: var(--fs16);
   line-height: 1.6;
   background-color: #000;

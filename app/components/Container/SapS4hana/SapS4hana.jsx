@@ -80,6 +80,8 @@ const SapS4hana = () => {
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
+                subTitle={"Businesses across India are already seeing the difference. Bee Weave is here to make sure your business does not get left behind. "}
+
             />
         </>
     )

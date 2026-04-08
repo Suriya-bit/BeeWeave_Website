@@ -79,6 +79,7 @@ const CloudTransformation = () => {
                 buttonText="Let’s Build Something Together"
                 buttonLink="/contact"
                 image={animation_icon}
+                subTitle={"Businesses across India are already seeing the difference. Bee Weave is here to make sure your business does not get left behind. "}
                 showGrid={true}
             />
         </>

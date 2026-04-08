@@ -41,6 +41,7 @@ const CtaHero = ({
   buttonLink = "/contact",
   image,
   showGrid = true,
+  subTitle
 }) => {
   return (
     <MainLayout className="relative w-full bg-black overflow-hidden flex items-center justify-center md:py-10 px-4">
@@ -69,15 +70,22 @@ const CtaHero = ({
         >
           {title}
         </motion.h2>
+        {subTitle && (
+          <motion.p
+            variants={fadeUp}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="text-md  text-white mb-8 max-w-xl"
+          >
+            {subTitle}
+          </motion.p>
+        )}
         <motion.div variants={fadeUp} transition={{ duration: 0.6 }}>
           <Link
             href={buttonLink}
             className="group relative inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 rounded-xl overflow-hidden text-black text-sm font-semibold transition-all active:scale-95"
           >
             <span className="absolute inset-0 bg-gradient-to-b from-[#ffffff] via-[#f3e8ff] to-[#d0a1e1]" />
-
             <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/60 to-transparent translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out" />
-
             <span className="relative z-10">{buttonText}</span>
           </Link>
         </motion.div>

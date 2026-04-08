@@ -13,14 +13,15 @@ const quickLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
-const services = [
-  { label: "Core ERP Services", href: "#" },
-  { label: "SAP S/4HANA", href: "#" },
-  { label: "RISE with SAP", href: "#" },
-  { label: "Digital Services", href: "#" },
-  { label: "Cloud Transformation", href: "#" },
-];
 
+const services = [
+  { label: "AI with SAP", href: "/services/ai-with-sap" },
+  { label: "Cloud Transformation", href: "/services/cloud-transformation" },
+  { label: "Odoo ERP Software", href: "/services/odoo-erp-software" },
+  { label: "RISE with SAP", href: "/services/rise-with-sap" },
+  { label: "SAP S/4HANA", href: "/services/sap-s4hana" },
+  { label: "SAP BTP", href: "/services/sap-btp" },
+];
 const legal = [
   { label: "Terms of Services", href: "#" },
   { label: "Privacy Policy", href: "#" },

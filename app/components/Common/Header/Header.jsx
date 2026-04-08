@@ -5,7 +5,6 @@ import Link from "next/link";
 import logo from "@/app/assets/Images/logo.svg";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { usePathname } from "next/navigation";
 
 const navLinks = [
   { label: "Services", href: "/services", hasDropdown: true },
@@ -35,7 +34,6 @@ const arrowVariants = {
 };
 
 const Header = () => {
-  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
@@ -194,7 +192,7 @@ const Header = () => {
       </header>
 
       <div
-        className={`md:hidden fixed inset-0 z-40 transition-all duration-300 ${menuOpen
+        className={`md:hidden fixed inset-0 z-999 transition-all duration-300 ${menuOpen
           ? "opacity-100 pointer-events-auto"
           : "opacity-0 pointer-events-none"
           }`}

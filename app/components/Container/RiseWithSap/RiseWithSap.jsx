@@ -8,15 +8,12 @@ import ServiceIntroSection from '../ServicesSection/ServiceIntroSection';
 import ServiceFeaturesSection from '../ServicesSection/ServiceFeaturesSection';
 import ServiceBenefitsSection from '../ServicesSection/ServiceBenefitsSection';
 import ProcessSection from '../ServicesSection/ProcessSection';
-import { benefits, processItems, features, impactData, faqData } from '@/app/utils/AiWithSapMockData';
-import ImpactSection from '../ServicesSection/ImpactSection';
 import FAQsSection from '../ServicesSection/ServiceFAQSection';
 import CtaHero from '@/app/common/CtaHero';
 import animation_icon from "@/app/assets/Images/animation_icon.svg";
-
+import { riseWithSapBenefits, riseWithSapFaqData, riseWithSapFeatures, riseWithSapProcessItems } from '@/app/utils/RIseWithSapMock';
 
 const logos = [client1, client2, client3];
-
 
 const RiseWithSap = () => {
     return (
@@ -24,13 +21,13 @@ const RiseWithSap = () => {
             <ServiceBanner
                 title={
                     <>
-                        Power Up Your Business with India's <br className="hidden md:inline" />
-                        Expert SAP S/4HANA Consulting and
+                        Take Your Business Higher <br className="hidden md:inline" />
+                        with Reliable RISE
                         <br className="hidden md:inline" />
-                        Implementation Services!
+                        with SAP Consulting Services in India
                     </>
                 }
-                subtitle="We provide expert SAP S/4HANA consulting and implementation services in Chennai, helping businesses move to a smarter ERP system and build a stronger foundation for long term growth."
+                subtitle="We offer expert RISE with SAP consulting services in India, helping businesses make a smooth move to the cloud and establish a solid foundation for continuous innovation and growth."
                 breadcrumbs={[
                     { label: "Home", href: "/" },
                     { label: "Rise with SAP" },
@@ -46,41 +43,36 @@ const RiseWithSap = () => {
                 logos={logos}
             />
             <ServiceIntroSection
-                title="Trusted S/4HANA Consulting & Implementation Services in India"
-                description="Bee Waave offers S/4HANA consulting and implementation services across India to help businesses move to SAP the right way. We cover everything your business needs to get started and succeed. Our SAP consultants combine deep technical knowledge with real business understanding, giving your business a clean, reliable and future ready system. We stay committed through every stage of your journey, making sure your S/4HANA implementation delivers real value and lasting results for your business."
-                buttonText="Begin My SAP S/4HANA Journey"
+                title="Best RISE with SAP Consulting Services in India"
+                description="Moving to SAP cloud is a big step and Bee Weave makes sure your business takes it the right way. We provide expert RISE with SAP consulting services in India, helping businesses plan, execute and complete their cloud transition without disruption. Our team brings the right skills, a clear process and genuine dedication to every project, giving your business a modern and future ready SAP cloud environment."
+                buttonText="Get Started with RISE with SAP"
                 buttonLink="/contact"
             />
             <ServiceFeaturesSection
-                title="What Bee Weave Delivers for Your Business with SAP S/4HANA?"
-                items={features}
+                title="What Bee Weave Delivers for Your Business with RISE with SAP?
+                "
+                items={riseWithSapFeatures}
             />
             <ServiceBenefitsSection
-                title="Key Benefits for Your Business with Our SAP S/4HANA Services"
-                items={benefits}
+                title="Key Benefits for Your Business with Our RISE with SAP Services"
+                items={riseWithSapBenefits}
             />
             <ProcessSection
                 title="The Bee Waave's Process"
-                items={processItems}
-            />
-            <ImpactSection
-                title="Measurable Business Impact with SAP S/4HANA"
-                description="Make faster, smarter decisions with the power of live insights and real-time visibility across all departments. By having up-to-date data at your fingertips, you can monitor performance, identify opportunities, and respond instantly to changes—ensuring seamless coordination, improved efficiency, and better business outcomes."
-                buttonText="Begin My SAP S/4HANA Journey"
-                stats={impactData}
+                items={riseWithSapProcessItems}
             />
             <FAQsSection
                 title="Frequently Asked Questions"
                 subtitle="FAQs"
-                faqs={faqData}
+                faqs={riseWithSapFaqData}
             />
             <CtaHero
-                title={`The Right Time to Move to SAP S/4HANA is Now`}
-                buttonText="Let’s Build Something Together"
+                title={`Your Cloud Journey Starts with One Decision`}
+                buttonText="Begin My RISE with SAP Journey"
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
-                subTitle={"Businesses across India are already seeing the difference. Bee Weave is here to make sure your business does not get left behind. "}
+                subTitle={"Bee Weave is ready to make your RISE with SAP transition smooth and successful."}
             />
         </>
     )

@@ -32,6 +32,7 @@ export const features = [
       "The way your SAP S/4HANA system is configured determines how well your business runs on it. Bee Weave gets this right by working closely with your team and building a setup aligned with your real business needs.",
   },
 ];
+
 export const benefits = [
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,

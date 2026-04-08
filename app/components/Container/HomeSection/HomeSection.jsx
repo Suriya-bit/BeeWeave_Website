@@ -4,6 +4,7 @@ import Link from "next/link";
 import MainLayout from "@/app/common/MainLayout";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { FcVlc } from "react-icons/fc";
 
 const container = {
   hidden: {},
@@ -48,7 +49,6 @@ const HomeSection = () => {
         >
           India's Premier Digital Orchestrators
         </motion.p>
-
         <motion.h1
           variants={item}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-[1.10] mb-6 md:mb-8"

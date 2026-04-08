@@ -8,11 +8,11 @@ import ServiceIntroSection from '../ServicesSection/ServiceIntroSection';
 import ServiceFeaturesSection from '../ServicesSection/ServiceFeaturesSection';
 import ServiceBenefitsSection from '../ServicesSection/ServiceBenefitsSection';
 import ProcessSection from '../ServicesSection/ProcessSection';
-import { benefits, processItems, features, impactData, faqData } from '@/app/utils/AiWithSapMockData';
 import ImpactSection from '../ServicesSection/ImpactSection';
 import FAQsSection from '../ServicesSection/ServiceFAQSection';
 import CtaHero from '@/app/common/CtaHero';
 import animation_icon from "@/app/assets/Images/animation_icon.svg";
+import { odooBenefits, odooFaqData, odooFeatures, odooImpactData, sapBtpProcessItems } from '@/app/utils/OdooErpSoftwareMock';
 
 
 const logos = [client1, client2, client3];
@@ -24,13 +24,13 @@ const OdooErpSoftware = () => {
             <ServiceBanner
                 title={
                     <>
-                        Power Up Your Business with India's <br className="hidden md:inline" />
-                        Expert SAP S/4HANA Consulting and
+                        Stop Overpaying for ERP<br className="hidden md:inline" />
+                        Get the Best Odoo ERP
                         <br className="hidden md:inline" />
-                        Implementation Services!
+                        Software Consulting Services in India
                     </>
                 }
-                subtitle="We provide expert SAP S/4HANA consulting and implementation services in Chennai, helping businesses move to a smarter ERP system and build a stronger foundation for long term growth."
+                subtitle="We provide expert Odoo ERP software consulting and integration services in Chennai, helping businesses move to a smarter, more affordable ERP system built around the way they actually work."
                 breadcrumbs={[
                     { label: "Home", href: "/" },
                     { label: "Odoo ERP Software" },
@@ -46,33 +46,33 @@ const OdooErpSoftware = () => {
                 logos={logos}
             />
             <ServiceIntroSection
-                title="Trusted S/4HANA Consulting & Implementation Services in India"
-                description="Bee Waave offers S/4HANA consulting and implementation services across India to help businesses move to SAP the right way. We cover everything your business needs to get started and succeed. Our SAP consultants combine deep technical knowledge with real business understanding, giving your business a clean, reliable and future ready system. We stay committed through every stage of your journey, making sure your S/4HANA implementation delivers real value and lasting results for your business."
-                buttonText="Begin My SAP S/4HANA Journey"
+                title="Best Odoo Erp Software Consulting, Integration and Migration Services in India "
+                description="Odoo is one of the most flexible and affordable ERP platforms available today and Bee Weave knows exactly how to make it work for your business. As a trusted Odoo ERP consulting company in India, we cover everything from Odoo ERP software consulting and integration to full system migration. Our team builds, customises and connects your Odoo platform around your exact business needs, giving you a modern ERP system built for growth."
+                buttonText="Begin My Odoo ERP Journey"
                 buttonLink="/contact"
             />
             <ServiceFeaturesSection
-                title="What Bee Weave Delivers for Your Business with SAP S/4HANA?"
-                items={features}
+                title="The Real Results Bee Weave Brings to Your Odoo ERP Journey"
+                items={odooFeatures}
             />
             <ServiceBenefitsSection
-                title="Key Benefits for Your Business with Our SAP S/4HANA Services"
-                items={benefits}
+                title="Key Benefits for Your Business with Our Odoo erp software consulting Services"
+                items={odooBenefits}
             />
             <ProcessSection
                 title="The Bee Waave's Process"
-                items={processItems}
+                items={sapBtpProcessItems}
             />
             <ImpactSection
-                title="Measurable Business Impact with SAP S/4HANA"
+                title="Measurable Business Impact with Odoo Erp "
                 description="Make faster, smarter decisions with the power of live insights and real-time visibility across all departments. By having up-to-date data at your fingertips, you can monitor performance, identify opportunities, and respond instantly to changes—ensuring seamless coordination, improved efficiency, and better business outcomes."
                 buttonText="Begin My SAP S/4HANA Journey"
-                stats={impactData}
+                stats={odooImpactData}
             />
             <FAQsSection
                 title="Frequently Asked Questions"
                 subtitle="FAQs"
-                faqs={faqData}
+                faqs={odooFaqData}
             />
             <CtaHero
                 title={`The Right Time to Move to SAP S/4HANA is Now`}

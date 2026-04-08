@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import awardWhite from "@/app/assets/Images/award-linear.svg";
-import bgIcon from "@/app/assets/Images/bg-icon.svg";
 import { features } from "@/app/utils/HomemockData";
 import { ArrowRight } from "lucide-react";
 import MainLayout from "@/app/common/MainLayout";

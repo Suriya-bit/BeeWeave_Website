@@ -15,12 +15,12 @@ const navLinks = [
 ];
 
 const serviceItems = [
-  "AI with SAP",
-  "Cloud Transformation",
-  "Odoo ERP Software",
-  "RISE with SAP",
-  "SAP S/4HANA",
-  "SAP BTP",
+  { label: "AI with SAP", href: "/services/ai-with-sap" },
+  { label: "Cloud Transformation", href: "/services/cloud-transformation" },
+  { label: "Odoo ERP Software", href: "/services/odoo-erp-software" },
+  { label: "RISE with SAP", href: "/services/rise-with-sap" },
+  { label: "SAP S/4HANA", href: "/services/sap-s4hana" },
+  { label: "SAP BTP", href: "/services/sap-btp" },
 ];
 
 const arrowVariants = {
@@ -118,13 +118,13 @@ const Header = () => {
                     </button>
                     {servicesOpen && (
                       <div className="absolute top-full left-0 mt-2 w-48 p-3 rounded-xl border border-white/10 bg-white text-black shadow-2xl z-999">
-                        {serviceItems.map((item) => (
+                        {serviceItems?.map((item) => (
                           <Link
-                            key={item}
-                            href="#"
+                            key={item.href}
+                            href={item.href}
                             className="block px-4 py-2 text-sm hover:bg-black/5 rounded-lg transition"
                           >
-                            {item}
+                            {item.label}
                           </Link>
                         ))}
                       </div>
@@ -195,8 +195,8 @@ const Header = () => {
 
       <div
         className={`md:hidden fixed inset-0 z-40 transition-all duration-300 ${menuOpen
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+          ? "opacity-100 pointer-events-auto"
+          : "opacity-0 pointer-events-none"
           }`}
       >
         <div

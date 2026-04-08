@@ -27,7 +27,7 @@ const AboutHero = () => {
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.65, ease: "easeOut", delay: 0.15 }}
-        className="relative text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.15]  mb-5"
+        className="relative text-white text-3xl sm:text-4xl md:text-5xl  font-semibold leading-[1.15]  mb-5"
       >
         A Little About Us and a Lot
         <br className="hidden md:inline" />

@@ -8,6 +8,7 @@ import ComparisonSection from "./components/Container/HomeSection/ComparisonSect
 import IndustriesFaq from "./components/Container/HomeSection/Industriesfaq";
 import FAQsSection from "./components/Container/HomeSection/FAQsSection";
 import CtaHero from "./common/CtaHero";
+import animation_icon from "@/app/assets/Images/animation_icon.svg";
 
 function page() {
   return (
@@ -20,7 +21,13 @@ function page() {
       <ComparisonSection />
       <IndustriesFaq />
       <FAQsSection />
-      <CtaHero />
+      <CtaHero
+        title={`We Are Ready to Help.\nAre You Ready to Grow?`}
+        buttonText="Let’s Build Something Together"
+        buttonLink="/contact"
+        image={animation_icon}
+        showGrid={true}
+      />
     </>
   );
 }

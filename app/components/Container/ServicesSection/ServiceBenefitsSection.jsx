@@ -21,6 +21,8 @@ const itemVariants = {
 const ServiceBenefitsSection = ({ title, items = [] }) => {
     return (
         <MainLayout className="w-full md:py-20 px-6 md:px-30 bg-[#0d0a1a]">
+
+            {/* Title */}
             <motion.h2
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -30,12 +32,20 @@ const ServiceBenefitsSection = ({ title, items = [] }) => {
             >
                 {title}
             </motion.h2>
+
+            {/* Horizontal Scroll Container */}
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="flex lg:grid lg:grid-cols-4 overflow-x-auto lg:overflow-visible scrollbar-hide gap-4 px-2"
+                className="
+          flex flex-nowrap
+          overflow-x-auto
+          scrollbar-hide
+          scroll-smooth
+          gap-4 px-2
+        "
             >
                 {items?.map((item, index) => (
                     <motion.div
@@ -43,9 +53,8 @@ const ServiceBenefitsSection = ({ title, items = [] }) => {
                         variants={itemVariants}
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         className="
-              flex-shrink-0 
-              w-[calc(100%/1.2)] sm:w-[calc(100%/2.2)] md:w-[calc(100%/3.2)] 
-              lg:w-auto 
+              flex-shrink-0
+              w-[85%] sm:w-[45%] md:w-[30%] lg:w-[380px]
               px-4 py-6 relative
             "
                     >
@@ -62,7 +71,6 @@ const ServiceBenefitsSection = ({ title, items = [] }) => {
                         <h3 className="text-white text-lg font-semibold mb-2">
                             {item.title}
                         </h3>
-
                         <p className="text-gray-400 text-sm leading-relaxed">
                             {item.description}
                         </p>

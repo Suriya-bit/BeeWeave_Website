@@ -21,6 +21,20 @@ function GridBackground({ show = true }) {
   );
 }
 
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: { opacity: 1, y: 0 },
+};
+
 const CtaHero = ({
   title = "We Are Ready to Help.\nAre You Ready to Grow?",
   buttonText = "Let’s Build Something Together",
@@ -31,43 +45,43 @@ const CtaHero = ({
   return (
     <MainLayout className="relative w-full bg-black overflow-hidden flex items-center justify-center md:py-10 px-4">
       <GridBackground show={showGrid} />
-      <div className="relative z-10 flex flex-col items-center text-center">
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="relative z-10 flex flex-col items-center text-center"
+      >
         {image && (
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1, y: [0, -15, 0] }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-              repeat: Infinity,
-            }}
+            variants={fadeUp}
+            transition={{ duration: 0.6 }}
+            animate={{ y: [0, -12, 0] }}
+            className="mb-6"
           >
             <Image src={image} alt="cta icon" width={400} height={400} />
           </motion.div>
         )}
         <motion.h2
+          variants={fadeUp}
+          transition={{ duration: 0.7 }}
           className="text-xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-10 whitespace-pre-line max-w-2xl"
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.4 }}
         >
           {title}
         </motion.h2>
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.75 }}
-        >
+        <motion.div variants={fadeUp} transition={{ duration: 0.6 }}>
           <Link
             href={buttonLink}
             className="group relative inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 rounded-xl overflow-hidden text-black text-sm font-semibold transition-all active:scale-95"
           >
             <span className="absolute inset-0 bg-gradient-to-b from-[#ffffff] via-[#f3e8ff] to-[#d0a1e1]" />
+
             <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/60 to-transparent translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out" />
+
             <span className="relative z-10">{buttonText}</span>
           </Link>
         </motion.div>
-      </div>
+      </motion.div>
     </MainLayout>
   );
 };

@@ -122,6 +122,7 @@ const Header = () => {
                           <Link
                             key={item.href}
                             href={item.href}
+                            onClick={() => setServicesOpen(false)}
                             className="block px-4 py-2 text-sm hover:bg-black/5 rounded-lg transition"
                           >
                             {item.label}

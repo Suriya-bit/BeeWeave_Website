@@ -21,8 +21,6 @@ const itemVariants = {
 const ServiceBenefitsSection = ({ title, items = [] }) => {
     return (
         <MainLayout className="w-full md:py-20 px-6 md:px-30 bg-[#0d0a1a]">
-
-            {/* Title */}
             <motion.h2
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -32,8 +30,6 @@ const ServiceBenefitsSection = ({ title, items = [] }) => {
             >
                 {title}
             </motion.h2>
-
-            {/* Horizontal Scroll Container */}
             <motion.div
                 variants={containerVariants}
                 initial="hidden"

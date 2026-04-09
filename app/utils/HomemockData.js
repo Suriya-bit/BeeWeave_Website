@@ -311,4 +311,22 @@ export const industries = [
       </svg>
     ),
   },
+  {
+    label: "Warehouse",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        className="w-7 h-7"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3 10.5L12 3l9 7.5M4.5 9.75V21h15V9.75M9 21v-6h6v6M7.5 12h.008v.008H7.5V12zm0 3h.008v.008H7.5V15zm0 3h.008v.008H7.5V18zm9-6h.008v.008H16.5V12zm0 3h.008v.008H16.5V15zm0 3h.008v.008H16.5V18z"
+        />
+      </svg>
+    ),
+  },
 ];

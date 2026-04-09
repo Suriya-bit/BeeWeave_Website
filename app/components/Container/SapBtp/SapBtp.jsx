@@ -34,6 +34,13 @@ const SapBtp = () => {
                     { label: "SAP BTP" },
                 ]}
             />
+
+            <ServiceIntroSection
+                title="Best SAP BTP Integration Services in India "
+                description="Bee Weave is a trusted SAP BTP integration partner in India bringing deep expertise across SAP Business Technology Platform. We connect your SAP systems with third party tools, build smart extensions and automate complex workflows without touching your core ERP. Our team delivers a fully connected and intelligent SAP landscape your organisation can rely on. From integration suite and application development to data analytics and low code extensions, Bee Weave covers everything your SAP landscape needs to perform at its best."
+                buttonText="Begin My SAP BTP Journey"
+                buttonLink="/contact"
+            />
             <ClientMarquee
                 title={
                     <>
@@ -42,12 +49,6 @@ const SapBtp = () => {
                     </>
                 }
                 logos={logos}
-            />
-            <ServiceIntroSection
-                title="Best SAP BTP Integration Services in India "
-                description="Bee Weave is a trusted SAP BTP integration partner in India bringing deep expertise across SAP Business Technology Platform. We connect your SAP systems with third party tools, build smart extensions and automate complex workflows without touching your core ERP. Our team delivers a fully connected and intelligent SAP landscape your organisation can rely on. From integration suite and application development to data analytics and low code extensions, Bee Weave covers everything your SAP landscape needs to perform at its best."
-                buttonText="Begin My SAP BTP Journey"
-                buttonLink="/contact"
             />
             <ServiceFeaturesSection
                 title="The Real Impact Bee Weave Delivers to Your SAP BTP Integration Journey"

@@ -7,7 +7,7 @@ const FAQsSection = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <MainLayout className="py-10 md:py-20 px-4 md:px-30 relative overflow-hidden">
+    <MainLayout className="py-10 md:py-20 px-4 md:px-30 relative overflow-hidden ">
       <div className="absolute left-[-250px] top-1/2 -translate-y-1/2 w-[300px] h-[500px] bg-[#7400FA] opacity-30 blur-[60px] rounded-full pointer-events-none" />
       <div className="absolute right-[-250px] top-1/2 -translate-y-1/2 w-[300px] h-[500px] bg-[#7400FA] opacity-30 blur-[60px] rounded-full pointer-events-none" />
       <p className="text-center text-xs font-semibold tracking-[0.25em] uppercase text-white mb-2">

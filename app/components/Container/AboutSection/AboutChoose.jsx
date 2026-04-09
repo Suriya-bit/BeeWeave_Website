@@ -56,9 +56,7 @@ pointer-events-none"
               hover:border-[#9b4dff] hover:shadow-[0_0_35px_rgba(116,0,250,0.35)]"
             >
               <div className="flex flex-col gap-3">
-                <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 border border-white/10">
-                  <Image src={awardWhite} alt="icon" width={20} height={20} />
-                </div>
+                <Image src={card.img} alt="icon" width={40} height={40} />
                 <h3 className="text-lg font-semibold text-white max-w-[241px] group-hover:text-[#9b4dff] transition-colors duration-300">
                   {card.title}
                 </h3>

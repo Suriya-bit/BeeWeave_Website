@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import MainLayout from "./MainLayout";
+import { usePathname } from "next/navigation";
 
 function GridBackground({ show = true }) {
+
   if (!show) return null;
 
   return (
@@ -43,8 +45,9 @@ const CtaHero = ({
   showGrid = true,
   subTitle
 }) => {
+  const pathname = usePathname()
   return (
-    <MainLayout className="relative w-full bg-[#0d0a1a] overflow-hidden flex items-center justify-center md:py-10 px-4">
+    <MainLayout className={`relative w-full  overflow-hidden flex items-center justify-center md:py-10 px-4 ${pathname !== "/" ? "bg-[#0d0a1a]" : ""}`}>
       <GridBackground show={showGrid} />
       <motion.div
         variants={containerVariants}

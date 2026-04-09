@@ -90,81 +90,91 @@ export default function CareerForm() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1 relative">
-                    <div className="px-6 py-8">
-                        <h3 className="text-white text-xl font-semibold mb-6">
+                <div className="flex-1 relative rounded-2xl overflow-hidden 
+bg-gradient-to-br from-[#14002a] via-[#15012c] to-[#0c0316] 
+border border-white/10 ">
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.15),transparent_70%)] pointer-events-none" />
+                    <div className="relative z-10 px-8 py-10">
+                        <h3 className="text-white text-xl font-semibold mb-8">
                             Submit Your Profile
                         </h3>
                         <div className="flex flex-col gap-6">
-                            <div className="flex gap-4">
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Name</label>
+                            <div className="flex gap-6">
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Name</label>
                                     <input
                                         id="name"
                                         type="text"
                                         value={formData.name}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400"
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
                                 </div>
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Email Id</label>
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Email Id</label>
                                     <input
                                         id="email"
                                         type="email"
                                         value={formData.email}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400"
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
                                 </div>
                             </div>
-                            <div className="flex gap-4">
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Mobile Number</label>
+                            <div className="flex gap-6">
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Mobile Number</label>
                                     <input
                                         id="mobile"
                                         type="tel"
                                         value={formData.mobile}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400"
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
                                 </div>
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Location</label>
+
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Location</label>
                                     <input
                                         id="location"
                                         type="text"
                                         value={formData.location}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400"
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
                                 </div>
                             </div>
-                            <div className="flex gap-4">
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Area of Interest</label>
+                            <div className="flex gap-6">
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Area of Interest</label>
                                     <input
                                         id="interest"
                                         type="text"
                                         value={formData.interest}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400"
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
                                 </div>
 
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Years of Experience</label>
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Years of Experience</label>
                                     <input
                                         id="experience"
                                         type="text"
                                         value={formData.experience}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400"
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
                                 </div>
                             </div>
-                            <div className="flex flex-col gap-1">
-                                <label className="text-gray-400 text-xs">
+                            <div className="flex flex-col gap-2">
+                                <label className="text-white/60 text-xs">
                                     Tell us about yourself
                                 </label>
                                 <textarea
@@ -172,32 +182,40 @@ export default function CareerForm() {
                                     value={formData.about}
                                     onChange={handleChange}
                                     rows={2}
-                                    className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400 resize-none"
+                                    className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+          focus:outline-none focus:border-[#9b4dff] transition-all duration-300 resize-none"
                                 />
                             </div>
+                            <div className="border border-dashed border-white/20 rounded-xl py-12 text-center 
+      hover:border-[#9b4dff]/60 transition-all duration-300">
 
-                            <div className="border-2 border-dashed border-gray-600 rounded-md p-10 text-center text-gray-400">
-                                <div className="flex flex-col items-center gap-3">
+                                <div className="flex flex-col items-center gap-3 text-white/60">
                                     <FiUploadCloud className="text-3xl text-white/70" />
                                     <p className="text-sm">
-                                        <span className="text-white font-medium">Choose a file</span> or drag
-                                        and drop here
+                                        <span className="text-white font-medium">Choose a file</span> or drag and drop here
                                     </p>
                                 </div>
                             </div>
                             <button
                                 disabled={loading}
                                 onClick={handleSubmit}
-                                className="mt-3 w-full bg-white text-gray-900 font-semibold text-sm py-3 rounded-md hover:bg-purple-100 transition"
+                                className="group relative mt-6 w-full py-3 rounded-xl overflow-hidden 
+        text-black text-sm font-semibold transition-all active:scale-95"
                             >
-                                {loading ? "Sending..." : "Submit"}
-                            </button>
+                                <span className="absolute inset-0 bg-linear-to-b from-white via-[#f3e8ff] to-[#d0a1e1]" />
+                                <span className="absolute inset-0 bg-linear-to-r from-transparent via-white/60 to-transparent 
+        translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out" />
 
+                                <span className="relative z-10">
+                                    {loading ? "Sending..." : "Submit"}
+                                </span>
+                            </button>
                             {submitted && (
                                 <p className="text-green-400 text-sm text-center">
                                     ✓ Profile submitted successfully!
                                 </p>
                             )}
+
                         </div>
                     </div>
                 </div>

@@ -1,15 +1,18 @@
 "use client";
 
+import Image from "next/image";
+import ContactBg from "@/app/assets/Images/contact-bg.svg";
+
 export default function DarkMap() {
     return (
-        <div className="w-full h-[400px] overflow-hidden">
-            <iframe
-                src="https://maps.google.com/maps?q=chennai&z=13&output=embed"
-                className="w-full h-full border-0"
-                style={{
-                    filter: "invert(95%) hue-rotate(180deg) grayscale(30%) contrast(85%) brightness(85%)"
-                }}
-            ></iframe>
+        <div className="w-full h-[200px] md:h-[600px] overflow-hidden relative bg-[#0d0b1a] ">
+            <Image
+                src={ContactBg}
+                alt="Contact Background"
+                fill
+                className="object-contain"
+                priority
+            />
         </div>
     );
 }

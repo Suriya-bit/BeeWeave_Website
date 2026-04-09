@@ -35,6 +35,12 @@ and build digital environments which are built to perform, scale and grow with y
                     { label: "Cloud Transformation" },
                 ]}
             />
+            <ServiceIntroSection
+                title="Best Cloud Consulting & Transformation Services in Chennai"
+                description="Cloud technology has changed the way businesses work and Bee Weave is here to help yours keep up. We are a leading cloud consulting company in India with hands-on experience across AWS, Microsoft Azure and Google Cloud Platform. Our cloud transformation services take the stress out of moving to the cloud, giving your business a secure, reliable and cost friendly environment to operate and grow from. Whether you are migrating legacy systems, building a hybrid cloud environment or planning a complete cloud migration strategy, Bee Weave brings the right expertise and a structured approach to make your cloud journey smooth, successful and built for long term business growth."
+                buttonText="Begin My Cloud Journey"
+                buttonLink="/contact"
+            />
             <ClientMarquee
                 title={
                     <>
@@ -43,12 +49,6 @@ and build digital environments which are built to perform, scale and grow with y
                     </>
                 }
                 logos={logos}
-            />
-            <ServiceIntroSection
-                title="Best Cloud Consulting & Transformation Services in Chennai"
-                description="Cloud technology has changed the way businesses work and Bee Weave is here to help yours keep up. We are a leading cloud consulting company in India with hands-on experience across AWS, Microsoft Azure and Google Cloud Platform. Our cloud transformation services take the stress out of moving to the cloud, giving your business a secure, reliable and cost friendly environment to operate and grow from. Whether you are migrating legacy systems, building a hybrid cloud environment or planning a complete cloud migration strategy, Bee Weave brings the right expertise and a structured approach to make your cloud journey smooth, successful and built for long term business growth."
-                buttonText="Begin My Cloud Journey"
-                buttonLink="/contact"
             />
             <ServiceFeaturesSection
                 title="The Real Value Bee Weave Brings to Your Cloud Transformation Journey"

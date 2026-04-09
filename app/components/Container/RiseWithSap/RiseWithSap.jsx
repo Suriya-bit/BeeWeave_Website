@@ -33,6 +33,12 @@ const RiseWithSap = () => {
                     { label: "Rise with SAP" },
                 ]}
             />
+            <ServiceIntroSection
+                title="Best RISE with SAP Consulting Services in India"
+                description="Moving to SAP cloud is a big step and Bee Weave makes sure your business takes it the right way. We provide expert RISE with SAP consulting services in India, helping businesses plan, execute and complete their cloud transition without disruption. Our team brings the right skills, a clear process and genuine dedication to every project, giving your business a modern and future ready SAP cloud environment."
+                buttonText="Get Started with RISE with SAP"
+                buttonLink="/contact"
+            />
             <ClientMarquee
                 title={
                     <>
@@ -41,12 +47,6 @@ const RiseWithSap = () => {
                     </>
                 }
                 logos={logos}
-            />
-            <ServiceIntroSection
-                title="Best RISE with SAP Consulting Services in India"
-                description="Moving to SAP cloud is a big step and Bee Weave makes sure your business takes it the right way. We provide expert RISE with SAP consulting services in India, helping businesses plan, execute and complete their cloud transition without disruption. Our team brings the right skills, a clear process and genuine dedication to every project, giving your business a modern and future ready SAP cloud environment."
-                buttonText="Get Started with RISE with SAP"
-                buttonLink="/contact"
             />
             <ServiceFeaturesSection
                 title="What Bee Weave Delivers for Your Business with RISE with SAP?

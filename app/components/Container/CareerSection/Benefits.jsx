@@ -1,32 +1,33 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import logo1 from "@/app/assets/Images/benefit7.png";
-import logo2 from "@/app/assets/Images/benefit6.png";
-import logo3 from "@/app/assets/Images/benefit8.png";
-import logo4 from "@/app/assets/Images/benefit5.png";
-import logo5 from "@/app/assets/Images/benefit4.png";
-import log6 from "@/app/assets/Images/benefit3.png";
-import log7 from "@/app/assets/Images/benefit2.png";
-import log8 from "@/app/assets/Images/benefit1.png";
+import benefit1 from "@/app/assets/Images/benefit1.svg";
+import benefit2 from "@/app/assets/Images/benefit2.svg";
+import benefit3 from "@/app/assets/Images/benefit3.svg";
+import benefit4 from "@/app/assets/Images/benefit4.svg";
+import benefit5 from "@/app/assets/Images/benefit5.svg";
+import benefit6 from "@/app/assets/Images/benefit6.svg";
+import benefit7 from "@/app/assets/Images/benefit7.svg";
+import benefit8 from "@/app/assets/Images/benefit8.svg";
+
 import MainLayout from "@/app/common/MainLayout";
 
 const benefits = [
     [
-        { text: "Flexible work environment", icon: logo1 },
-        { text: "Career advancement", icon: logo2 },
+        { text: "Flexible work environment", icon: benefit1 },
+        { text: "Career advancement", icon: benefit2 },
     ],
     [
-        { text: "Learning & growth", icon: logo3 },
-        { text: "Real project exposure", icon: logo4 },
+        { text: "Learning & growth", icon: benefit3 },
+        { text: "Real project exposure", icon: benefit4 },
     ],
     [
-        { text: "Friendly team culture", icon: logo5 },
-        { text: "Work-life balance", icon: log6 },
+        { text: "Friendly team culture", icon: benefit5 },
+        { text: "Work-life balance", icon: benefit6 },
     ],
     [
-        { text: "Recognition for your work", icon: log7 },
-        { text: "Open communication", icon: log8 },
+        { text: "Recognition for your work", icon: benefit7 },
+        { text: "Open communication", icon: benefit8 },
     ],
 ];
 
@@ -38,16 +39,16 @@ const Benefits = () => {
                     <h2 className="text-3xl md:text-4xl font-semibold mb-4">
                         Perks and benefits
                     </h2>
-                    <p className="text-white/60 text-sm md:text-base max-w-md">
+                    <p className="text-sm md:text-base max-w-md">
                         From team hikes to virtual game nights, we keep the vibe alive—
                         wherever we are. Because fun fuels creativity.
                     </p>
                 </div>
                 <div className="space-y-6">
-                    {benefits.map((row, rowIndex) => (
+                    {benefits?.map((row, rowIndex) => (
                         <div
                             key={rowIndex}
-                            className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+                            className="grid grid-cols-1 sm:grid-cols-2 gap-10"
                         >
                             {row.map((item, index) => (
                                 <div

@@ -5,6 +5,7 @@ import footerLogo from "@/app/assets/Images/footer-logo.svg";
 import { FaFacebookF, FaInstagram, FaYoutube, FaGlobe } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import webdads2u from "@/app/assets/Images/webdads2u-logo.svg";
+import { usePathname } from "next/navigation";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -37,8 +38,9 @@ const socials = [
 ];
 
 const Footer = () => {
+  const pathname = usePathname()
   return (
-    <footer className="bg-[#0d0a1a]  px-6 lg:px-30 py-16 ">
+    <footer className={`${pathname !== "/" ? "bg-[#0d0a1a]" : ""}  px-6 lg:px-30 py-16 `}>
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex flex-col gap-6">
           <div className="relative w-16 h-16">

@@ -33,15 +33,6 @@ const AiWithSap = () => {
                     { label: "AI with SAP" },
                 ]}
             />
-            <ClientMarquee
-                title={
-                    <>
-                        A Community of Brands
-                        We Are Proud to Serve
-                    </>
-                }
-                logos={logos}
-            />
             <ServiceIntroSection
                 title="
 Best AI Powered SAP Service Company in India"
@@ -50,6 +41,15 @@ Bee Weave is a trusted AI powered SAP service company in India helping businesse
 "
                 buttonText="Get Started with AI Powered SAP Services"
                 buttonLink="/contact"
+            />
+            <ClientMarquee
+                title={
+                    <>
+                        A Community of Brands
+                        We Are Proud to Serve
+                    </>
+                }
+                logos={logos}
             />
             <ServiceFeaturesSection
                 title="See What Bee Weave AI Powered SAP Services Actually Do for Your Business"

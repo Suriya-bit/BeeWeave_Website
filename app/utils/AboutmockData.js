@@ -1,31 +1,44 @@
+import client1 from "@/app/assets/Images/aboutclient1.svg";
+import client2 from "@/app/assets/Images/aboutclient2.svg";
+import client3 from "@/app/assets/Images/aboutclient3.svg";
+import client4 from "@/app/assets/Images/aboutclient4.svg";
+import client5 from "@/app/assets/Images/aboutclient5.svg";
+import client6 from "@/app/assets/Images/aboutclient6.svg";
+
 export const aboutscards = [
   {
+    img: client1,
     title: "Client First Always",
     description:
       "Every decision we make, every solution we build and every recommendation we give is driven by what is truly best for our clients.",
   },
   {
+    img: client2,
     title: "Honesty Over Everything",
     description:
       "We believe in complete transparency. We tell you what you need to hear, not just what you want to hear..",
   },
   {
+    img: client3,
     title: "Excellence in Delivery",
     description:
       "Good enough is never good enough for us. We hold ourselves to the highest standards in every project we take on.",
   },
 
   {
+    img: client4,
     title: "Innovation at the Core",
     description:
       "Technology never stands still and neither do we. We constantly push boundaries to bring the latest and best solutions to our clients.",
   },
   {
+    img: client5,
     title: "Partnership Not Just Service",
     description:
       "We do not see ourselves as vendors. We show up as long term partners invested in your success every step of the way.",
   },
   {
+    img: client6,
     title: "Continuous Support & Growth",
     description:
       "We do not see ourselves as vendors. We show up as long term partners invested in your success every step of the way.",

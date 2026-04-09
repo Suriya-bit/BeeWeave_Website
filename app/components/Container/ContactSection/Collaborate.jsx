@@ -79,15 +79,15 @@ export default function Collaborate() {
                         </p>
                     </div>
                     <div className="flex flex-col gap-6">
-                        <div className="border-l-2 border-purple-500 pl-4">
-                            <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">Email Id</p>
+                        <div className="border-l-4 border-purple-500 pl-4">
+                            <p className="text-gra  y-500 text-xs uppercase tracking-widest mb-1">Email Id</p>
                             <p className="text-white text-sm font-medium">suriya.govind@beesap.ai</p>
                         </div>
-                        <div className="border-l-2 border-purple-500 pl-4">
+                        <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">Phone Number</p>
                             <p className="text-white text-sm font-medium">99400 626 85 / 979 108 108 3</p>
                         </div>
-                        <div className="border-l-2 border-purple-500 pl-4">
+                        <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">Address</p>
                             <p className="text-white text-sm font-medium leading-relaxed">
                                 No. 1, A Block, Flat no.S-1, VOC Street, Ram Nagar,<br />
@@ -96,87 +96,99 @@ export default function Collaborate() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1 relative">
-                    <div className="absolute top-0 left-0 w-5 h-5 border-t-2 border-l-2 border-gray-500" />
-                    <div className="absolute top-0 right-0 w-5 h-5 border-t-2 border-r-2 border-gray-500" />
-                    <div className="absolute bottom-0 left-0 w-5 h-5 border-b-2 border-l-2 border-gray-500" />
-                    <div className="absolute bottom-0 right-0 w-5 h-5 border-b-2 border-r-2 border-gray-500" />
-                    <div className="px-6 py-8">
-                        <h3 className="text-white text-xl font-semibold mb-6">Contact us</h3>
-                        <div className="flex flex-col gap-5">
-                            <div className="flex gap-4">
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Name</label>
+                <div className="flex-1 relative rounded-2xl overflow-hidden 
+bg-gradient-to-br from-[#14002a] via-[#15012c] to-[#0c0316] 
+border border-white/10 shadow-[0_0_40px_rgba(130,57,215,0.2)]">
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.15),transparent_70%)] pointer-events-none" />
+                    <div className="relative z-10 px-8 py-10">
+                        <h3 className="text-white text-xl font-semibold mb-8">
+                            Contact us
+                        </h3>
+                        <div className="flex flex-col gap-6">
+                            <div className="flex gap-6">
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Name</label>
                                     <input
                                         id="name"
                                         type="text"
                                         value={formData.name}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400 transition-colors placeholder-gray-600"
-                                        placeholder=""
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
-                                    {errors.name && <span className="text-red-400 text-xs">{errors.name}</span>}
                                 </div>
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Email Id</label>
+
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Email Id</label>
                                     <input
                                         id="email"
                                         type="email"
                                         value={formData.email}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400 transition-colors placeholder-gray-600"
-                                        placeholder=""
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
-                                    {errors.email && <span className="text-red-400 text-xs">{errors.email}</span>}
                                 </div>
                             </div>
-                            <div className="flex gap-4">
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Mobile Number</label>
+                            <div className="flex gap-6">
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Mobile Number</label>
                                     <input
                                         id="mobile"
                                         type="tel"
                                         value={formData.mobile}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400 transition-colors placeholder-gray-600"
-                                        placeholder=""
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
-                                    {errors.mobile && <span className="text-red-400 text-xs">{errors.mobile}</span>}
                                 </div>
-                                <div className="flex-1 flex flex-col gap-1">
-                                    <label className="text-gray-400 text-xs">Subject</label>
+
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">Subject</label>
                                     <input
                                         id="subject"
                                         type="text"
                                         value={formData.subject}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400 transition-colors placeholder-gray-600"
-                                        placeholder=""
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
-                                    {errors.subject && <span className="text-red-400 text-xs">{errors.subject}</span>}
                                 </div>
                             </div>
-                            <div className="flex flex-col gap-1">
-                                <label className="text-gray-400 text-xs">Tell us about your interest in</label>
+                            <div className="flex flex-col gap-2">
+                                <label className="text-white/60 text-xs">
+                                    Tell us about your interest in
+                                </label>
                                 <input
                                     id="interest"
                                     type="text"
                                     value={formData.interest}
                                     onChange={handleChange}
-                                    className="bg-transparent border-b border-gray-600 text-white text-sm py-1.5 focus:outline-none focus:border-purple-400 transition-colors placeholder-gray-600"
-                                    placeholder=""
+                                    className="bg-transparent border-b border-white/20 text-white text-sm py-2 
+          focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                 />
-                                {errors.interest && <span className="text-red-400 text-xs">{errors.interest}</span>}
                             </div>
                             <button
                                 disabled={loading}
                                 onClick={handleSubmit}
-                                className="mt-3 w-full bg-white text-gray-900 font-semibold text-sm py-3 rounded-sm hover:bg-purple-100 transition-colors duration-200 tracking-wide"
+                                className="group relative mt-6 w-full py-7 rounded-xl 
+  text-white text-sm font-semibold transition-all active:scale-95 overflow-hidden"
                             >
-                                {loading ? "Sending..." : "Submit"}
+                                <span className="absolute inset-0 rounded-xl p-[1px] 
+  bg-gradient-to-r from-[#ffffff80] via-[#c084fc] to-[#ffffff80]">
+                                    <span className="flex items-center justify-center w-full h-full rounded-xl 
+    bg-gradient-to-b from-[#14002a] via-[#15012c] to-[#0c0316]">
+                                        <span className="relative z-10">
+                                            {loading ? "Sending..." : "Submit"}
+                                        </span>
+
+                                    </span>
+                                </span>
                             </button>
                             {submitted && (
-                                <p className="text-green-400 text-sm text-center">✓ Message sent! We'll get back to you soon.</p>
+                                <p className="text-green-400 text-sm text-center">
+                                    ✓ Message sent! We'll get back to you soon.
+                                </p>
                             )}
                         </div>
                     </div>

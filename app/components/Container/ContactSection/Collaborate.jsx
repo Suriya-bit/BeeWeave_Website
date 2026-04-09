@@ -13,6 +13,7 @@ export default function Collaborate() {
     });
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
         const { id, value } = e.target;
@@ -32,26 +33,19 @@ export default function Collaborate() {
 
     const handleSubmit = async () => {
         const newErrors = validate();
-
         if (Object.keys(newErrors).length > 0) {
             setErrors(newErrors);
             return;
         }
 
+        setLoading(true);
         try {
-            const result = await emailjs.send(
-                "YOUR_SERVICE_ID",
-                "YOUR_TEMPLATE_ID",
-                {
-                    name: formData.name,
-                    email: formData.email,
-                    mobile: formData.mobile,
-                    subject: formData.subject,
-                    interest: formData.interest,
-                },
-                "YOUR_PUBLIC_KEY"
+            await emailjs.send(
+                "service_ywjxyja",
+                "template_3gwekfq",
+                formData,
+                "Dj2nu5zlYST7TbMu7"
             );
-            console.log("SUCCESS!", result.text);
             setSubmitted(true);
             setFormData({
                 name: "",
@@ -60,10 +54,12 @@ export default function Collaborate() {
                 subject: "",
                 interest: "",
             });
-            setErrors({});
+
             setTimeout(() => setSubmitted(false), 4000);
         } catch (error) {
-            console.error("FAILED...", error);
+            console.error(error);
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -172,15 +168,16 @@ export default function Collaborate() {
                                 />
                                 {errors.interest && <span className="text-red-400 text-xs">{errors.interest}</span>}
                             </div>
-                            {submitted && (
-                                <p className="text-green-400 text-sm text-center">✓ Message sent! We'll get back to you soon.</p>
-                            )}
                             <button
+                                disabled={loading}
                                 onClick={handleSubmit}
                                 className="mt-3 w-full bg-white text-gray-900 font-semibold text-sm py-3 rounded-sm hover:bg-purple-100 transition-colors duration-200 tracking-wide"
                             >
-                                Submit
+                                {loading ? "Sending..." : "Submit"}
                             </button>
+                            {submitted && (
+                                <p className="text-green-400 text-sm text-center">✓ Message sent! We'll get back to you soon.</p>
+                            )}
                         </div>
                     </div>
                 </div>

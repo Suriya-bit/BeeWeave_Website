@@ -3,6 +3,7 @@ import { useState } from "react";
 import MainLayout from "@/app/common/MainLayout";
 import emailjs from "@emailjs/browser";
 import { FiUploadCloud } from "react-icons/fi";
+import Notification from "@/app/common/Notification";
 
 export default function CareerForm() {
     const [formData, setFormData] = useState({
@@ -210,16 +211,17 @@ border border-white/10 ">
                                     {loading ? "Sending..." : "Submit"}
                                 </span>
                             </button>
-                            {submitted && (
-                                <p className="text-green-400 text-sm text-center">
-                                    ✓ Profile submitted successfully!
-                                </p>
-                            )}
-
                         </div>
                     </div>
                 </div>
             </div>
+            {submitted && (
+                <Notification
+                    title="Thank You!"
+                    message="Your form has been submitted successfully. Our team will contact you shortly."
+                    onClose={() => setSubmitted(false)}
+                />
+            )}
         </MainLayout>
     );
 }

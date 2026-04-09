@@ -2,6 +2,7 @@
 import { useState } from "react";
 import MainLayout from "@/app/common/MainLayout";
 import emailjs from "@emailjs/browser";
+import Notification from "@/app/common/Notification";
 
 export default function Collaborate() {
     const [formData, setFormData] = useState({
@@ -14,6 +15,7 @@ export default function Collaborate() {
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [loading, setLoading] = useState(false);
+
 
     const handleChange = (e) => {
         const { id, value } = e.target;
@@ -185,15 +187,17 @@ border border-white/10 shadow-[0_0_40px_rgba(130,57,215,0.2)]">
                                     </span>
                                 </span>
                             </button>
-                            {submitted && (
-                                <p className="text-green-400 text-sm text-center">
-                                    ✓ Message sent! We'll get back to you soon.
-                                </p>
-                            )}
                         </div>
                     </div>
                 </div>
             </div>
+            {submitted && (
+                <Notification
+                    title="Thank You!"
+                    message="Your form has been submitted successfully. Our team will contact you shortly."
+                    onClose={() => setSubmitted(false)}
+                />
+            )}
         </MainLayout>
     );
 }

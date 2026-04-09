@@ -1,4 +1,4 @@
-import { ShieldCheck } from "lucide-react";
+import { BarChart3, Bot, Layers, Link2, Rocket, Sparkles } from "lucide-react";
 
 export const sapBtpFeatures = [
   {
@@ -175,40 +175,39 @@ export const sapBtpFaqData = [
   },
 ];
 
-
 export const sapBtpBenefits = [
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Layers className="w-8 h-8 text-white" />,
     title: "Clean Core ERP",
     description:
       "Bee Weave builds all your SAP extensions on SAP BTP, keeping your core ERP clean and upgrade ready. Your SAP system stays easy to manage, free from heavy custom code and always ready for the latest SAP updates without any complications.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Link2 className="w-8 h-8 text-white" />,
     title: "Seamless System Connectivity",
     description:
       "Bee Weave uses SAP BTP Integration Suite to connect your SAP systems with all your existing business tools and third party platforms. Your organisation gets one fully connected technology environment where everything works together without any data silos or communication gaps.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Rocket className="w-8 h-8 text-white" />,
     title: "Faster Application Development",
     description:
       "Bee Weave uses SAP BTP's low code and no code tools to build custom business applications quickly. Your business gets the digital tools it needs without long development timelines, high costs or complex coding work slowing things down.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <BarChart3 className="w-8 h-8 text-white" />,
     title: "Smarter Business Decisions",
     description:
       "Bee Weave brings SAP BTP's data and analytics capabilities to your business, giving your teams access to real time and accurate insights. Your leadership gets the right information at the right time, helping your organisation make better and faster business decisions.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Bot className="w-8 h-8 text-white" />,
     title: "Intelligent Automation",
     description:
       "Bee Weave uses SAP BTP automation and robotic process automation to remove repetitive manual tasks from your business. Your teams spend less time on routine work and more time on tasks that truly move your business forward every day.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Sparkles className="w-8 h-8 text-white" />,
     title: "Future Ready SAP Landscape",
     description:
       "Bee Weave builds a future ready SAP landscape on SAP BTP, giving your organisation the flexibility to adopt new technologies and scale with confidence. Your SAP environment stays modern, agile and ready for whatever comes next without any big system changes or extra costs.",

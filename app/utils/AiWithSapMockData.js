@@ -1,4 +1,11 @@
-import { ShieldCheck } from "lucide-react";
+import {
+  Brain,
+  CheckCircle2,
+  DollarSign,
+  ShieldCheck,
+  TrendingUp,
+  Workflow,
+} from "lucide-react";
 
 export const features = [
   {
@@ -35,31 +42,31 @@ export const features = [
 
 export const benefits = [
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Brain className="w-8 h-8 text-white" />,
     title: "Smarter Business Decisions",
     description:
       "Real time insights from your SAP environment give your teams the power to make faster and more confident decisions every single day without relying on guesswork or outdated reports.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <Workflow className="w-8 h-8 text-white" />,
     title: "Faster Workflow Automation",
     description:
       "AI powered SAP services help automate repetitive and time consuming workflows so your teams spend less time on manual tasks and more time on work that drives business growth.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <DollarSign className="w-8 h-8 text-white" />,
     title: "Reduced Operational Costs",
     description:
       "By automating complex processes and minimizing manual effort, businesses can significantly reduce operational costs while maintaining high levels of quality and consistency.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <CheckCircle2 className="w-8 h-8 text-white" />,
     title: "Improved Accuracy and Efficiency",
     description:
       "AI driven SAP solutions reduce human errors and bring consistency to your workflows, ensuring every process runs smoothly, accurately and efficiently across all departments.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    icon: <TrendingUp className="w-8 h-8 text-white" />,
     title: "Scalable AI Solutions",
     description:
       "AI powered SAP systems are built to grow with your business, allowing you to scale operations, add new capabilities and handle increased workloads without disruption.",

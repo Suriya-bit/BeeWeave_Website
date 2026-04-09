@@ -112,9 +112,9 @@ const Header = () => {
                       </svg>
                     </button>
                     {servicesOpen && (
-                      <div className="absolute top-full left-0 -translate-x-10 mt-1 w-56 p-3 rounded-2xl 
-backdrop-blur-xl bg-white/10 border border-white/20 
-shadow-[0_8px_32px_rgba(0,0,0,0.35)] z-999">
+                      <div className="absolute top-full left-0 -translate-x-6 mt-3 w-56 p-3 rounded-2xl 
+backdrop-blur-2xl bg-[#0D0B1E]/90 border border-white/20 
+shadow-[0_8px_32px_rgba(0,0,0,0.5)] z-[9999]">
                         {serviceItems?.map((item) => (
                           <Link
                             key={item.href}

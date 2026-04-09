@@ -58,11 +58,9 @@ const ServiceBenefitsSection = ({ title, items = [] }) => {
                             <div className="absolute top-6 right-0 h-[70%] w-[1px] bg-gradient-to-b from-transparent via-purple-500/40 to-transparent" />
                         )}
                         <div className="flex justify-start mb-4">
-                            <Image
-                                src={award_white}
-                                alt="Benefit Icon"
-                                className="w-12 h-12"
-                            />
+                            <div className="p-3 rounded-xl bg-white/10 backdrop-blur-md border border-white/10">
+                                {item.icon}
+                            </div>
                         </div>
                         <h3 className="text-white text-lg font-semibold mb-2">
                             {item.title}

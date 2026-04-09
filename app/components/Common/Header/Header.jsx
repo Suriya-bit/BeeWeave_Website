@@ -112,13 +112,17 @@ const Header = () => {
                       </svg>
                     </button>
                     {servicesOpen && (
-                      <div className="absolute top-full left-0 mt-2 w-48 p-3 rounded-xl border border-white/10 bg-white text-black shadow-2xl z-999">
+                      <div className="absolute top-full left-0 -translate-x-10 mt-1 w-56 p-3 rounded-2xl 
+backdrop-blur-xl bg-white/10 border border-white/20 
+shadow-[0_8px_32px_rgba(0,0,0,0.35)] z-999">
                         {serviceItems?.map((item) => (
                           <Link
                             key={item.href}
                             href={item.href}
                             onClick={() => setServicesOpen(false)}
-                            className="block px-4 py-2 text-sm hover:bg-black/5 rounded-lg transition"
+                            className="block px-4 py-2 text-sm text-white/80 
+hover:text-white hover:bg-white/10 
+rounded-xl transition-all duration-300"
                           >
                             {item.label}
                           </Link>

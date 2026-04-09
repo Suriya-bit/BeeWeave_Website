@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import footerLogo from "@/app/assets/Images/footer-logo.svg";
+import footerLogo from "@/app/assets/Images/footer2.webp";
 import { FaFacebookF, FaInstagram, FaYoutube, FaGlobe } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import webdads2u from "@/app/assets/Images/webdads2u-logo.svg";
@@ -42,15 +42,14 @@ const Footer = () => {
   return (
     <footer className={`${pathname !== "/" ? "bg-[#0d0a1a]" : ""}  px-6 lg:px-30 py-16 `}>
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
-        <div className="flex flex-col gap-6">
-          <div className="relative w-16 h-16">
+        <div className="flex flex-col gap-6 items-start">
             <Image
               src={footerLogo}
               alt="Footer Logo"
-              fill
+              width={200}
+              height={300}
               className="object-contain"
             />
-          </div>
           <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">
             Our SAP implementation services in India bring the skills,
             experience and local presence your business needs to succeed.

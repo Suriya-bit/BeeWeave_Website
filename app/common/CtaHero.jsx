@@ -66,7 +66,7 @@ const CtaHero = ({
         <motion.h2
           variants={fadeUp}
           transition={{ duration: 0.7 }}
-          className="text-xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-10 whitespace-pre-line max-w-2xl"
+          className="text-xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-5 whitespace-pre-line max-w-2xl"
         >
           {title}
         </motion.h2>

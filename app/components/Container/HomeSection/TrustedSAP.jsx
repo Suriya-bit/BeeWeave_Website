@@ -32,16 +32,15 @@ const cardVariant = {
     y: 40,
     scale: 0.96,
   },
-  visible: (i) => ({
+  visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
       duration: 0.45,
       ease: "easeOut",
-      delay: i * 0.1,
     },
-  }),
+  },
 };
 
 const paragraph = `Bee Waave is a team of experienced SAP consultants in India helping businesses take control of their ERP journey. We work with companies of all sizes to implement, migrate and modernize their systems using SAP and Odoo. We believe good technology should make business simpler, not harder. That is why every solution we build is practical, clean and built to grow with you.`;
@@ -111,11 +110,11 @@ const TrustedSAP = () => {
             {features?.map((feature, i) => (
               <motion.div
                 key={i}
-                custom={i}
                 variants={cardVariant}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.3 }}
+
                 className="group will-change-transform transform-gpu"
               >
                 <div className="relative p-px rounded-2xl bg-linear-to-b from-[#9333ea] via-[#7e22ce] to-transparent ">

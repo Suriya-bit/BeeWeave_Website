@@ -44,7 +44,7 @@ const CtaHero = ({
   subTitle
 }) => {
   return (
-    <MainLayout className="relative w-full bg-black overflow-hidden flex items-center justify-center md:py-10 px-4">
+    <MainLayout className="relative w-full bg-[#0d0a1a] overflow-hidden flex items-center justify-center md:py-10 px-4">
       <GridBackground show={showGrid} />
       <motion.div
         variants={containerVariants}

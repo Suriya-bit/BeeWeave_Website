@@ -49,8 +49,8 @@ const words = paragraph.split(" ");
 const TrustedSAP = () => {
   return (
     <MainLayout className="relative overflow-hidden">
-      <div className="absolute left-[-250px] top-1/2 -translate-y-1/2 w-[380px] h-[500px] bg-[#7400FA] opacity-30 blur-[60px] rounded-full pointer-events-none" />
-      <div className="absolute right-[-250px] top-1/2 -translate-y-1/2 w-[380px] h-[500px] bg-[#7400FA] opacity-30 blur-[60px] rounded-full pointer-events-none" />
+      <div className="absolute left-[-250px] top-1/2 -translate-y-1/2 w-[380px] h-[500px] bg-[#5201af] opacity-30 blur-[40px] rounded-full pointer-events-none" />
+      <div className="absolute right-[-250px] top-1/2 -translate-y-1/2 w-[380px] h-[500px] bg-[#5201af] opacity-30 blur-[40px] rounded-full pointer-events-none" />
       <div className="relative px-6 lg:px-30">
         <motion.div
           variants={container}

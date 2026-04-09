@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import MainLayout from "@/app/common/MainLayout";
+import emailjs from "@emailjs/browser";
 
 export default function Collaborate() {
     const [formData, setFormData] = useState({
@@ -29,16 +30,41 @@ export default function Collaborate() {
         return newErrors;
     };
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
         const newErrors = validate();
+
         if (Object.keys(newErrors).length > 0) {
             setErrors(newErrors);
             return;
         }
-        setSubmitted(true);
-        setFormData({ name: "", email: "", mobile: "", subject: "", interest: "" });
-        setErrors({});
-        setTimeout(() => setSubmitted(false), 4000);
+
+        try {
+            const result = await emailjs.send(
+                "YOUR_SERVICE_ID",
+                "YOUR_TEMPLATE_ID",
+                {
+                    name: formData.name,
+                    email: formData.email,
+                    mobile: formData.mobile,
+                    subject: formData.subject,
+                    interest: formData.interest,
+                },
+                "YOUR_PUBLIC_KEY"
+            );
+            console.log("SUCCESS!", result.text);
+            setSubmitted(true);
+            setFormData({
+                name: "",
+                email: "",
+                mobile: "",
+                subject: "",
+                interest: "",
+            });
+            setErrors({});
+            setTimeout(() => setSubmitted(false), 4000);
+        } catch (error) {
+            console.error("FAILED...", error);
+        }
     };
 
     return (

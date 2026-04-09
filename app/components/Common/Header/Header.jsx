@@ -147,7 +147,7 @@ const Header = () => {
                 </div>
               </div>
               <Link
-                href="/get-started"
+                href="/contact"
                 className="group inline-flex items-center gap-2 px-5 py-2 rounded-md text-sm font-semibold text-white bg-linear-to-r from-[#7400FA] to-[#BC13F7] hover:opacity-95 active:scale-95 transition-all shadow-lg shadow-purple-900/40 overflow-hidden relative"
               >
                 <span className="relative z-10">Get Started</span>
@@ -291,7 +291,7 @@ const Header = () => {
               <span className="text-xs text-gray-500">Language</span>
             </div>
             <Link
-              href="/get-started"
+              href="/contact"
               onClick={closeMenu}
               className="w-full text-center px-5 py-3 rounded-xl text-sm font-semibold text-white 
   bg-linear-to-r from-[#7400FA] to-[#BC13F7] 

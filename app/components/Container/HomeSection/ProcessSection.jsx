@@ -89,34 +89,12 @@ const ProcessSection = () => {
             >
               <div className="flex flex-col items-center">
                 <div
-                  className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0 transition-all duration-500 ${
-                    active >= i
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0 transition-all duration-500 ${active >= i
                       ? "bg-[#40B0FF] text-white shadow-[0_0_12px_2px_rgba(64,176,255,0.45)]"
                       : "bg-white/10 text-white/50 group-hover:bg-[#7400FA]/40 group-hover:text-white"
-                  }`}
+                    }`}
                 >
-                  {active >= i ? (
-                    i < active ? (
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M2 6l3 3 5-5"
-                          stroke="white"
-                          strokeWidth="1.8"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    ) : (
-                      step.number
-                    )
-                  ) : (
-                    step.number
-                  )}
+                  {step.number}
                 </div>
                 {i < steps.length - 1 && (
                   <div className="relative w-px flex-1 my-1 min-h-[33px] bg-white/8 overflow-hidden">
@@ -130,18 +108,16 @@ const ProcessSection = () => {
               </div>
               <div className="pb-10">
                 <h3
-                  className={`text-lg font-semibold transition-colors duration-300 ${
-                    active >= i
+                  className={`text-lg font-semibold transition-colors duration-300 ${active >= i
                       ? "text-white"
                       : "text-white/50 group-hover:text-white/80"
-                  }`}
+                    }`}
                 >
                   {step.title}
                 </h3>
                 <p
-                  className={`text-xs leading-relaxed mt-1 max-w-xs transition-colors duration-300 ${
-                    active >= i ? "text-white/60" : "text-white/30"
-                  }`}
+                  className={`text-xs leading-relaxed mt-1 max-w-xs transition-colors duration-300 ${active >= i ? "text-white/60" : "text-white/30"
+                    }`}
                 >
                   {step.description}
                 </p>

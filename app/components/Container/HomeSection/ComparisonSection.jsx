@@ -23,15 +23,28 @@ const rightPoints = [
 
 const ComparisonSection = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-24 py-16 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(116,0,250,0.15),transparent_70%)] pointer-events-none" />
+    <MainLayout className="relative px-6 lg:px-24 py-16 overflow-hidden ">
 
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute inset-0 
+          bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.4),transparent_30%)]"
+        />
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
+          w-[900px] h-[100px] 
+          bg-[radial-gradient(circle_at_center,#c084fc_0%,transparent_50%)] 
+          blur-[80px] opacity-100 rounded-full"
+        />
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
+          w-[1200px] h-[300px] 
+          bg-[radial-gradient(circle_at_center,#9333ea_0%,transparent_70%)] 
+          blur-[160px] opacity-80 rounded-full"
+        />
+      </div>
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-semibold text-white">
           Why Partners <br /> Choose Bee Weave
         </h2>
       </div>
-
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

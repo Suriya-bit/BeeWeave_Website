@@ -5,6 +5,7 @@ import client2 from "@/app/assets/Images/client2.svg";
 import client3 from "@/app/assets/Images/client3.svg";
 
 const logos = [client1, client2, client3];
+
 const ClientMarquee = () => {
   return (
     <section className="w-full py-16 overflow-hidden bg-[#0d0a1a]">

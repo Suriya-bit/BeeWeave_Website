@@ -1,21 +1,25 @@
 export const features = [
   {
     title: "SAP S/4HANA",
+    href: "/services/sap-s4hana",
     description:
       "Bee Waave offers reliable S/4HANA consulting services in India to make SAP simple for your business. Our SAP consultants in India understand how you work and build a system perfectly fitting your needs. Whether you are new to SAP S/4HANA or moving from SAP ECC, we make the whole process smooth, clean and built to last. Let us help you get SAP right.",
   },
   {
     title: "Rise with SAP",
+    href: "/services/rise-with-sap",
     description:
       "Moving to the cloud is a big step and Bee Waave makes it easy. Our RISE with SAP consulting services in India help businesses shift to a fully managed cloud ERP without the usual stress. Our SAP consultants in India handle everything from planning to go live, keeping your operations smooth, secure and ready for continuous growth and innovation.",
   },
   {
     title: "Cloud Transformation",
+    href: "/services/cloud-transformation",
     description:
       "Your business deserves better than outdated infrastructure. Bee Waave is a cloud consulting company in India offering complete cloud transformation services across Azure, AWS and GCP. We help businesses migrate legacy systems, optimize cloud performance and build a secure digital environment ready to support your business goals today and in the future.",
   },
   {
     title: "Digital Services",
+    href: "/services/ai-with-sap",
     description:
       "We help businesses build powerful digital solutions tailored to their needs. From custom applications to enterprise integrations, our team delivers scalable, modern technology that drives real results and keeps your business ahead in a rapidly changing digital world.",
   },

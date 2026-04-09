@@ -2,10 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import awardWhite from "@/app/assets/Images/award-linear.svg";
+import awardWhite from "@/app/assets/Images/award-white.svg";
 import { features } from "@/app/utils/HomemockData";
 import { ArrowRight } from "lucide-react";
 import MainLayout from "@/app/common/MainLayout";
+import Link from "next/link";
 
 const container = {
   hidden: {},
@@ -121,7 +122,6 @@ const TrustedSAP = () => {
                   <div className="relative flex flex-col w-[260px] h-[500px] md:w-[370px] md:h-[400px] p-6 rounded-2xl overflow-hidden bg-[#0b0018] transition-all duration-300 group-hover:shadow-[0_20px_80px_rgba(124,58,237,0.35)]">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_100%,rgba(124,58,237,0.12),transparent_65%)] pointer-events-none" />
                     <div className="absolute inset-0 bg-linear-to-br from-[#7400FB]/10 to-transparent opacity-20 pointer-events-none" />
-
                     <div className="relative z-10 flex flex-col h-full">
                       <div className="flex flex-col gap-4">
                         <Image
@@ -138,10 +138,20 @@ const TrustedSAP = () => {
                         </p>
                       </div>
                       <div className="mt-auto pt-4">
-                        <button className="flex items-center justify-between w-full px-4 py-2.5 rounded-md bg-linear-to-b from-white to-[#e9e9e9] text-black text-sm font-medium">
-                          Explore more
-                          <ArrowRight className="w-4 h-4" />
-                        </button>
+                        <Link
+                          href={feature.href}
+                          className="group relative inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg overflow-hidden text-black text-sm font-medium transition-all active:scale-95"
+                        >
+                          <span className="absolute inset-0 bg-linear-to-b from-[#ffffff] via-[#f3e8ff] to-[#d0a1e1]"></span>
+                          <span
+                            className="absolute inset-0 bg-linear-to-r from-transparent via-white/60 to-transparent 
+      translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out"
+                          ></span>
+                          <span className="relative z-10 flex items-center justify-between w-full">
+                            Explore more
+                            <ArrowRight className="w-4 h-4" />
+                          </span>
+                        </Link>
                       </div>
                     </div>
                   </div>

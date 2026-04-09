@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import MainLayout from "@/app/common/MainLayout";
+import Linear from "@/app/assets/Images/common_linear.svg";
 
 const ServiceBanner = ({
     title,
@@ -10,17 +11,25 @@ const ServiceBanner = ({
     breadcrumbs = [],
 }) => {
     return (
-        <MainLayout className="relative min-h-[321px] flex flex-col items-center justify-center text-center px-6 py-30 overflow-hidden bg-[#0d0a1a]">
+        <MainLayout className="relative min-h-[350px] flex flex-col items-center justify-center text-center px-6 py-30 overflow-hidden bg-[#0d0a1a]">
             <div
                 className="absolute inset-0 opacity-[0.12]"
                 style={{
                     backgroundImage: `
-            linear-gradient(to right, #6b5ce7 1px, transparent 1px),
-            linear-gradient(to bottom, #6b5ce7 1px, transparent 1px)
-          `,
+                        linear-gradient(to right, #6b5ce7 1px, transparent 1px),
+                        linear-gradient(to bottom, #6b5ce7 1px, transparent 1px)
+                    `,
                     backgroundSize: "80px 80px",
                 }}
             />
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <img
+                    src={Linear.src}
+                    alt="bg glow"
+                    className="w-[900px] md:w-[1200px] opacity-80 blur-[10px]"
+                />
+            </div>
+            <div className="absolute inset-0 bg-purple-600/10 blur-3xl pointer-events-none"></div>
             <motion.p
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -58,6 +67,7 @@ const ServiceBanner = ({
             >
                 {subtitle}
             </motion.p>
+
         </MainLayout>
     );
 };

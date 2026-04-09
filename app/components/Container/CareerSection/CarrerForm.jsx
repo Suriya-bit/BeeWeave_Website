@@ -46,7 +46,7 @@ export default function CareerForm() {
         try {
             await emailjs.send(
                 "service_ywjxyja",
-                "template_3gwekfq",
+                "template_d0l44ig",
                 formData,
                 "Dj2nu5zlYST7TbMu7"
             );

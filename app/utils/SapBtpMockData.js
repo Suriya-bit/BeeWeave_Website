@@ -104,8 +104,8 @@ export const SapBtpimpactData = [
     label: "Faster Custom Application Development",
   },
   {
-    value: "Real-Time",
-    label: "Data Flow Across All Systems",
+    value: "50%+",
+    label: " Real Time Data Flow Across All Systems ",
   },
 ];
 

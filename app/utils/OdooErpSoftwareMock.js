@@ -88,8 +88,8 @@ export const odooImpactData = [
     label: "Faster Business Reporting and Insights",
   },
   {
-    value: "One Platform",
-    label: "For Your Entire Business Operations",
+    value: "10x",
+    label: "One Platform For Your Entire Business Operations",
   },
 ];
 

@@ -17,20 +17,17 @@ import animation_icon from "@/app/assets/Images/animation_icon.svg";
 
 const logos = [client1, client2, client3];
 
-
 const AiWithSap = () => {
     return (
         <>
             <ServiceBanner
                 title={
                     <>
-                        Power Up Your Business with India's <br className="hidden md:inline" />
-                        Expert SAP S/4HANA Consulting and
-                        <br className="hidden md:inline" />
-                        Implementation Services!
+                        AI Powered SAP Services  <br className="hidden md:inline" />
+                        Transforming Businesses Across India
                     </>
                 }
-                subtitle="We provide expert SAP S/4HANA consulting and implementation services in Chennai, helping businesses move to a smarter ERP system and build a stronger foundation for long term growth."
+                subtitle="We are a trusted AI with SAP Service Company in India empowering businesses to transform their SAP environment with intelligent automation and generative AI capabilities."
                 breadcrumbs={[
                     { label: "Home", href: "/" },
                     { label: "AI with SAP" },
@@ -46,17 +43,20 @@ const AiWithSap = () => {
                 logos={logos}
             />
             <ServiceIntroSection
-                title="Trusted S/4HANA Consulting & Implementation Services in India"
-                description="Bee Waave offers S/4HANA consulting and implementation services across India to help businesses move to SAP the right way. We cover everything your business needs to get started and succeed. Our SAP consultants combine deep technical knowledge with real business understanding, giving your business a clean, reliable and future ready system. We stay committed through every stage of your journey, making sure your S/4HANA implementation delivers real value and lasting results for your business."
-                buttonText="Begin My SAP S/4HANA Journey"
+                title="
+Best AI Powered SAP Service Company in India"
+                description="
+Bee Weave is a trusted AI powered SAP service company in India helping businesses make the most of their SAP investment. We use the latest artificial intelligence tools to automate workflows, improve accuracy and give your team the insights they need to grow. Our dedicated team of SAP and AI experts work closely with your business to understand your goals and deliver solutions that actually make a difference. Every solution we build is easy to use, fully secure and designed to scale as your business grows and evolves over time.
+"
+                buttonText="Get Started with AI Powered SAP Services"
                 buttonLink="/contact"
             />
             <ServiceFeaturesSection
-                title="What Bee Weave Delivers for Your Business with SAP S/4HANA?"
+                title="See What Bee Weave AI Powered SAP Services Actually Do for Your Business"
                 items={features}
             />
             <ServiceBenefitsSection
-                title="Key Benefits for Your Business with Our SAP S/4HANA Services"
+                title="Key Benefits for Your Business with Our AI Powered SAP "
                 items={benefits}
             />
             <ProcessSection
@@ -64,9 +64,9 @@ const AiWithSap = () => {
                 items={processItems}
             />
             <ImpactSection
-                title="Measurable Business Impact with SAP S/4HANA"
+                title="Measurable Business Impact with AI Powered SAP"
                 description="Make faster, smarter decisions with the power of live insights and real-time visibility across all departments. By having up-to-date data at your fingertips, you can monitor performance, identify opportunities, and respond instantly to changes—ensuring seamless coordination, improved efficiency, and better business outcomes."
-                buttonText="Begin My SAP S/4HANA Journey"
+                buttonText="Begin My AI Powered SAP Journey"
                 stats={impactData}
             />
             <FAQsSection
@@ -75,12 +75,12 @@ const AiWithSap = () => {
                 faqs={faqData}
             />
             <CtaHero
-                title={`The Right Time to Move to SAP S/4HANA is Now`}
-                buttonText="Let’s Build Something Together"
+                title={`The Future of SAP is Already Here`}
+                buttonText="See beeAI in Action"
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
-                subTitle={"Businesses across India are already seeing the difference. Bee Weave is here to make sure your business does not get left behind. "}
+                subTitle={"Contact us today and see what intelligent SAP automation can do for you. "}
             />
         </>
     )

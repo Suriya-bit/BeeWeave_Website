@@ -48,7 +48,7 @@ export default function Collaborate() {
             <div className="relative z-10 px-6 md:px-30 py-16 flex flex-col md:flex-row gap-16 items-start">
                 <div className="flex-1 flex flex-col justify-center gap-8">
                     <div>
-                        <h2 className="text-white text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-4">
+                        <h2 className="text-white text-4xl  font-bold leading-tight tracking-tight mb-4">
                             We're here to connect<br />
                             collaborate and <span className="text-white">Create.</span>
                         </h2>

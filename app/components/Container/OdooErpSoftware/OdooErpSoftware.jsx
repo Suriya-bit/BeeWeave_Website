@@ -75,12 +75,12 @@ const OdooErpSoftware = () => {
                 faqs={odooFaqData}
             />
             <CtaHero
-                title={`The Right Time to Move to SAP S/4HANA is Now`}
-                buttonText="Let’s Build Something Together"
+                title={`Ready to Stop Overpaying for ERP?`}
+                buttonText="Get My Odoo System Ready"
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
-                subTitle={"Businesses across India are already seeing the difference. Bee Weave is here to make sure your business does not get left behind. "}
+                subTitle={"Talk to our team today and see the difference Odoo can make for your business. "}
             />
         </>
     )

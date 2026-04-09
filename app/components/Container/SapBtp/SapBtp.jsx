@@ -54,7 +54,7 @@ const SapBtp = () => {
                 items={sapBtpFeatures}
             />
             <ServiceBenefitsSection
-                title="Key Benefits for Your Business with Our Cloud consulting Services"
+                title="Key Benefits for Your Business with Our SAP BTP consulting Services"
                 items={sapBtpBenefits}
             />
             <ProcessSection

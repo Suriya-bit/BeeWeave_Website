@@ -26,21 +26,19 @@ const ImpactSection = ({
 }) => {
     return (
         <div className="w-full px-6 md:px-30 py-6 md:py-16 bg-[#0d0a1a]">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true }}
                 >
-                    <h2 className="text-white text-3xl md:text-4xl font-semibold mb-4">
+                    <h2 className="text-white text-3xl md:text-4xl font-semibold mb-4 text-center md:text-left">
                         {title}
                     </h2>
-
-                    <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-md">
+                    <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-md mx-auto md:mx-0 text-center md:text-left">
                         {description}
                     </p>
-
                     {buttonText && (
                         <div className="flex justify-center md:justify-start">
                             <Link

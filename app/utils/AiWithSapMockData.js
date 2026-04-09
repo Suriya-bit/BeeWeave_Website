@@ -2,204 +2,197 @@ import { ShieldCheck } from "lucide-react";
 
 export const features = [
   {
-    title: "End-to-End SAP S/4HANA Implementation",
+    title: "BeeAI Conversational Assistant",
     description:
-      "Bee Weave handles your complete SAP S/4HANA implementation built around your business goals. Our consultants manage each phase carefully, giving your organisation a strong and reliable ERP system ready to support your growth for years ahead.",
+      "Deploy BeeAI inside your SAP environment and allow teams to interact with complex ERP data using simple conversational language. Generate reports, automate workflows and make faster decisions without technical effort.",
   },
   {
-    title: "ECC to S/4HANA System Conversion",
+    title: "SAP AI Core & AI Foundation Setup",
     description:
-      "Moving from SAP ECC to S/4HANA is a big step and Bee Weave makes it smooth. We manage the full conversion, keeping your data safe and your business running without any disruption during the transition.",
+      "We configure and deploy SAP AI Core to build a strong AI foundation for your business. Run machine learning models, manage AI workflows and scale intelligence across your SAP landscape with full security and governance.",
   },
   {
-    title: "Landscape Transformation Services",
+    title: "Machine Learning Model Development",
     description:
-      "Bee Weave helps businesses reshape their SAP landscape the right way. We identify the best transformation approach for your organisation and move your entire SAP environment to a modern, high performing S/4HANA system.",
+      "Our experts design and develop machine learning models tailored to your business data. Enable predictive insights, pattern detection and smarter decision making across all departments.",
   },
   {
-    title: "S/4HANA Integration Setup",
+    title: "Intelligent Process Automation",
     description:
-      "Bee Weave links your SAP S/4HANA system with all the tools and platforms your business already uses. Your teams get one connected system they can rely on and work from without any confusion or extra effort.",
+      "Automate repetitive and complex SAP workflows using AI. Improve speed, accuracy and efficiency while reducing manual effort and operational risks across your business.",
   },
   {
-    title: "Secure Data Migration to S/4HANA",
+    title: "Predictive Analytics Solutions",
     description:
-      "Data migration is one of the most critical parts of any SAP project. Bee Weave manages the entire process with a structured approach, keeping your business data safe, accurate and fully intact throughout the move to S/4HANA.",
+      "Leverage predictive analytics to anticipate future outcomes using real ERP data. Make confident decisions, reduce risks and stay ahead with data driven planning.",
   },
   {
-    title: "S/4HANA System Configuration",
+    title: "Natural Language Processing (NLP) Integration",
     description:
-      "The way your SAP S/4HANA system is configured determines how well your business runs on it. Bee Weave gets this right by working closely with your team and building a setup aligned with your real business needs.",
+      "Integrate NLP into your SAP system to enable human-like interaction. Extract insights from documents, automate responses and simplify how users engage with SAP.",
   },
 ];
 
 export const benefits = [
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,
-    title: "Faster Business Operations",
+    title: "Smarter Business Decisions",
     description:
-      "Getting things done faster starts with the right ERP system. Our SAP S/4HANA services help your teams spend less time on slow processes and more time on work that matters, keeping your business moving without unnecessary delays.",
+      "Real time insights from your SAP environment give your teams the power to make faster and more confident decisions every single day without relying on guesswork or outdated reports.",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,
-    title: "Real-Time Data Visibility",
+    title: "Faster Workflow Automation",
     description:
-      "Running a business gets easier when you can see everything clearly. Bee Waave gives your teams access to live and accurate data at all times, helping everyone stay informed and make better decisions without relying on old or delayed information.",
+      "AI powered SAP services help automate repetitive and time consuming workflows so your teams spend less time on manual tasks and more time on work that drives business growth.",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,
-    title: "Reduced Manual Effort",
+    title: "Reduced Operational Costs",
     description:
-      "Every hour spent on manual work is an hour taken away from growing your business. Bee Waave reduces that burden through SAP S/4HANA automation, helping your teams work smarter and get more done in less time.",
+      "By automating complex processes and minimizing manual effort, businesses can significantly reduce operational costs while maintaining high levels of quality and consistency.",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,
-    title: "Improved Decision Making",
+    title: "Improved Accuracy and Efficiency",
     description:
-      "Good decisions come from having the right information at the right time. Bee Waave's SAP S/4HANA Consulting services give your leadership team clear and accurate insights into your business. It helps them make confident and well informed decisions without any delays.",
+      "AI driven SAP solutions reduce human errors and bring consistency to your workflows, ensuring every process runs smoothly, accurately and efficiently across all departments.",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,
-    title: "Scalable System for Growth",
+    title: "Scalable AI Solutions",
     description:
-      "Your business will not stay the same size forever and your ERP should be ready for that. Bee Waave builds your SAP S/4HANA system to grow with you, handling more users, more data and bigger operations without any issues.",
+      "AI powered SAP systems are built to grow with your business, allowing you to scale operations, add new capabilities and handle increased workloads without disruption.",
   },
   {
     icon: <ShieldCheck className="w-8 h-8 text-white" />,
-    title: "Better Process Control",
+    title: "Enterprise Grade Security and Compliance",
     description:
-      "When your business processes are in order, everything runs better. Bee Waave's SAP S/4HANA services give you full visibility and control over your business operations, helping your teams follow the right steps and keep everything on track at all times.",
+      "Every AI powered SAP solution is designed with strong security and compliance standards, ensuring your data remains protected, auditable and fully governed at all times.",
   },
 ];
 
 export const processItems = [
   {
-    title: "Requirement Understanding",
+    title: "Business Discovery",
     description:
-      "We listen to your business needs and understand exactly what your SAP system should do.",
+      "We study your SAP environment and identify where AI can create the most value, focusing on opportunities to improve efficiency, automation and decision making.",
   },
   {
-    title: "Solution Planning",
+    title: "AI Strategy & Planning",
     description:
-      "We build a clear and structured plan around your business goals and SAP requirements.",
+      "We build a clear AI roadmap aligned with your SAP and Odoo workflows, ensuring every step supports your business goals and long term growth.",
   },
   {
-    title: "System Configuration",
+    title: "BeeAI Configuration",
     description:
-      "Your SAP S/4HANA system is configured to match your business processes across all departments.",
+      "We set up and configure the BeeAI platform tailored to your SAP environment, making sure it fits your processes and data structure perfectly.",
   },
   {
-    title: "Integration Setup",
+    title: "Integration & Deployment",
     description:
-      "We establish reliable connections between your SAP S/4HANA system and all existing business tools and third-party platforms.",
+      "We integrate BeeAI into your SAP and Odoo systems and deploy it across your organisation, ensuring smooth adoption without disrupting operations.",
   },
   {
-    title: "Testing Validation",
+    title: "Testing & Validation",
     description:
-      "We run thorough tests across your entire SAP system to confirm everything is working correctly before going live.",
+      "We thoroughly test every AI workflow and automation to ensure accuracy, reliability and performance before full scale usage.",
   },
   {
-    title: "Deployment Support",
+    title: "Training & Support",
     description:
-      "We support your team through the full deployment process, keeping operations stable and your business running without interruption.",
+      "We train your team to use BeeAI confidently and continue to support your business after deployment, ensuring long term success.",
   },
 ];
 
 export const impactData = [
   {
-    value: "50%+",
-    label: "Faster Access to Business Data",
+    value: "80%",
+    label: "Faster ERP Query Resolution with BeeAI",
   },
   {
-    value: "60%",
-    label: "Less Manual Work Across Operations",
+    value: "45%",
+    label: "Drop in Integration Errors Across SAP Workflows",
   },
   {
-    value: "40%",
-    label: "Higher Process Efficiency",
+    value: "4X",
+    label: "Smarter Business Decisions with Real-Time AI Insights",
   },
   {
-    value: "2X",
-    label: "Growth-Ready System Performance",
+    value: "65%",
+    label: "Reduction in Time Spent on SAP Data Analysis",
+  },
+  {
+    value: "3X",
+    label: "Faster Agentic Workflow Execution in SAP and Odoo",
+  },
+  {
+    value: "100%",
+    label: "Audit-Ready AI Interactions with Built-in Governance",
   },
 ];
 
 export const faqData = [
   {
-    question:
-      "What is SAP S/4HANA and how is it different from older SAP systems?",
+    question: "What is AI for SAP and how does it work?",
     answer:
-      "SAP S/4HANA is the latest version of SAP's ERP system. It runs faster, processes data in real time and is much easier to use compared to older SAP systems like SAP ECC. Businesses across India are moving to S/4HANA because it helps them work smarter and grow faster.",
+      "AI for SAP brings artificial intelligence into your SAP environment, helping automate workflows, analyse data and make smarter decisions. AI agents work directly on real time ERP data, handling complex business logic without manual effort.",
   },
   {
-    question: "How long does an SAP S/4HANA implementation take?",
+    question: "What is an Agentic AI workflow in SAP?",
     answer:
-      "The time depends on the size of your business and the number of modules needed. A standard SAP S/4HANA implementation can take anywhere from 3 to 12 months. Good planning and the right team can help bring that timeline down significantly.",
+      "Agentic AI workflows use intelligent agents that can reason, plan and act on real time SAP data. These agents automate complex business processes like integrations, data mapping and reporting without waiting for human input.",
   },
   {
-    question:
-      "What is the difference between Greenfield and Brownfield implementation?",
+    question: "Can AI be integrated with both SAP and Odoo systems?",
     answer:
-      "A Greenfield implementation means starting fresh with a brand new SAP S/4HANA system. A Brownfield implementation means converting your existing SAP system to S/4HANA. Both have their advantages and the right choice depends on your business situation and goals.",
+      "Yes. AI can be integrated across both SAP and Odoo systems, allowing businesses to automate workflows, reduce manual work and maximise value from their existing ERP investments.",
   },
   {
-    question: "Is SAP S/4HANA suitable for small and mid size businesses?",
+    question: "Is AI for SAP secure and compliant?",
     answer:
-      "Yes. SAP S/4HANA is built for businesses of all sizes. Many small and mid size businesses across India are now adopting S/4HANA because it helps them streamline operations, reduce costs and grow without outgrowing their ERP system.",
-  },
-  {
-    question: "What happens to my existing data when I move to SAP S/4HANA?",
-    answer:
-      "Your existing data is carefully migrated to your new SAP S/4HANA system. The migration process is structured and secure, making sure all your business data is accurately transferred and fully validated before your new system goes live.",
-  },
-  {
-    question: "Do my teams need training after SAP S/4HANA is implemented?",
-    answer:
-      "Yes. Training is an important part of any SAP S/4HANA implementation. Your teams need to understand how to use the new system well. A good SAP partner will make sure your people are trained and confident before going live.",
-  },
-  {
-    question: "Can SAP S/4HANA be integrated with other business tools?",
-    answer:
-      "Yes. SAP S/4HANA can be connected with a wide range of third party tools, cloud platforms and business applications. This gives your business one connected system where all your tools and data work together without any issues.",
+      "Yes. AI for SAP includes enterprise grade security, encryption and audit trails. Every interaction is monitored and fully compliant, ensuring your business data stays protected and transparent.",
   },
   {
     question:
-      "What makes Bee Weave different from other SAP S/4HANA consulting companies in India?",
+      "What is the difference between regular automation and Agentic AI in SAP?",
     answer:
-      "Bee Weave combines deep SAP expertise with a genuine understanding of how businesses work. We do not just implement software. We build systems around your business goals and stay with you well after going live. Our unique beeAI platform also sets us apart from every other SAP consulting company in India.",
+      "Regular automation follows fixed rules, while Agentic AI can reason, adapt and make decisions based on real time data. It offers a more flexible and intelligent way to automate SAP workflows.",
+  },
+  {
+    question: "How does AI improve decision making in SAP?",
+    answer:
+      "AI provides real time insights, accurate predictions and intelligent recommendations. This helps leadership teams make faster, more confident decisions without waiting for manual reports.",
   },
   {
     question:
-      "Does Bee Weave provide SAP S/4HANA consulting services across India?",
+      "What is BeeAI and how is it different from other AI tools for SAP?",
     answer:
-      "Yes. Bee Weave provides S/4HANA consulting services across India, working with businesses in Chennai and other major cities. Our team is fully equipped to deliver both remote and on site SAP consulting services depending on your business needs.",
+      "BeeAI is Bee Weave’s AI platform built specifically for SAP and Odoo. It uses intelligent agents to automate workflows, process complex business logic and deliver real time insights in a secure and scalable way.",
   },
   {
-    question:
-      "How experienced is the Bee Weave team in SAP S/4HANA implementations?",
+    question: "Does Bee Weave provide AI SAP consulting services in India?",
     answer:
-      "Bee Weave has a team of certified SAP consultants with hands-on experience delivering S/4HANA implementations across multiple industries. Our consultants bring real world knowledge to every project, helping businesses go live smoothly and successfully.",
+      "Yes. Bee Weave offers AI SAP consulting services across India, helping businesses deploy BeeAI, automate workflows and build intelligent, secure and scalable SAP environments.",
   },
   {
-    question:
-      "Does Bee Weave handle both Greenfield and Brownfield S/4HANA implementations?",
+    question: "Can BeeAI integrate with Microsoft Teams and Slack?",
     answer:
-      "Yes. Bee Weave handles both Greenfield and Brownfield S/4HANA implementations. Our team evaluates your current situation, recommends the right approach and manages the full implementation from start to finish.",
+      "Yes. BeeAI integrates with tools like Microsoft Teams, Slack and internal portals, allowing users to access SAP insights and workflows directly within their everyday communication platforms.",
   },
   {
-    question: "Can Bee Weave help my business migrate from SAP ECC to S/4HANA?",
+    question: "How does Bee Weave ensure BeeAI security and compliance?",
     answer:
-      "Absolutely. Bee Weave specialises in ECC to S/4HANA migrations across India. Our team manages the entire migration process, keeping your data safe, your business running and your team fully informed throughout the journey.",
+      "Bee Weave ensures every BeeAI deployment includes strong security, encryption and audit capabilities. All AI interactions are tracked, governed and fully compliant with enterprise standards.",
   },
   {
-    question:
-      "Does Bee Weave provide support after the SAP S/4HANA implementation is complete?",
+    question: "What capabilities does BeeAI support in SAP and Odoo?",
     answer:
-      "Yes. Bee Weave stays with your business well after going live. Our team provides ongoing support, system monitoring and guidance to make sure your SAP S/4HANA system keeps performing well for your business every day.",
+      "BeeAI supports real time data access, AI driven integrations, automated data mapping, intelligent insights and Agentic workflows across both SAP and Odoo systems.",
   },
   {
-    question: "How do I get started with Bee Weave's SAP S/4HANA services?",
+    question: "How do I get started with Bee Weave’s BeeAI services?",
     answer:
-      "Getting started is easy. Reach out to our team through our website and one of our SAP consultants will get in touch to understand your business needs and help you take the first step towards a better ERP system.",
+      "Getting started is simple. Contact Bee Weave and our AI experts will understand your needs, guide your strategy and help you deploy BeeAI to build a smarter, more efficient ERP environment.",
   },
 ];

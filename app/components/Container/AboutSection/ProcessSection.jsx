@@ -36,7 +36,7 @@ const ProcessSection = () => {
   }, []);
 
   return (
-    <MainLayout className="relative px-6 lg:px-30 py-10 md:py-20 overflow-hidden">
+    <MainLayout className="relative px-6 lg:px-30 py-10 md:py-20 overflow-hidden bg-[#0d0a1a]">
       <div className="absolute right-[-250px] top-0 w-[380px] h-[500px] bg-[#7400FA] opacity-20 blur-[90px] rounded-full pointer-events-none" />
       <div className="absolute left-[-250px] bottom-0 w-[380px] h-[500px] bg-[#7400FA] opacity-20 blur-[90px] rounded-full pointer-events-none" />
       <div className="flex flex-col md:flex-row justify-between gap-10">

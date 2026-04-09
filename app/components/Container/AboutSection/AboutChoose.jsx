@@ -17,7 +17,7 @@ const fadeUp = {
 
 const AboutChoose = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-30 py-28 overflow-hidden">
+    <MainLayout className="relative px-6 lg:px-30 py-28 overflow-hidden bg-[#0d0a1a]">
       <div
         className="absolute inset-0 
 bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.15),transparent_65%)] 

@@ -1,10 +1,10 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import footerLogo from "@/app/assets/Images/footer-logo.svg";
 import { FaFacebookF, FaInstagram, FaYoutube, FaGlobe } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import webdads2u from "@/app/assets/Images/webdads2u-logo.svg";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -39,7 +39,7 @@ const socials = [
 const Footer = () => {
   return (
     <footer className="bg-[#0d0a1a]  px-6 lg:px-30 py-16 ">
-     <div className="flex flex-col md:flex-row md:justify-between gap-12">
+      <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex flex-col gap-6">
           <div className="relative w-16 h-16">
             <Image
@@ -115,6 +115,28 @@ const Footer = () => {
               </li>
             ))}
           </ul>
+        </div>
+      </div>
+      <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/40">
+        <p>
+          © {new Date().getFullYear()} BEE WEAVE. All rights reserved.
+        </p>
+        <div className="flex items-center gap-2">
+          <span>Developed By</span>
+          <Link
+            href="https://www.webdads2u.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            <Image
+              src={webdads2u}
+              alt="Webdads2u"
+              width={25}
+              height={25}
+              className="object-contain opacity-70 hover:opacity-100 transition"
+            />
+          </Link>
         </div>
       </div>
     </footer>

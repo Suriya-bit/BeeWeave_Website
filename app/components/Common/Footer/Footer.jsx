@@ -30,8 +30,8 @@ const legal = [
 ];
 
 const socials = [
-  { icon: FaFacebookF, href: "#" },
-  { icon: FaInstagram, href: "#" },
+  { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61573340975393" },
+  { icon: FaInstagram, href: "https://www.instagram.com/beeweavesap/" },
   { icon: FaYoutube, href: "#" },
   { icon: FaXTwitter, href: "#" },
   { icon: FaGlobe, href: "#" },

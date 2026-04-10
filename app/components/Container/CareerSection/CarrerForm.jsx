@@ -4,6 +4,8 @@ import MainLayout from "@/app/common/MainLayout";
 import emailjs from "@emailjs/browser";
 import { FiUploadCloud } from "react-icons/fi";
 import Notification from "@/app/common/Notification";
+import { useRef } from "react";
+
 
 export default function CareerForm() {
     const [formData, setFormData] = useState({
@@ -18,11 +20,25 @@ export default function CareerForm() {
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [loading, setLoading] = useState(false);
+    const [file, setFile] = useState(null);
+
+    const formRef = useRef();
+
 
     const handleChange = (e) => {
         const { id, value } = e.target;
         setFormData((prev) => ({ ...prev, [id]: value }));
         setErrors((prev) => ({ ...prev, [id]: "" }));
+    };
+
+    const handleFile = (e) => {
+        const selectedFile = e.target.files?.[0];
+        if (!selectedFile) return;
+        if (selectedFile.size > 50000) {
+            alert("File too large. Max 50KB");
+            return;
+        }
+        setFile(selectedFile);
     };
 
     const validate = () => {
@@ -36,7 +52,9 @@ export default function CareerForm() {
         return newErrors;
     };
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
         const newErrors = validate();
         if (Object.keys(newErrors).length > 0) {
             setErrors(newErrors);
@@ -44,13 +62,15 @@ export default function CareerForm() {
         }
 
         setLoading(true);
+
         try {
-            await emailjs.send(
+            await emailjs.sendForm(
                 "service_ywjxyja",
                 "template_d0l44ig",
-                formData,
+                formRef.current,
                 "Dj2nu5zlYST7TbMu7"
             );
+
             setSubmitted(true);
             setFormData({
                 name: "",
@@ -61,6 +81,7 @@ export default function CareerForm() {
                 experience: "",
                 about: "",
             });
+            setFile(null);
 
             setTimeout(() => setSubmitted(false), 4000);
         } catch (error) {
@@ -99,119 +120,135 @@ border border-white/10 ">
                         <h3 className="text-white text-xl font-semibold mb-8">
                             Submit Your Profile
                         </h3>
-                        <div className="flex flex-col gap-6">
-                            <div className="flex gap-6">
-                                <div className="flex-1 flex flex-col gap-2">
-                                    <label className="text-white/60 text-xs">Name</label>
-                                    <input
-                                        id="name"
-                                        type="text"
-                                        value={formData.name}
-                                        onChange={handleChange}
-                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
-                                    />
+
+                        <form ref={formRef} onSubmit={handleSubmit}>
+                            <div className="flex flex-col gap-6">
+
+                                <div className="flex gap-6">
+                                    <div className="flex-1 flex flex-col gap-2">
+                                        <label className="text-white/60 text-xs">Name</label>
+                                        <input
+                                            id="name"
+                                            name="name"
+                                            type="text"
+                                            value={formData.name}
+                                            onChange={handleChange}
+                                            className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        />
+                                    </div>
+                                    <div className="flex-1 flex flex-col gap-2">
+                                        <label className="text-white/60 text-xs">Email Id</label>
+                                        <input
+                                            id="email"
+                                            name="email"
+                                            type="email"
+                                            value={formData.email}
+                                            onChange={handleChange}
+                                            className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        />
+                                    </div>
                                 </div>
-                                <div className="flex-1 flex flex-col gap-2">
-                                    <label className="text-white/60 text-xs">Email Id</label>
-                                    <input
-                                        id="email"
-                                        type="email"
-                                        value={formData.email}
-                                        onChange={handleChange}
-                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
-                                    />
+
+                                <div className="flex gap-6">
+                                    <div className="flex-1 flex flex-col gap-2">
+                                        <label className="text-white/60 text-xs">Mobile Number</label>
+                                        <input
+                                            id="mobile"
+                                            name="mobile"
+                                            type="tel"
+                                            value={formData.mobile}
+                                            onChange={handleChange}
+                                            className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        />
+                                    </div>
+                                    <div className="flex-1 flex flex-col gap-2">
+                                        <label className="text-white/60 text-xs">Location</label>
+                                        <input
+                                            id="location"
+                                            name="location"
+                                            type="text"
+                                            value={formData.location}
+                                            onChange={handleChange}
+                                            className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="flex gap-6">
-                                <div className="flex-1 flex flex-col gap-2">
-                                    <label className="text-white/60 text-xs">Mobile Number</label>
-                                    <input
-                                        id="mobile"
-                                        type="tel"
-                                        value={formData.mobile}
+
+                                <div className="flex gap-6">
+                                    <div className="flex-1 flex flex-col gap-2">
+                                        <label className="text-white/60 text-xs">Area of Interest</label>
+                                        <input
+                                            id="interest"
+                                            name="interest"
+                                            type="text"
+                                            value={formData.interest}
+                                            onChange={handleChange}
+                                            className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        />
+                                    </div>
+                                    <div className="flex-1 flex flex-col gap-2">
+                                        <label className="text-white/60 text-xs">Years of Experience</label>
+                                        <input
+                                            id="experience"
+                                            name="experience"
+                                            type="text"
+                                            value={formData.experience}
+                                            onChange={handleChange}
+                                            className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-col gap-2">
+                                    <label className="text-white/60 text-xs">
+                                        Tell us about yourself
+                                    </label>
+                                    <textarea
+                                        id="about"
+                                        name="about"
+                                        value={formData.about}
                                         onChange={handleChange}
-                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        rows={2}
+                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300 resize-none"
                                     />
                                 </div>
 
-                                <div className="flex-1 flex flex-col gap-2">
-                                    <label className="text-white/60 text-xs">Location</label>
+                                <div className="border border-dashed border-white/20 rounded-xl py-12 text-center hover:border-[#9b4dff]/60 transition-all duration-300 relative">
                                     <input
-                                        id="location"
-                                        type="text"
-                                        value={formData.location}
-                                        onChange={handleChange}
-                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
+                                        type="file"
+                                        name="resume"
+                                        accept=".pdf,.doc,.docx"
+                                        onChange={handleFile}
+                                        className="absolute inset-0 opacity-0 cursor-pointer"
                                     />
-                                </div>
-                            </div>
-                            <div className="flex gap-6">
-                                <div className="flex-1 flex flex-col gap-2">
-                                    <label className="text-white/60 text-xs">Area of Interest</label>
-                                    <input
-                                        id="interest"
-                                        type="text"
-                                        value={formData.interest}
-                                        onChange={handleChange}
-                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
-                                    />
+
+                                    <div className="flex flex-col items-center gap-3 text-white/60">
+                                        <FiUploadCloud className="text-3xl text-white/70" />
+                                        <p className="text-sm">
+                                            <span className="text-white font-medium">Choose a file</span> or drag and drop here
+                                        </p>
+                                        {file && (
+                                            <p className="text-xs text-green-400 mt-1">
+                                                {file.name}
+                                            </p>
+                                        )}
+                                    </div>
                                 </div>
 
-                                <div className="flex-1 flex flex-col gap-2">
-                                    <label className="text-white/60 text-xs">Years of Experience</label>
-                                    <input
-                                        id="experience"
-                                        type="text"
-                                        value={formData.experience}
-                                        onChange={handleChange}
-                                        className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-            focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
-                                    />
-                                </div>
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                <label className="text-white/60 text-xs">
-                                    Tell us about yourself
-                                </label>
-                                <textarea
-                                    id="about"
-                                    value={formData.about}
-                                    onChange={handleChange}
-                                    rows={2}
-                                    className="bg-transparent border-b border-white/20 text-white text-sm py-2 
-          focus:outline-none focus:border-[#9b4dff] transition-all duration-300 resize-none"
-                                />
-                            </div>
-                            <div className="border border-dashed border-white/20 rounded-xl py-12 text-center 
-      hover:border-[#9b4dff]/60 transition-all duration-300">
+                                <button
+                                    disabled={loading}
+                                    type="submit"
+                                    className="group relative mt-6 w-full py-3 rounded-xl overflow-hidden text-black text-sm font-semibold transition-all active:scale-95"
+                                >
+                                    <span className="absolute inset-0 bg-linear-to-b from-white via-[#f3e8ff] to-[#d0a1e1]" />
+                                    <span className="absolute inset-0 bg-linear-to-r from-transparent via-white/60 to-transparent translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out" />
+                                    <span className="relative z-10">
+                                        {loading ? "Sending..." : "Submit"}
+                                    </span>
+                                </button>
 
-                                <div className="flex flex-col items-center gap-3 text-white/60">
-                                    <FiUploadCloud className="text-3xl text-white/70" />
-                                    <p className="text-sm">
-                                        <span className="text-white font-medium">Choose a file</span> or drag and drop here
-                                    </p>
-                                </div>
                             </div>
-                            <button
-                                disabled={loading}
-                                onClick={handleSubmit}
-                                className="group relative mt-6 w-full py-3 rounded-xl overflow-hidden 
-        text-black text-sm font-semibold transition-all active:scale-95"
-                            >
-                                <span className="absolute inset-0 bg-linear-to-b from-white via-[#f3e8ff] to-[#d0a1e1]" />
-                                <span className="absolute inset-0 bg-linear-to-r from-transparent via-white/60 to-transparent 
-        translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out" />
-
-                                <span className="relative z-10">
-                                    {loading ? "Sending..." : "Submit"}
-                                </span>
-                            </button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

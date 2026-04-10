@@ -1,3 +1,10 @@
+import choose1 from "@/app/assets/Images/choose_icon1.svg";
+import choose2 from "@/app/assets/Images/choose_icon2.svg";
+import choose3 from "@/app/assets/Images/choose_icon3.svg";
+import choose4 from "@/app/assets/Images/choose_icon4.svg";
+import choose5 from "@/app/assets/Images/choose_icon5.svg";
+import choose6 from "@/app/assets/Images/choose_icon6.svg";
+
 export const features = [
   {
     title: "SAP S/4HANA",
@@ -65,31 +72,37 @@ export const results = [
 
 export const cards = [
   {
+    img: choose1,
     title: "Deep SAP & Odoo Expertise",
     description:
       "Our SAP consultants in India bring deep hands on knowledge to deliver solutions built for real and lasting business impact.",
   },
   {
+    img: choose2,
     title: "End-to-End Implementation Support",
     description:
       "We cover every step of your implementation journey, making sure everything runs smoothly from the first call to go live.",
   },
   {
+    img: choose3,
     title: "Seamless System Integration Approach",
     description:
       "Bee Waave connects your SAP and Odoo platforms with all existing tools, giving your business one smooth and reliable system.",
   },
   {
+    img: choose4,
     title: "Business-Focused Solutions Design",
     description:
       "Every solution Bee Waave builds is designed around your actual business goals, delivering real value and measurable results every time.",
   },
   {
+    img: choose5,
     title: "Scalable and Future-Ready Systems",
     description:
       "We build ERP systems that grow with your business, always ready to handle new users, modules and expanding markets confidently.",
   },
   {
+    img: choose6,
     title: "Dedicated Support and Guidance",
     description:
       "Getting you to live is just the beginning. Our SAP consulting team stays with you, providing ongoing support and keeping your systems at their best.",
@@ -199,6 +212,16 @@ export const faqs = [
       "How do I get started with Bee Weave's SAP consulting services in India?",
     answer:
       "Getting started is simple. Reach out to our team through our website, and one of our SAP consultants will connect with you to understand your business needs and guide you toward the right ERP solution.",
+  },
+  {
+    question: "A Community of Brands We Are Proud to Serve",
+    answer:
+      "We are proud to serve a diverse range of brands across various industries, leveraging our SAP expertise to drive their digital transformation and business growth.",
+  },
+  {
+    question: "Why should I choose beeAI for my SAP automation needs?",
+    answer:
+      "beeAI is designed specifically for SAP automation, offering a user-friendly interface and powerful capabilities to automate complex SAP processes. With beeAI, you can save time, reduce errors, and unlock new levels of efficiency in your SAP operations.",
   },
 ];
 

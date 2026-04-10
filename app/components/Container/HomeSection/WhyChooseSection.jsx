@@ -66,10 +66,7 @@ const WhyChooseSection = () => {
               bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.25),transparent_70%)]" />
 
               <div className="flex flex-col gap-3 relative z-10">
-                <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 border border-white/10">
-                  <Image src={awardWhite} alt="icon" width={20} height={20} />
-                </div>
-
+                <Image src={card.img} alt="icon" width={40} height={40} />
                 <h3 className="text-lg font-semibold text-white max-w-[241px] group-hover:text-[#c084fc] transition-colors duration-300">
                   {card.title}
                 </h3>

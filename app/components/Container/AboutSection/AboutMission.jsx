@@ -88,7 +88,7 @@ const AboutMission = () => {
               whileInView="visible"
               viewport={{ once: true }}
               custom={i + 1}
-              className="group relative flex gap-4 items-start rounded-2xl p-6 border border-white/10 overflow-hidden transition-all duration-300
+              className="group relative flex gap-4 items-start rounded-2xl p-10 border border-white/10 overflow-hidden transition-all duration-300
                 bg-[linear-gradient(135deg,rgba(116,0,250,0.08),rgba(10,5,30,0.92))]
                 hover:bg-[linear-gradient(135deg,rgba(130,57,215,0.45),rgba(10,5,30,0.92))]
                 hover:border-purple-500/40"

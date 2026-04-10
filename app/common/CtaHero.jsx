@@ -59,11 +59,34 @@ const CtaHero = ({
         {image && (
           <motion.div
             variants={fadeUp}
-            transition={{ duration: 0.6 }}
-            animate={{ y: [0, -12, 0] }}
-            className="mb-6"
+            initial={{ opacity: 0, scale: 0.9, y: 40 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              y: 0,
+            }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <Image src={image} alt="cta icon" width={400} height={400} />
+            <motion.div
+              animate={{
+                y: [0, -15, 0],
+                scale: [1, 1.03, 1],
+              }}
+              transition={{
+                duration: 5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              className="w-full h-full"
+            >
+              <Image
+                src={image}
+                alt="cta icon"
+                width={400}
+                height={400}
+                className="object-contain"
+              />
+            </motion.div>
           </motion.div>
         )}
         <motion.h2

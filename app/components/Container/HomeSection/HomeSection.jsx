@@ -28,14 +28,29 @@ const item = {
 const HomeSection = () => {
   return (
     <MainLayout className="relative min-h-screen bg-black flex flex-col items-center pt-10 md:pt-40 overflow-hidden">
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] pointer-events-none">
-        <Image
-          src="/images/homebanner.svg"
-          alt="bg"
-          fill
-          className="object-cover scale-150 opacity-80"
-        />
-      </div>
+      <motion.div
+        initial={{ opacity: 0, scale: 1.2, y: 40 }}
+        animate={{ opacity: 0.8, scale: 1.5, y: 0 }}
+        transition={{ duration: 2, ease: "easeOut" }}
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] pointer-events-none"
+      >
+        <motion.div
+          animate={{ y: [0, -20, 0] }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+          className="w-full h-full"
+        >
+          <Image
+            src="/images/homebanner.svg"
+            alt="bg"
+            fill
+            className="object-cover"
+          />
+        </motion.div>
+      </motion.div>
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-[50%] w-[140%] md:w-[90%] h-[161px] md:h-[200px] bg-black rounded-t-[60%_120%] pointer-events-none z-10" />
       <motion.div
         variants={container}

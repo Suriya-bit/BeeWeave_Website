@@ -51,7 +51,7 @@ const Footer = () => {
                 priority
               />
             </div>
-            <p className="text-white/50">Quality Woven. Scale Built In</p>
+            <p >Quality Woven. Scale Built In</p>
           </div>
           <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">
             Our SAP implementation services in India bring the skills,

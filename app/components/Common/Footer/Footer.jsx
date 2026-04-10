@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import footerLogo from "@/app/assets/Images/footer-logo.svg";
-import { FaFacebookF, FaInstagram, FaYoutube, FaGlobe } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaGlobe, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import webdads2u from "@/app/assets/Images/webdads2u-logo.svg";
 import { usePathname } from "next/navigation";
@@ -32,9 +32,7 @@ const legal = [
 const socials = [
   { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61573340975393" },
   { icon: FaInstagram, href: "https://www.instagram.com/beeweavesap/" },
-  { icon: FaYoutube, href: "#" },
-  { icon: FaXTwitter, href: "#" },
-  { icon: FaGlobe, href: "#" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/company/beeweave-beesap/" },
 ];
 
 const Footer = () => {
@@ -43,14 +41,17 @@ const Footer = () => {
     <footer className={`${pathname !== "/" ? "bg-[#0d0a1a]" : ""}  px-6 lg:px-30 py-16 `}>
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex flex-col gap-6 items-start">
-          <div className="relative w-16 h-16">
-            <Image
-              src={footerLogo}
-              alt="Logo"
-              fill
-              className="object-contain"
-              priority
-            />
+          <div>
+            <div className="relative w-16 h-16">
+              <Image
+                src={footerLogo}
+                alt="Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <p className="text-white/50">Quality Woven. Scale Built In</p>
           </div>
           <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">
             Our SAP implementation services in India bring the skills,

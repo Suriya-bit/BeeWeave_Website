@@ -1,11 +1,9 @@
-import {
-  Brain,
-  CheckCircle2,
-  DollarSign,
-  ShieldCheck,
-  TrendingUp,
-  Workflow,
-} from "lucide-react";
+import benefit1 from "@/app/assets/Images/aiicon1.svg";
+import benefit2 from "@/app/assets/Images/aiicon2.svg";
+import benefit3 from "@/app/assets/Images/aiicon3.svg";
+import benefit4 from "@/app/assets/Images/aiicon4.svg";
+import benefit5 from "@/app/assets/Images/aiicon5.svg";
+import benefit6 from "@/app/assets/Images/aiicon6.svg";
 
 export const features = [
   {
@@ -42,37 +40,38 @@ export const features = [
 
 export const benefits = [
   {
-    icon: <Brain className="w-8 h-8 text-white" />,
+    image: benefit1,
+
     title: "Smarter Business Decisions",
     description:
       "Real time insights from your SAP environment give your teams the power to make faster and more confident decisions every single day without relying on guesswork or outdated reports.",
   },
   {
-    icon: <Workflow className="w-8 h-8 text-white" />,
+    image: benefit2,
     title: "Faster Workflow Automation",
     description:
       "AI powered SAP services help automate repetitive and time consuming workflows so your teams spend less time on manual tasks and more time on work that drives business growth.",
   },
   {
-    icon: <DollarSign className="w-8 h-8 text-white" />,
+    image: benefit3,
     title: "Reduced Operational Costs",
     description:
       "By automating complex processes and minimizing manual effort, businesses can significantly reduce operational costs while maintaining high levels of quality and consistency.",
   },
   {
-    icon: <CheckCircle2 className="w-8 h-8 text-white" />,
+    image: benefit4,
     title: "Improved Accuracy and Efficiency",
     description:
       "AI driven SAP solutions reduce human errors and bring consistency to your workflows, ensuring every process runs smoothly, accurately and efficiently across all departments.",
   },
   {
-    icon: <TrendingUp className="w-8 h-8 text-white" />,
+    image: benefit5,
     title: "Scalable AI Solutions",
     description:
       "AI powered SAP systems are built to grow with your business, allowing you to scale operations, add new capabilities and handle increased workloads without disruption.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    image: benefit6,
     title: "Enterprise Grade Security and Compliance",
     description:
       "Every AI powered SAP solution is designed with strong security and compliance standards, ensuring your data remains protected, auditable and fully governed at all times.",

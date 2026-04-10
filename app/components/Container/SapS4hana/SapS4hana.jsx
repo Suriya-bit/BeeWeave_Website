@@ -8,11 +8,11 @@ import ServiceIntroSection from '../ServicesSection/ServiceIntroSection';
 import ServiceFeaturesSection from '../ServicesSection/ServiceFeaturesSection';
 import ServiceBenefitsSection from '../ServicesSection/ServiceBenefitsSection';
 import ProcessSection from '../ServicesSection/ProcessSection';
-import { benefits, processItems, features, impactData, faqData } from '@/app/utils/AiWithSapMockData';
 import ImpactSection from '../ServicesSection/ImpactSection';
 import FAQsSection from '../ServicesSection/ServiceFAQSection';
 import CtaHero from '@/app/common/CtaHero';
 import animation_icon from "@/app/assets/Images/animation_icon.svg";
+import { benefits, features, impactData, processItems, faqData } from '@/app/utils/SapS4hanaMockData';
 
 
 const logos = [client1, client2, client3];
@@ -76,7 +76,7 @@ const SapS4hana = () => {
             />
             <CtaHero
                 title={`The Right Time to Move to SAP S/4HANA is Now`}
-                buttonText="Let’s Build Something Together"
+                buttonText="Begin My SAP S/4HANA Journey"
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}

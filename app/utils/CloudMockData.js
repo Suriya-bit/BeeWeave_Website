@@ -1,4 +1,9 @@
-import { Zap, Lock, TrendingUp, Globe, RefreshCcw } from "lucide-react";
+import benefit1 from "@/app/assets/Images/cloudservice1.svg";
+import benefit2 from "@/app/assets/Images/cloudservice2.svg";
+import benefit3 from "@/app/assets/Images/cloudservice3.svg";
+import benefit4 from "@/app/assets/Images/cloudservice4.svg";
+import benefit5 from "@/app/assets/Images/cloudservice5.svg";
+import benefit6 from "@/app/assets/Images/cloudservice6.svg";
 
 export const cloudFeatures = [
   {
@@ -158,37 +163,37 @@ export const cloudConsultancyFaqData = [
 
 export const cloudBenefits = [
   {
-    icon: <TrendingUp className="w-8 h-8 text-white" />,
+    image: benefit1,
     title: "Reduced Infrastructure Costs",
     description:
       "Running your own servers and hardware is expensive. Moving to the cloud with Bee Weave cuts down your infrastructure costs significantly. You only pay for what you use, freeing up the budget your business can put towards growth and other important areas.",
   },
   {
-    icon: <Zap className="w-8 h-8 text-white" />,
+    image: benefit2,
     title: "Faster Business Operations",
     description:
       "Cloud technology makes everything run quicker. Bee Weave sets up a cloud environment that helps your teams complete tasks faster, access information instantly and get more done in less time. Your business stops being slowed down by outdated systems and starts operating at the speed it deserves.",
   },
   {
-    icon: <Lock className="w-8 h-8 text-white" />,
+    image: benefit3,
     title: "Stronger Data Protection",
     description:
       "Your business data is one of your most important assets. Bee Weave builds strong security measures into every cloud environment, keeping your data protected, backed up and safe at all times. Your business gets a cloud setup that takes data protection seriously and never cuts corners on security.",
   },
   {
-    icon: <TrendingUp className="w-8 h-8 text-white" />,
+    image: benefit4,
     title: "Scalable Cloud Environment",
     description:
       "Growing businesses need systems ready to grow with them. Bee Weave sets up a cloud environment scaling whenever your business needs it to. You never have to worry about running out of capacity or paying for a system upgrade. Your cloud simply grows as your business does.",
   },
   {
-    icon: <Globe className="w-8 h-8 text-white" />,
+    image: benefit5,
     title: "Work From Anywhere",
     description:
       "Your team can work from home, the office or anywhere else with Bee Weave's cloud setup. Everyone gets easy access to the files, tools and information they need from any device at any time. Your business keeps running well no matter where your people are.",
   },
   {
-    icon: <RefreshCcw className="w-8 h-8 text-white" />,
+    image: benefit6,
     title: "Automatic System Updates",
     description:
       "Your systems stay up to date with Bee Weave's cloud setup. The latest features and security fixes are added automatically. Your team logs in every day to a system ready to go without any extra effort needed.",

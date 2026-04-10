@@ -4,31 +4,55 @@ import choose3 from "@/app/assets/Images/choose_icon3.svg";
 import choose4 from "@/app/assets/Images/choose_icon4.svg";
 import choose5 from "@/app/assets/Images/choose_icon5.svg";
 import choose6 from "@/app/assets/Images/choose_icon6.svg";
+import service1 from "@/app/assets/Images/homeservice1.svg";
+import service2 from "@/app/assets/Images/homeservice2.svg";
+import service3 from "@/app/assets/Images/homeservice3.svg";
+import service4 from "@/app/assets/Images/homeservice4.svg";
+import service5 from "@/app/assets/Images/homeservice5.svg";
+import service6 from "@/app/assets/Images/homeservice6.svg";
 
 export const features = [
   {
+    img: service1,
     title: "SAP S/4HANA",
     href: "/services/sap-s4hana",
     description:
       "Bee Waave offers reliable S/4HANA consulting services in India to make SAP simple for your business. Our SAP consultants in India understand how you work and build a system perfectly fitting your needs. Whether you are new to SAP S/4HANA or moving from SAP ECC, we make the whole process smooth, clean and built to last. Let us help you get SAP right.",
   },
   {
+    img: service2,
     title: "Rise with SAP",
     href: "/services/rise-with-sap",
     description:
       "Moving to the cloud is a big step and Bee Waave makes it easy. Our RISE with SAP consulting services in India help businesses shift to a fully managed cloud ERP without the usual stress. Our SAP consultants in India handle everything from planning to go live, keeping your operations smooth, secure and ready for continuous growth and innovation.",
   },
   {
+    img: service3,
     title: "Cloud Transformation",
     href: "/services/cloud-transformation",
     description:
       "Your business deserves better than outdated infrastructure. Bee Waave is a cloud consulting company in India offering complete cloud transformation services across Azure, AWS and GCP. We help businesses migrate legacy systems, optimize cloud performance and build a secure digital environment ready to support your business goals today and in the future.",
   },
   {
-    title: "Digital Services",
-    href: "/services/ai-with-sap",
+    img: service4,
+    title: "SAP BTP",
+    href: "/services/sap-btp",
     description:
-      "We help businesses build powerful digital solutions tailored to their needs. From custom applications to enterprise integrations, our team delivers scalable, modern technology that drives real results and keeps your business ahead in a rapidly changing digital world.",
+      "Struggling with systems that don't talk to each other? Our SAP BTP integration services in India help businesses eliminate data silos, automate workflows and build smart extensions across their SAP landscape. Bee Waave uses SAP Business Technology Platform to connect your tools, streamline operations and keep your core ERP clean and upgrade ready.",
+  },
+  {
+    img: service5,
+    title: "AI for SAP",
+    href: "/services/ai-for-sap",
+    description:
+      "Your ERP holds a lot of data but are you using it intelligently? Bee Weave provides AI SAP consulting services in India to help businesses automate workflows, eliminate manual effort and make smarter decisions. Our beeAI platform brings enterprise grade AI into your SAP environment, keeping everything secure, compliant and built for the future.",
+  },
+  {
+    img: service6,
+    title: "Odoo ERP",
+    href: "/services/odoo-erp",
+    description:
+      "Big ERP price tags should not stop small and mid size businesses from growing. Bee Weave offers Odoo ERP integration services in India giving businesses a powerful, flexible and budget friendly ERP alternative. We handle the full setup, customization and integration of Odoo so your team gets a system that actually makes their work easier.",
   },
 ];
 

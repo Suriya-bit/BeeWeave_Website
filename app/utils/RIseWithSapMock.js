@@ -1,11 +1,10 @@
-import {
-  Cloud,
-  FileText,
-  Coins,
-  RefreshCw,
-  Move,
-  ShieldCheck,
-} from "lucide-react";
+import benefit1 from "@/app/assets/Images/riseservice1.svg";
+import benefit2 from "@/app/assets/Images/riseservice2.svg";
+import benefit3 from "@/app/assets/Images/riseservice3.svg";
+import benefit4 from "@/app/assets/Images/riseservice4.svg";
+import benefit5 from "@/app/assets/Images/riseservice5.svg";
+import benefit6 from "@/app/assets/Images/riseservice6.svg";
+
 export const riseWithSapFeatures = [
   {
     title: "End-to-End Cloud ERP Transformation",
@@ -173,37 +172,37 @@ export const riseWithSapFaqData = [
 
 export const riseWithSapBenefits = [
   {
-    icon: <Cloud className="w-8 h-8 text-white" />,
+    image: benefit1,
     title: "Faster Move to the Cloud",
     description:
       "Bee Weave helps your business get on SAP cloud quickly and without confusion. Our structured approach cuts down the time it takes to go live, getting your business up and running on RISE with SAP faster than you expect.",
   },
   {
-    icon: <FileText className="w-8 h-8 text-white" />,
+    image: benefit2,
     title: "One Contract for Everything",
     description:
       "RISE with SAP bundles everything your business needs under one single contract. Bee Weave helps you get the most out of this, giving your business a simpler and more cost effective way to manage your entire SAP cloud environment.",
   },
   {
-    icon: <Coins className="w-8 h-8 text-white" />,
+    image: benefit3,
     title: "Lower IT Costs",
     description:
       "Moving to RISE with SAP reduces the amount your business spends on IT infrastructure. Bee Weave helps your business cut down hardware costs, maintenance expenses and IT overhead, giving you more budget to invest in growing your business.",
   },
   {
-    icon: <RefreshCw className="w-8 h-8 text-white" />,
+    image: benefit4,
     title: "Always Up to Date",
     description:
       "RISE with SAP keeps your system updated automatically. Bee Weave makes sure your business always has access to the latest SAP features and improvements without any disruption to your daily operations or extra costs along the way.",
   },
   {
-    icon: <Move className="w-8 h-8 text-white" />,
+    image: benefit5,
     title: "Better Business Flexibility",
     description:
       "Cloud ERP gives your business the freedom to work from anywhere and scale without limits. Bee Weave delivers RISE with SAP in a way that gives your organisation the flexibility it needs to grow and adapt without any restrictions.",
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-white" />,
+    image: benefit6,
     title: "Stronger Data Security",
     description:
       "Your business data is safe with RISE with SAP. Bee Weave sets up your cloud environment with the highest security standards, keeping your business data protected, compliant and secure at all times without any compromise.",

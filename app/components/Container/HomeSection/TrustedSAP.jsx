@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import awardWhite from "@/app/assets/Images/award-white.svg";
+import awardWhite from "@/app/assets/Images/Trusted.svg";
 import { features } from "@/app/utils/HomemockData";
 import { ArrowRight } from "lucide-react";
 import MainLayout from "@/app/common/MainLayout";
@@ -104,7 +104,6 @@ const TrustedSAP = () => {
             trusted partner for everything.
           </motion.p>
         </motion.div>
-
         <div className="absolute left-1/2 -translate-x-1/2 bottom-10 w-[80%] h-[200px] bg-[#860fee] opacity-30 blur-[50px] rounded-full pointer-events-none z-0" />
         <div className="w-full overflow-x-auto overflow-y-hidden pb-6 scrollbar-hide ">
           <div className="flex gap-6 min-w-max px-2 ">
@@ -114,8 +113,6 @@ const TrustedSAP = () => {
                 variants={cardVariant}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
-
                 className="group will-change-transform transform-gpu"
               >
                 <div className="relative p-px rounded-2xl bg-linear-to-b from-[#9333ea] via-[#7e22ce] to-transparent ">
@@ -125,10 +122,10 @@ const TrustedSAP = () => {
                     <div className="relative z-10 flex flex-col h-full">
                       <div className="flex flex-col gap-4">
                         <Image
-                          src={awardWhite}
+                          src={feature.img}
                           alt="icon"
-                          width={32}
-                          height={32}
+                          width={50}
+                          height={50}
                         />
                         <h3 className="text-base font-semibold text-white">
                           {feature.title}

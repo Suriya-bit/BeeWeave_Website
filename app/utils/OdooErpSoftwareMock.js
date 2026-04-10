@@ -1,11 +1,9 @@
-import {
-  Wallet,
-  SlidersHorizontal,
-  LayoutDashboard,
-  Plug,
-  Smile,
-  RefreshCcw,
-} from "lucide-react";
+import benefit1 from "@/app/assets/Images/erp_icon1.svg";
+import benefit2 from "@/app/assets/Images/erp_icon2.svg";
+import benefit3 from "@/app/assets/Images/erp_icon3.svg";
+import benefit4 from "@/app/assets/Images/erp_icon4.svg";
+import benefit5 from "@/app/assets/Images/erp_icon5.svg";
+import benefit6 from "@/app/assets/Images/erp_icon6.svg";
 
 export const odooFeatures = [
   {
@@ -169,37 +167,37 @@ export const odooFaqData = [
 
 export const odooBenefits = [
   {
-    icon: <Wallet className="w-8 h-8 text-white" />,
+    image: benefit1,
     title: "Cost Effective ERP Solution",
     description:
       "Odoo is one of the most affordable ERP platforms available and Bee Weave makes it even more accessible. Our Odoo ERP consulting services in India help businesses get a fully functional ERP system without the heavy price tag that usually comes with enterprise software.",
   },
   {
-    icon: <SlidersHorizontal className="w-8 h-8 text-white" />,
+    image: benefit2,
     title: "Fully Customisable Platform",
     description:
       "Every business is different and Odoo is built to reflect that. Bee Weave's Odoo ERP software consulting services in India cover complete customisation, building a system that fits your workflows, your team and your business goals without any unnecessary complexity or compromise.",
   },
   {
-    icon: <LayoutDashboard className="w-8 h-8 text-white" />,
+    image: benefit3,
     title: "All in One Business Management",
     description:
       "Odoo brings all your business operations under one roof. From CRM and sales to inventory, accounting and eCommerce, Bee Weave's Odoo ERP consulting company in India sets up all the modules your business needs, giving your team one platform to manage everything from.",
   },
   {
-    icon: <Plug className="w-8 h-8 text-white" />,
+    image: benefit4,
     title: "Seamless System Integration",
     description:
       "Your Odoo system works best when it is connected to all your existing tools. Bee Weave's Odoo ERP integration services in India link your Odoo platform with third party applications, removing data silos and giving your business one fully connected and smooth running environment.",
   },
   {
-    icon: <Smile className="w-8 h-8 text-white" />,
+    image: benefit5,
     title: "Easy to Use Interface",
     description:
       "A great ERP system should be easy for your team to use every day. Odoo is known for its clean and user friendly interface and Bee Weave's Odoo ERP consulting services in India make sure your team is set up, trained and confident from day one.",
   },
   {
-    icon: <RefreshCcw className="w-8 h-8 text-white" />,
+    image: benefit6,
     title: "Smooth Migration & Upgrade",
     description:
       "Moving to a newer version of Odoo should never disrupt your business. Bee Weave's Odoo ERP migration services in India handle the entire migration process safely, keeping your data intact and your business running without any interruptions or unexpected problems along the way.",

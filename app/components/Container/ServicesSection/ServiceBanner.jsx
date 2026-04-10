@@ -11,7 +11,7 @@ const ServiceBanner = ({
     breadcrumbs = [],
 }) => {
     return (
-        <MainLayout className="relative min-h-[350px] flex flex-col items-center justify-center text-center px-6 py-30 overflow-hidden bg-[#0d0b1a]">
+        <MainLayout className="relative min-h-[350px] flex flex-col items-center justify-center text-center px-6 py-30 overflow-hidden bg-black">
             <div
                 className="absolute inset-0 opacity-[0.12]"
                 style={{

@@ -85,6 +85,12 @@ const TrustedSAP = () => {
               Trusted SAP Consulting and Implementation Services in India
             </p>
           </motion.div>
+          <motion.h1
+            variants={fadeUp}
+            className="text-xl md:text-3xl font-bold text-white mb-6"
+          >
+            Trusted SAP Consulting and Implementation Services in India
+          </motion.h1>
           <p className="text-lg md:text-2xl font-medium leading-relaxed mb-20 max-w-3xl flex flex-wrap justify-center text-center">
             {words.map((word, i) => (
               <motion.span

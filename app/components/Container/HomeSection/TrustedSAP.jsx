@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import awardWhite from "@/app/assets/Images/Trusted.svg";
@@ -28,26 +28,42 @@ const fadeUp = {
 };
 
 const cardVariant = {
-  hidden: {
-    opacity: 0,
-    y: 40,
-    scale: 0.96,
-  },
+  hidden: { opacity: 0, y: 40, scale: 0.96 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: {
-      duration: 0.45,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.45, ease: "easeOut" },
   },
 };
 
 const paragraph = `Bee Waave is a team of experienced SAP consultants in India helping businesses take control of their ERP journey. We work with companies of all sizes to implement, migrate and modernize their systems using SAP and Odoo. We believe good technology should make business simpler, not harder. That is why every solution we build is practical, clean and built to grow with you.`;
 const words = paragraph.split(" ");
 
+const loopedFeatures = [...features, ...features];
+
 const TrustedSAP = () => {
+  const trackRef = useRef(null);
+  const xRef = useRef(0);
+  const isPausedRef = useRef(false);
+  const rafRef = useRef(null);
+
+  useEffect(() => {
+    const animate = () => {
+      if (trackRef.current && !isPausedRef.current) {
+        xRef.current -= 0.5;
+        const halfWidth = trackRef.current.scrollWidth / 2;
+        if (Math.abs(xRef.current) >= halfWidth) {
+          xRef.current = 0;
+        }
+        trackRef.current.style.transform = `translateX(${xRef.current}px)`;
+      }
+      rafRef.current = requestAnimationFrame(animate);
+    };
+    rafRef.current = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, []);
+
   return (
     <MainLayout className="relative overflow-hidden">
       <div className="absolute left-[-250px] top-1/2 -translate-y-1/2 w-[380px] h-[500px] bg-[#5201af] opacity-30 blur-[40px] rounded-full pointer-events-none" />
@@ -69,23 +85,19 @@ const TrustedSAP = () => {
               Trusted SAP Consulting and Implementation Services in India
             </p>
           </motion.div>
-          <p className="text-lg md:text-2xl font-medium leading-relaxed mb-20 max-w-3xl flex flex-wrap justify-center  text-center">
+          <p className="text-lg md:text-2xl font-medium leading-relaxed mb-20 max-w-3xl flex flex-wrap justify-center text-center">
             {words.map((word, i) => (
               <motion.span
                 key={i}
                 initial={{ opacity: 0.2, color: "#6b7280" }}
                 whileInView={{ opacity: 1, color: "#ffffff" }}
-                transition={{
-                  duration: 0.4,
-                  delay: i * 0.02,
-                }}
+                transition={{ duration: 0.4, delay: i * 0.02 }}
                 viewport={{ once: true }}
               >
                 {word}&nbsp;
               </motion.span>
             ))}
           </p>
-
           <motion.h2
             variants={fadeUp}
             className="text-4xl md:text-5xl font-bold text-white mb-4 pt-10 md:pt-20"
@@ -105,9 +117,15 @@ const TrustedSAP = () => {
           </motion.p>
         </motion.div>
         <div className="absolute left-1/2 -translate-x-1/2 bottom-10 w-[80%] h-[200px] bg-[#860fee] opacity-30 blur-[50px] rounded-full pointer-events-none z-0" />
-        <div className="w-full overflow-x-auto overflow-y-hidden pb-6 scrollbar-hide ">
-          <div className="flex gap-6 min-w-max px-2 ">
-            {features?.map((feature, i) => (
+        <div className="w-full overflow-hidden pb-6">
+          <div
+            ref={trackRef}
+            className="flex gap-6"
+            style={{ width: "max-content", willChange: "transform" }}
+            onMouseEnter={() => (isPausedRef.current = true)}
+            onMouseLeave={() => (isPausedRef.current = false)}
+          >
+            {loopedFeatures.map((feature, i) => (
               <motion.div
                 key={i}
                 variants={cardVariant}
@@ -115,7 +133,7 @@ const TrustedSAP = () => {
                 whileInView="visible"
                 className="group will-change-transform transform-gpu"
               >
-                <div className="relative p-px rounded-2xl bg-linear-to-b from-[#9333ea] via-[#7e22ce] to-transparent ">
+                <div className="relative p-px rounded-2xl bg-linear-to-b from-[#9333ea] via-[#7e22ce] to-transparent">
                   <div className="relative flex flex-col w-[260px] h-[500px] md:w-[370px] md:h-[400px] p-6 rounded-2xl overflow-hidden bg-[#0b0018] transition-all duration-300 group-hover:shadow-[0_20px_80px_rgba(124,58,237,0.35)]">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_100%,rgba(124,58,237,0.12),transparent_65%)] pointer-events-none" />
                     <div className="absolute inset-0 bg-linear-to-br from-[#7400FB]/10 to-transparent opacity-20 pointer-events-none" />
@@ -140,10 +158,7 @@ const TrustedSAP = () => {
                           className="group relative inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg overflow-hidden text-black text-sm font-medium transition-all active:scale-95"
                         >
                           <span className="absolute inset-0 bg-linear-to-b from-[#ffffff] via-[#f3e8ff] to-[#d0a1e1]"></span>
-                          <span
-                            className="absolute inset-0 bg-linear-to-r from-transparent via-white/60 to-transparent 
-      translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out"
-                          ></span>
+                          <span className="absolute inset-0 bg-linear-to-r from-transparent via-white/60 to-transparent translate-x-[-101%] group-hover:translate-x-[101%] transition-transform duration-1000 ease-in-out"></span>
                           <span className="relative z-10 flex items-center justify-between w-full">
                             Explore more
                             <ArrowRight className="w-4 h-4" />

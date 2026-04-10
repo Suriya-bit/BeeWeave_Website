@@ -114,7 +114,7 @@ export default function CareerForm() {
                 </div>
                 <div className="flex-1 relative rounded-2xl overflow-hidden 
 bg-gradient-to-br from-[#14002a] via-[#15012c] to-[#0c0316] 
-border border-white/10 ">
+border border-white/10 max-w-md md:max-w-5xl mx-auto w-full">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.15),transparent_70%)] pointer-events-none" />
                     <div className="relative z-10 px-8 py-10">
                         <h3 className="text-white text-xl font-semibold mb-8">
@@ -123,7 +123,6 @@ border border-white/10 ">
 
                         <form ref={formRef} onSubmit={handleSubmit}>
                             <div className="flex flex-col gap-6">
-
                                 <div className="flex gap-6">
                                     <div className="flex-1 flex flex-col gap-2">
                                         <label className="text-white/60 text-xs">Name</label>

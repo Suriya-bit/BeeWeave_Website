@@ -27,7 +27,7 @@ const item = {
 
 const HomeSection = () => {
   return (
-    <MainLayout className="relative min-h-screen bg-black flex flex-col items-center pt-30 md:pt-40 overflow-hidden">
+    <MainLayout className="relative min-h-screen bg-black flex flex-col items-center pt-10 md:pt-40 overflow-hidden">
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] pointer-events-none">
         <Image
           src="/images/homebanner.svg"

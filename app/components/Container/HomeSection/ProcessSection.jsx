@@ -99,7 +99,7 @@ const ProcessSection = () => {
                 {i < steps.length - 1 && (
                   <div className="relative w-px flex-1 my-1 min-h-[33px] bg-white/8 overflow-hidden">
                     <motion.div
-                      className="absolute top-0 left-0 w-full bg-linear-to-b from-[#40B0FF] to-[#7400FA]"
+                      className="absolute top-0 left-0 w-full bg-linear-to-b bg-[#40B0FF]"
                       animate={{ height: active > i ? "100%" : "0%" }}
                       transition={{ duration: 0.4, ease: "easeInOut" }}
                     />

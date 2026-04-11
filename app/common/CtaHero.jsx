@@ -5,24 +5,6 @@ import Image from "next/image";
 import MainLayout from "./MainLayout";
 import { usePathname } from "next/navigation";
 
-function GridBackground({ show = true }) {
-
-  if (!show) return null;
-
-  return (
-    <div
-      className="absolute inset-0 pointer-events-none"
-      style={{
-        backgroundImage: `
-          linear-gradient(rgba(139,92,246,0.07) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(139,92,246,0.07) 1px, transparent 1px)
-        `,
-        backgroundSize: "60px 60px",
-      }}
-    />
-  );
-}
-
 const containerVariants = {
   hidden: {},
   visible: {
@@ -33,7 +15,7 @@ const containerVariants = {
 };
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
 };
 
@@ -42,13 +24,34 @@ const CtaHero = ({
   buttonText = "Let’s Build Something Together",
   buttonLink = "/contact",
   image,
-  showGrid = true,
-  subTitle
+  subTitle,
 }) => {
-  const pathname = usePathname()
+  const pathname = usePathname();
+
   return (
-    <MainLayout className={`relative w-full  overflow-hidden flex items-center justify-center md:py-10 px-4 ${pathname !== "/" ? "bg-[#0d0a1a]" : ""}`}>
-      <GridBackground show={showGrid} />
+    <MainLayout className={`relative w-full overflow-hidden flex items-center justify-center md:py-16 px-4 ${pathname !== "/" ? "bg-[#0d0a1a]" : ""}`}>
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div className="relative w-[600px] md:w-[1000px] h-[300px]">
+          <div className="absolute inset-0 rounded-full 
+            bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.9)_0%,rgba(147,51,234,0.5)_30%,rgba(147,51,234,0.2)_55%,transparent_75%)] 
+            blur-[100px]"
+          />
+          <div
+            className="absolute inset-0 opacity-[0.15] rounded-full"
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, rgba(255,255,255,0.15) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.15) 1px, transparent 1px)",
+              backgroundSize: "60px 60px",
+              maskImage:
+                "radial-gradient(circle at center, white 40%, transparent 80%)",
+              WebkitMaskImage:
+                "radial-gradient(circle at center, white 40%, transparent 80%)",
+            }}
+          />
+
+        </div>
+      </div>
+
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -60,16 +63,12 @@ const CtaHero = ({
           <motion.div
             variants={fadeUp}
             initial={{ opacity: 0, scale: 0.9, y: 40 }}
-            animate={{
-              opacity: 1,
-              scale: 1,
-              y: 0,
-            }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
           >
             <motion.div
               animate={{
-                y: [0, -15, 0],
+                y: [0, -10, 0],
                 scale: [1, 1.03, 1],
               }}
               transition={{
@@ -77,35 +76,35 @@ const CtaHero = ({
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
-              className="w-full h-full"
+              className="w-full flex justify-center"
             >
               <Image
                 src={image}
                 alt="cta icon"
                 width={400}
-                height={400}
-                className="object-contain"
+                className="object-contain block"
               />
             </motion.div>
           </motion.div>
         )}
+
         <motion.h2
           variants={fadeUp}
-          transition={{ duration: 0.7 }}
           className="text-xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-5 whitespace-pre-line max-w-2xl"
         >
           {title}
         </motion.h2>
+
         {subTitle && (
           <motion.p
             variants={fadeUp}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-md  text-white mb-8 max-w-xl"
+            className="text-md text-white/80 mb-8 max-w-xl"
           >
             {subTitle}
           </motion.p>
         )}
-        <motion.div variants={fadeUp} transition={{ duration: 0.6 }}>
+
+        <motion.div variants={fadeUp}>
           <Link
             href={buttonLink}
             className="group relative inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-4 rounded-xl overflow-hidden text-black text-sm font-semibold transition-all active:scale-95"
@@ -116,6 +115,7 @@ const CtaHero = ({
           </Link>
         </motion.div>
       </motion.div>
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent to-[#0d0a1a]" />
     </MainLayout>
   );
 };

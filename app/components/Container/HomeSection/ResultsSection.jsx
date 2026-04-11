@@ -17,7 +17,7 @@ const fadeUp = {
 const cell = "p-8 flex flex-col gap-4";
 const statNum = "text-4xl font-bold text-[#7400FA]";
 const statTxt = "text-xs text-white leading-tight max-w-[100px]";
-const borderT = "border-t border-[#7400FA]/30 py-5";
+const borderT = "border-t border-[#7400FA]/30 p-5";
 const borderTL = "border-t border-l border-[#7400FA]/30 p-5";
 const borderLOnly = "border-l border-[#7400FA]/30 p-5";
 
@@ -47,8 +47,12 @@ const ResultsSection = () => {
             viewport={{ once: true }}
             className="p-8 flex items-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-[#7400FB] to-[#C016F4] bg-clip-text text-transparent leading-tight">
-              Results You Can Expect with Our SAP Solutions
+            <h2 className="text-3xl md:text-5xl font-bold bg-linear-to-r from-[#7400FB] to-[#C016F4] bg-clip-text text-transparent ">
+              Results You Can
+              <br />
+              Expect with Our
+              <br />
+              SAP Solutions
             </h2>
           </motion.div>
           <motion.div
@@ -63,7 +67,7 @@ const ResultsSection = () => {
               <h3 className="text-lg font-semibold text-white">
                 {results[0].title}
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed">
+              <p className="text-sm text-white/50 leading-relaxed mt-4">
                 {results[0].description}
               </p>
               <div className="flex items-center gap-3 mt-2">
@@ -84,7 +88,7 @@ const ResultsSection = () => {
               <h3 className="text-lg font-semibold text-white">
                 {results[1].title}
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed">
+              <p className="text-sm text-white/50 leading-relaxed mt-4">
                 {results[1].description}
               </p>
               <div className="flex items-center gap-3 mt-2">
@@ -105,7 +109,7 @@ const ResultsSection = () => {
               <h3 className="text-lg font-semibold text-white">
                 {results[2].title}
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed">
+              <p className="text-sm text-white/50 leading-relaxed mt-4">
                 {results[2].description}
               </p>
               <div className="flex items-center gap-3 mt-2">
@@ -126,7 +130,7 @@ const ResultsSection = () => {
               <h3 className="text-lg font-semibold text-white">
                 {results[3].title}
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed">
+              <p className="text-sm text-white/50 leading-relaxed mt-4">
                 {results[3].description}
               </p>
               <div className="flex items-center gap-3 mt-2">
@@ -153,7 +157,7 @@ const ResultsSection = () => {
               <div className="flex items-center gap-4 mt-6">
                 <CountUp
                   value={results[4].stat}
-                  className="text-4xl md:text-5xl font-bold bg-linear-to-r from-[#9333ea] to-[#c084fc] bg-clip-text text-transparent"
+                  className="relative text-4xl md:text-5xl font-bold text-[#7400FA]"
                 />
                 <span className="text-sm md:text-base text-white font-medium leading-tight">
                   {results[4].statLabel}

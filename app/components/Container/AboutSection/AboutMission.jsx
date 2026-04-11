@@ -48,7 +48,7 @@ const AnimatedText = ({ text }) => (
 const AboutMission = () => {
   return (
     <MainLayout className="relative w-full bg-[#0d0a1a] overflow-hidden py-16 px-6 md:px-30">
-      <div className="absolute bottom-0 right-1/4 w-[300px] h-[100px] bg-[#7c3aed] opacity-15 rounded-full blur-[100px]" />
+      <div className="absolute bottom-0 right-1/4 w-[300px] h-[100px]  opacity-15 rounded-full blur-[100px]" />
       <div className="relative z-10 grid md:grid-cols-2 gap-12 ">
         <motion.div
           variants={fadeUp}

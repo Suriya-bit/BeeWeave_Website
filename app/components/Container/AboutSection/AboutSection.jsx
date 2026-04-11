@@ -13,8 +13,8 @@ const AboutSection = () => {
   return (
     <>
       <AboutHero />
-      <ClientMarquee />
       <AboutMission />
+      <ClientMarquee />
       <AboutChoose />
       <ProcessSection />
       <FAQsSection />

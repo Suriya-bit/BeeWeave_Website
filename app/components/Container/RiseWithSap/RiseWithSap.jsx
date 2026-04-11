@@ -39,15 +39,6 @@ const RiseWithSap = () => {
                 buttonText="Get Started with RISE with SAP"
                 buttonLink="/contact"
             />
-            <ClientMarquee
-                title={
-                    <>
-                        A Community of Brands
-                        We Are Proud to Serve
-                    </>
-                }
-                logos={logos}
-            />
             <ServiceFeaturesSection
                 title="What Bee Weave Delivers for Your Business with RISE with SAP?
                 "
@@ -56,6 +47,15 @@ const RiseWithSap = () => {
             <ServiceBenefitsSection
                 title="Key Benefits for Your Business with Our RISE with SAP Services"
                 items={riseWithSapBenefits}
+            />
+            <ClientMarquee
+                title={
+                    <>
+                        A Community of Brands
+                        We Are Proud to Serve
+                    </>
+                }
+                logos={logos}
             />
             <ProcessSection
                 title="The Bee Waave's Process"

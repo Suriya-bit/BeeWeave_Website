@@ -41,15 +41,6 @@ and build digital environments which are built to perform, scale and grow with y
                 buttonText="Begin My Cloud Journey"
                 buttonLink="/contact"
             />
-            <ClientMarquee
-                title={
-                    <>
-                        A Community of Brands
-                        We Are Proud to Serve
-                    </>
-                }
-                logos={logos}
-            />
             <ServiceFeaturesSection
                 title="The Real Value Bee Weave Brings to Your Cloud Transformation Journey"
                 items={cloudFeatures}
@@ -61,6 +52,15 @@ and build digital environments which are built to perform, scale and grow with y
             <ProcessSection
                 title="The Bee Waave's Process"
                 items={cloudProcessItems}
+            />
+            <ClientMarquee
+                title={
+                    <>
+                        A Community of Brands
+                        We Are Proud to Serve
+                    </>
+                }
+                logos={logos}
             />
             <ImpactSection
                 title="Measurable Business Impact with Cloud Transformation"

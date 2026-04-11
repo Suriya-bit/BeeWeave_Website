@@ -42,15 +42,7 @@ const SapS4hana = () => {
                 buttonText="Begin My SAP S/4HANA Journey"
                 buttonLink="/contact"
             />
-            <ClientMarquee
-                title={
-                    <>
-                        A Community of Brands
-                        We Are Proud to Serve
-                    </>
-                }
-                logos={logos}
-            />
+
             <ServiceFeaturesSection
                 title="What Bee Weave Delivers for Your Business with SAP S/4HANA?"
                 items={features}
@@ -62,6 +54,15 @@ const SapS4hana = () => {
             <ProcessSection
                 title="The Bee Waave's Process"
                 items={processItems}
+            />
+            <ClientMarquee
+                title={
+                    <>
+                        A Community of Brands
+                        We Are Proud to Serve
+                    </>
+                }
+                logos={logos}
             />
             <ImpactSection
                 title="Measurable Business Impact with SAP S/4HANA"

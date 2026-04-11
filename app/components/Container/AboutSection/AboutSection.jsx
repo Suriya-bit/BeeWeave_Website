@@ -14,8 +14,8 @@ const AboutSection = () => {
     <>
       <AboutHero />
       <AboutMission />
-      <ClientMarquee />
       <AboutChoose />
+      <ClientMarquee />
       <ProcessSection />
       <FAQsSection />
       <CtaHero

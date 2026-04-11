@@ -4,6 +4,7 @@ import benefit3 from "@/app/assets/Images/cloudservice3.svg";
 import benefit4 from "@/app/assets/Images/cloudservice4.svg";
 import benefit5 from "@/app/assets/Images/cloudservice5.svg";
 import benefit6 from "@/app/assets/Images/cloudservice6.svg";
+import { title } from "framer-motion/client";
 
 export const cloudFeatures = [
   {
@@ -27,10 +28,15 @@ export const cloudFeatures = [
       "Application modernization is not just about moving to the cloud. It is about making your applications work better for your business. Bee Weave's cloud transformation services help businesses across India rebuild, replatform and optimise their existing applications, giving them a modern cloud native environment that performs reliably and grows with their business.",
   },
   {
+    title:"Cloud Security & Compliance",
+    description :"Cloud security is critical for protecting your business data and operations. Bee Weave’s cloud consulting services in India include end-to-end security implementation, access control, data protection, and compliance management. We ensure your cloud environment is secure, follows industry standards, and protects your business from risks, threats, and data breaches while maintaining performance and reliability. "
+  },
+  {
     title: "Cloud Monitoring & Support",
     description:
       "Your cloud environment needs constant attention. Bee Weave monitors your entire cloud infrastructure around the clock. We catch issues before they affect your business. Our team steps in quickly whenever something needs attention. Your business stays up, running and performing well every single day without any unexpected downtime.",
   },
+  
 ];
 
 export const cloudProcessItems = [
@@ -88,7 +94,7 @@ export const cloudImpactData = [
     label: "Faster Access to Business Data",
   },
   {
-    value: "",
+    value: "100x",
     label: "Complete Visibility Across Your Cloud Environment",
   },
 ];

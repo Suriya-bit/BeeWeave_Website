@@ -72,7 +72,7 @@ export const benefits = [
     image: benefit1,
     title: "Better Process Control",
     description:
-      "When your business processes are in order, everything runs better. Bee Weave's SAP S/4HANA services give you full visibility and control over your business operations, helping your teams follow the right steps and keep everything on track at all times.",
+      "When your business processes are in order, everything runs better. Bee Waave's SAP ",
   },
 ];
 

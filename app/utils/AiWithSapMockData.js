@@ -7,50 +7,49 @@ import benefit6 from "@/app/assets/Images/aiicon6.svg";
 
 export const features = [
   {
-    title: "BeeAI Conversational Assistant",
+    title: "BeeAI",
     description:
-      "Deploy BeeAI inside your SAP environment and allow teams to interact with complex ERP data using simple conversational language. Generate reports, automate workflows and make faster decisions without technical effort.",
+      "Imagine having a ChatGPT-like assistant inside your SAP environment that understands your entire business data. BeeAI enables teams to interact with complex ERP systems using simple conversational language—generate reports, automate workflows, and make faster decisions without technical effort.",
   },
   {
     title: "SAP AI Core & AI Foundation Setup",
     description:
-      "We configure and deploy SAP AI Core to build a strong AI foundation for your business. Run machine learning models, manage AI workflows and scale intelligence across your SAP landscape with full security and governance.",
+      "Build a strong AI foundation within your SAP ecosystem. We configure and deploy SAP AI Core to help you run machine learning models, manage AI workflows, and scale intelligence across your landscape with built-in security and governance.",
   },
   {
     title: "Machine Learning Model Development",
     description:
-      "Our experts design and develop machine learning models tailored to your business data. Enable predictive insights, pattern detection and smarter decision making across all departments.",
+      "Leverage the power of machine learning tailored to your business. Our experts design and develop models using your real data to enable predictive insights, identify patterns, and support smarter decision-making across all departments.",
   },
   {
     title: "Intelligent Process Automation",
     description:
-      "Automate repetitive and complex SAP workflows using AI. Improve speed, accuracy and efficiency while reducing manual effort and operational risks across your business.",
+      "Automate repetitive and complex SAP workflows using AI-driven solutions. Improve operational speed, accuracy, and efficiency while reducing manual effort and minimizing risks across your business.",
   },
   {
     title: "Predictive Analytics Solutions",
     description:
-      "Leverage predictive analytics to anticipate future outcomes using real ERP data. Make confident decisions, reduce risks and stay ahead with data driven planning.",
+      "Turn your ERP data into future-ready insights. Our predictive analytics solutions help you anticipate outcomes, reduce risks, and make confident, data-driven decisions to stay ahead of the competition.",
   },
   {
     title: "Natural Language Processing (NLP) Integration",
     description:
-      "Integrate NLP into your SAP system to enable human-like interaction. Extract insights from documents, automate responses and simplify how users engage with SAP.",
+      "Enhance your SAP system with natural language capabilities. Enable users to interact with SAP using plain language, extract insights from documents, automate responses, and simplify overall system usability.",
   },
 ];
 
 export const benefits = [
   {
     image: benefit1,
-
     title: "Smarter Business Decisions",
     description:
-      "Real time insights from your SAP environment give your teams the power to make faster and more confident decisions every single day without relying on guesswork or outdated reports.",
+      "Real-time insights from your SAP environment empower teams to make faster, more confident decisions every day without relying on guesswork or outdated reports.",
   },
   {
     image: benefit2,
     title: "Faster Workflow Automation",
     description:
-      "AI powered SAP services help automate repetitive and time consuming workflows so your teams spend less time on manual tasks and more time on work that drives business growth.",
+      "AI-powered SAP services automate repetitive and time-consuming workflows, allowing your teams to focus less on manual tasks and more on driving business growth.",
   },
   {
     image: benefit3,
@@ -62,19 +61,19 @@ export const benefits = [
     image: benefit4,
     title: "Improved Accuracy and Efficiency",
     description:
-      "AI driven SAP solutions reduce human errors and bring consistency to your workflows, ensuring every process runs smoothly, accurately and efficiently across all departments.",
+      "AI-driven SAP solutions reduce human errors and bring consistency to workflows, ensuring every process runs smoothly, accurately, and efficiently across all departments.",
   },
   {
     image: benefit5,
     title: "Scalable AI Solutions",
     description:
-      "AI powered SAP systems are built to grow with your business, allowing you to scale operations, add new capabilities and handle increased workloads without disruption.",
+      "AI-powered SAP solutions are built to scale with your business, enabling you to add new capabilities and handle increasing workloads without disruption.",
   },
   {
     image: benefit6,
     title: "Enterprise Grade Security and Compliance",
     description:
-      "Every AI powered SAP solution is designed with strong security and compliance standards, ensuring your data remains protected, auditable and fully governed at all times.",
+      "Every AI-powered SAP solution is designed with robust security and compliance standards, ensuring your data remains protected, auditable, and fully governed at all times.",
   },
 ];
 
@@ -142,63 +141,63 @@ export const faqData = [
   {
     question: "What is AI for SAP and how does it work?",
     answer:
-      "AI for SAP brings artificial intelligence into your SAP environment, helping automate workflows, analyse data and make smarter decisions. AI agents work directly on real time ERP data, handling complex business logic without manual effort.",
+      "AI for SAP brings artificial intelligence into your SAP environment, helping businesses automate workflows, analyse data and make smarter decisions. AI agents operate on real-time ERP data, handling complex business logic and reducing manual effort.",
   },
   {
     question: "What is an Agentic AI workflow in SAP?",
     answer:
-      "Agentic AI workflows use intelligent agents that can reason, plan and act on real time SAP data. These agents automate complex business processes like integrations, data mapping and reporting without waiting for human input.",
+      "An Agentic AI workflow uses intelligent agents that can reason, plan and act on real-time SAP data. These agents automate complex business processes such as data mapping, integrations and insights generation without requiring human input.",
   },
   {
     question: "Can AI be integrated with both SAP and Odoo systems?",
     answer:
-      "Yes. AI can be integrated across both SAP and Odoo systems, allowing businesses to automate workflows, reduce manual work and maximise value from their existing ERP investments.",
+      "Yes. AI can be seamlessly integrated across both SAP and Odoo systems, enabling businesses to automate workflows, reduce manual effort and maximise the value of their existing ERP investments without major system changes.",
   },
   {
     question: "Is AI for SAP secure and compliant?",
     answer:
-      "Yes. AI for SAP includes enterprise grade security, encryption and audit trails. Every interaction is monitored and fully compliant, ensuring your business data stays protected and transparent.",
+      "Yes. AI for SAP includes enterprise-grade security, encryption and audit trails. Every interaction is monitored, logged and fully compliant, ensuring your business data remains protected and transparent at all times.",
   },
   {
     question:
       "What is the difference between regular automation and Agentic AI in SAP?",
     answer:
-      "Regular automation follows fixed rules, while Agentic AI can reason, adapt and make decisions based on real time data. It offers a more flexible and intelligent way to automate SAP workflows.",
+      "Regular automation follows predefined rules and cannot adapt to changes. Agentic AI goes further by reasoning through complex business logic, learning from real-time data and making intelligent decisions, offering a more flexible and advanced approach to automation.",
   },
   {
     question: "How does AI improve decision making in SAP?",
     answer:
-      "AI provides real time insights, accurate predictions and intelligent recommendations. This helps leadership teams make faster, more confident decisions without waiting for manual reports.",
+      "AI enhances decision-making by providing real-time insights, accurate predictions and intelligent recommendations. This allows teams to act faster, respond to changes quickly and make confident decisions without waiting for manual reports.",
   },
   {
     question:
       "What is BeeAI and how is it different from other AI tools for SAP?",
     answer:
-      "BeeAI is Bee Weave’s AI platform built specifically for SAP and Odoo. It uses intelligent agents to automate workflows, process complex business logic and deliver real time insights in a secure and scalable way.",
+      "BeeAI is Bee Weave’s proprietary AI platform built specifically for SAP and Odoo environments. It deploys intelligent agents to automate workflows, process complex business logic and deliver real-time insights in a secure and scalable way.",
   },
   {
     question: "Does Bee Weave provide AI SAP consulting services in India?",
     answer:
-      "Yes. Bee Weave offers AI SAP consulting services across India, helping businesses deploy BeeAI, automate workflows and build intelligent, secure and scalable SAP environments.",
+      "Yes. Bee Weave offers AI SAP consulting services across India, helping businesses deploy BeeAI, automate workflows and build intelligent, secure and scalable SAP environments tailored to their needs.",
   },
   {
     question: "Can BeeAI integrate with Microsoft Teams and Slack?",
     answer:
-      "Yes. BeeAI integrates with tools like Microsoft Teams, Slack and internal portals, allowing users to access SAP insights and workflows directly within their everyday communication platforms.",
+      "Yes. BeeAI integrates with platforms like Microsoft Teams, Slack and internal portals, enabling users to access SAP insights and workflows directly within their everyday communication tools.",
   },
   {
     question: "How does Bee Weave ensure BeeAI security and compliance?",
     answer:
-      "Bee Weave ensures every BeeAI deployment includes strong security, encryption and audit capabilities. All AI interactions are tracked, governed and fully compliant with enterprise standards.",
+      "Bee Weave ensures every BeeAI deployment includes strong security, encryption and audit capabilities. All AI interactions are monitored, governed and fully compliant with enterprise standards.",
   },
   {
     question: "What capabilities does BeeAI support in SAP and Odoo?",
     answer:
-      "BeeAI supports real time data access, AI driven integrations, automated data mapping, intelligent insights and Agentic workflows across both SAP and Odoo systems.",
+      "BeeAI supports real-time data access, AI-driven integrations, automated data mapping, intelligent insights and Agentic workflows across both SAP and Odoo systems.",
   },
   {
     question: "How do I get started with Bee Weave’s BeeAI services?",
     answer:
-      "Getting started is simple. Contact Bee Weave and our AI experts will understand your needs, guide your strategy and help you deploy BeeAI to build a smarter, more efficient ERP environment.",
+      "Getting started is simple. Reach out to Bee Weave and our AI experts will understand your business needs, guide your strategy and help you deploy BeeAI to build a smarter, more efficient ERP environment.",
   },
 ];

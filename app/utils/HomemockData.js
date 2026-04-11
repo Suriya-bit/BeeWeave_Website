@@ -182,12 +182,12 @@ export const faqs = [
   {
     question: "How long does an SAP implementation take?",
     answer:
-      "The timeline depends on the size and complexity of your business. A standard SAP implementation can take anywhere from 3 months to over a year. Proper planning and the right SAP implementation partner can significantly reduce the timeline.",
+      "The timeline depends on the size and complexity of your business. A standard SAP implementation can take anywhere from 3 months to over a year. Proper planning and the right SAP implementation services in India can significantly reduce the timeline.",
   },
   {
     question: "What is the difference between SAP S/4HANA and SAP ECC?",
     answer:
-      "SAP ECC is the older generation ERP system, while SAP S/4HANA is the modern intelligent ERP built on an in-memory database. S/4HANA offers faster processing, real-time analytics, and a cleaner, more user-friendly interface compared to ECC.",
+      "SAP ECC is the older generation ERP system, while SAP S/4HANA is a modern, intelligent ERP built on an in-memory database. S/4HANA offers faster processing, real-time analytics, and a cleaner, more user-friendly experience compared to ECC.",
   },
   {
     question: "What is RISE with SAP?",
@@ -197,7 +197,7 @@ export const faqs = [
   {
     question: "How much do SAP consulting services in India cost?",
     answer:
-      "The cost of SAP consulting services in India depends on the scope of your project, required modules, and business size. Every project is unique, and pricing is tailored to your specific needs and budget.",
+      "The cost of SAP consulting services in India depends on the scope of your project, required modules, and the size of your business. Every project is unique, and pricing is tailored to your specific needs and budget.",
   },
   {
     question: "What is Odoo ERP and how is it different from SAP?",
@@ -212,40 +212,30 @@ export const faqs = [
   {
     question: "What SAP consulting services in India does Bee Weave offer?",
     answer:
-      "Bee Weave offers a full range of SAP consulting services in India including SAP S/4HANA implementation, RISE with SAP, SAP BTP integration, cloud transformation, Odoo ERP solutions, and AI-powered automation through our @beeAI platform.",
+      "Bee Weave offers a full range of SAP consulting services in India, including SAP S/4HANA implementation, RISE with SAP, SAP BTP integration, cloud transformation, Odoo ERP solutions, and AI-powered automation through our proprietary @beeAI platform.",
   },
   {
     question:
       "Does Bee Weave provide SAP implementation services in India for small businesses?",
     answer:
-      "Yes. Our SAP implementation services are designed for businesses of all sizes. Whether you are a startup or an established enterprise, we tailor our approach to match your budget, goals, and timeline.",
+      "Yes. Our SAP implementation services in India are designed for businesses of all sizes. Whether you are a startup or an established enterprise, we tailor our approach to match your budget, goals, and timeline.",
   },
   {
     question:
       "What makes Bee Weave different from other SAP consultants in India?",
     answer:
-      "Bee Weave stands out with its dual expertise in both SAP and Odoo, a clean core implementation philosophy, and our proprietary @beeAI platform. We don’t just implement software—we build intelligent systems for long-term business growth.",
+      "Bee Weave stands out with its dual expertise in both SAP and Odoo, a clean core implementation philosophy, and our proprietary @beeAI platform. We don’t just implement software—we build intelligent systems designed for long-term business growth.",
   },
   {
     question: "Does Bee Weave offer support after SAP implementation?",
     answer:
-      "Absolutely. We provide dedicated post-implementation support, system monitoring, performance optimization, and ongoing guidance to ensure your ERP continues to perform at its best.",
+      "Absolutely. Our services go beyond go-live. We provide dedicated post-implementation support, system monitoring, performance optimization, and ongoing guidance to ensure your ERP continues to perform at its best.",
   },
   {
     question:
       "How do I get started with Bee Weave's SAP consulting services in India?",
     answer:
       "Getting started is simple. Reach out to our team through our website, and one of our SAP consultants will connect with you to understand your business needs and guide you toward the right ERP solution.",
-  },
-  {
-    question: "A Community of Brands We Are Proud to Serve",
-    answer:
-      "We are proud to serve a diverse range of brands across various industries, leveraging our SAP expertise to drive their digital transformation and business growth.",
-  },
-  {
-    question: "Why should I choose beeAI for my SAP automation needs?",
-    answer:
-      "beeAI is designed specifically for SAP automation, offering a user-friendly interface and powerful capabilities to automate complex SAP processes. With beeAI, you can save time, reduce errors, and unlock new levels of efficiency in your SAP operations.",
   },
 ];
 

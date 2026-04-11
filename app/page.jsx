@@ -9,6 +9,7 @@ import IndustriesFaq from "./components/Container/HomeSection/Industriesfaq";
 import FAQsSection from "./components/Container/HomeSection/FAQsSection";
 import CtaHero from "./common/CtaHero";
 import animation_icon from "@/app/assets/Images/animation_icon.svg";
+import ClientMarquee from "./components/Container/AboutSection/ClientMarquee";
 
 function page() {
   return (
@@ -17,13 +18,14 @@ function page() {
       <TrustedSAP />
       <ResultsSection />
       <WhyChooseSection />
+      <ClientMarquee />
       <ProcessSection />
       <ComparisonSection />
       <IndustriesFaq />
       <FAQsSection />
       <CtaHero
         title={`We Are Ready to Help.\nAre You Ready to Grow?`}
-        buttonText="Let’s Build Something Together"
+        buttonText="Let's Make It Happen"
         buttonLink="/contact"
         image={animation_icon}
         showGrid={true}

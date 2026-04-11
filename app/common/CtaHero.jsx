@@ -33,7 +33,6 @@ const CtaHero = ({
       className={`relative w-full overflow-hidden flex items-center justify-center py-16 px-4 ${pathname !== "/" ? "bg-[#0d0a1a]" : ""
         }`}
     >
-      {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="relative w-[600px] md:w-[1000px] h-[300px]">
           <div

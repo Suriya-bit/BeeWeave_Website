@@ -8,65 +8,71 @@ export const features = [
   {
     title: "End-to-End SAP S/4HANA Implementation",
     description:
-      "Bee Waave delivers complete SAP S/4HANA implementation tailored to your business goals. Our consultants manage each phase carefully, ensuring a strong, scalable, and reliable ERP system that supports your long-term growth.",
+      "Bee Weave handles your complete SAP S/4HANA implementation built around your business goals. Our consultants manage each phase carefully, giving your organisation a strong and reliable ERP system ready to support your growth for years ahead.",
   },
   {
     title: "ECC to S/4HANA System Conversion",
     description:
-      "Transitioning from SAP ECC to S/4HANA is a major step. Bee Waave ensures a smooth and secure conversion process, keeping your data protected and your business operations running without disruption.",
+      "Moving from SAP ECC to S/4HANA is a big step and Bee Weave makes it smooth. We manage the full conversion, keeping your data safe and your business running without any disruption during the transition.",
   },
   {
     title: "Landscape Transformation Services",
     description:
-      "We help businesses redesign their SAP landscape with the right transformation strategy. Move your existing environment to a modern, high-performing S/4HANA system aligned with your organizational goals.",
+      "Bee Weave helps businesses reshape their SAP landscape the right way. We identify the best transformation approach for your organisation and move your entire SAP environment to a modern, high performing S/4HANA system.",
   },
   {
     title: "S/4HANA Integration Setup",
     description:
-      "Bee Waave integrates your SAP S/4HANA system with existing tools and platforms, enabling a seamless and connected ecosystem for efficient and streamlined business operations.",
+      "Bee Weave links your SAP S/4HANA system with all the tools and platforms your business already uses. Your teams get one connected system they can rely on and work from without any confusion or extra effort.",
   },
   {
     title: "Secure Data Migration to S/4HANA",
     description:
-      "Data migration is a critical part of any SAP project. We ensure a structured, secure, and accurate migration process, keeping your data safe and intact throughout the transition.",
+      "Data migration is one of the most critical parts of any SAP project. Bee Weave manages the entire process with a structured approach, keeping your business data safe, accurate and fully intact throughout the move to S/4HANA.",
   },
   {
     title: "S/4HANA System Configuration",
     description:
-      "We configure your SAP S/4HANA system to align with your business processes, ensuring optimal performance and a setup that meets your real business requirements.",
+      "The way your SAP S/4HANA system is configured determines how well your business runs on it. Bee Weave gets this right by working closely with your team and building a setup aligned with your real business needs.",
   },
 ];
 
 export const benefits = [
   {
     image: benefit1,
-    title: "Optimized Business Operations",
+    title: "Faster Business Operations",
     description:
-      "Getting things done faster starts with the right ERP system. Our SAP S/4HANA services help streamline operations, reduce delays, and improve overall efficiency.",
+      "Getting things done faster starts with the right ERP system. Our SAP S/4HANA services help your teams spend less time on slow processes and more time on work that matters, keeping your business moving without unnecessary delays.",
   },
   {
     image: benefit2,
     title: "Real-Time Data Visibility",
     description:
-      "Access accurate, real-time data across your organization to make faster and more informed business decisions.",
+      "Running a business gets easier when you can see everything clearly. Bee Weave gives your teams access to live and accurate data at all times, helping everyone stay informed and make better decisions without relying on old or delayed information.",
   },
   {
     image: benefit3,
     title: "Reduced Manual Effort",
     description:
-      "Automate repetitive tasks and minimize manual work, allowing your team to focus on high-value activities.",
+      "Every hour spent on manual work is an hour taken away from growing your business. Bee Weave reduces that burden through SAP S/4HANA automation, helping your teams work smarter and get more done in less time.",
   },
   {
     image: benefit4,
-    title: "Scalable System for Growth",
+    title: "Improved Decision Making",
     description:
-      "Build a future-ready SAP environment that scales with your business and supports long-term growth.",
+      "Good decisions come from having the right information at the right time. Bee Weave's SAP S/4HANA consulting services give your leadership team clear and accurate insights into your business, helping them make confident and well-informed decisions without delays.",
   },
   {
     image: benefit5,
+    title: "Scalable System for Growth",
+    description:
+      "Your business will not stay the same size forever and your ERP should be ready for that. Bee Weave builds your SAP S/4HANA system to grow with you, handling more users, more data and bigger operations without any issues.",
+  },
+  {
+    image: benefit1,
     title: "Better Process Control",
     description:
-      "Gain full control over your business processes with improved visibility, accuracy, and system reliability.",
+      "When your business processes are in order, everything runs better. Bee Weave's SAP S/4HANA services give you full visibility and control over your business operations, helping your teams follow the right steps and keep everything on track at all times.",
   },
 ];
 
@@ -135,76 +141,77 @@ export const faqData = [
     question:
       "What is SAP S/4HANA and how is it different from older SAP systems?",
     answer:
-      "SAP S/4HANA is the latest version of SAP’s ERP system. It runs faster, processes data in real time, and offers a simplified user experience compared to older systems like SAP ECC. Businesses adopt S/4HANA to improve efficiency and enable faster decision-making.",
+      "SAP S/4HANA is the latest version of SAP's ERP system. It runs faster, processes data in real time and is much easier to use compared to older SAP systems like SAP ECC. Businesses across India are moving to S/4HANA because it helps them work smarter and grow faster.",
   },
   {
     question: "How long does an SAP S/4HANA implementation take?",
     answer:
-      "The timeline depends on business size, complexity, and scope. A typical SAP S/4HANA implementation can take between 3 to 12 months. Proper planning and the right implementation partner can help reduce this timeline.",
+      "The time depends on the size of your business and the number of modules needed. A standard SAP S/4HANA implementation can take anywhere from 3 to 12 months. Good planning and the right team can help bring that timeline down significantly.",
   },
   {
     question:
       "What is the difference between Greenfield and Brownfield implementation?",
     answer:
-      "A Greenfield implementation involves building a new SAP S/4HANA system from scratch, while a Brownfield implementation converts your existing SAP system to S/4HANA. The right approach depends on your current system and business goals.",
+      "A Greenfield implementation means starting fresh with a brand new SAP S/4HANA system. A Brownfield implementation means converting your existing SAP system to S/4HANA. Both have their advantages and the right choice depends on your business situation and goals.",
   },
   {
-    question: "Is SAP S/4HANA suitable for small and mid-size businesses?",
+    question: "Is SAP S/4HANA suitable for small and mid size businesses?",
     answer:
-      "Yes. SAP S/4HANA is designed for businesses of all sizes. Small and mid-size companies can benefit from improved efficiency, scalability, and better control over operations.",
+      "Yes. SAP S/4HANA is built for businesses of all sizes. Many small and mid size businesses across India are now adopting S/4HANA because it helps them streamline operations, reduce costs and grow without outgrowing their ERP system.",
   },
   {
     question: "What happens to my existing data when I move to SAP S/4HANA?",
     answer:
-      "Your existing data is securely migrated to the new system through a structured process. Data is validated and tested to ensure accuracy before the system goes live.",
+      "Your existing data is carefully migrated to your new SAP S/4HANA system. The migration process is structured and secure, making sure all your business data is accurately transferred and fully validated before your new system goes live.",
   },
   {
     question: "Do my teams need training after SAP S/4HANA is implemented?",
     answer:
-      "Yes. Training is essential to ensure your team can effectively use the new system. A good SAP partner provides training and support to help users adapt quickly.",
+      "Yes. Training is an important part of any SAP S/4HANA implementation. Your teams need to understand how to use the new system well. A good SAP partner will make sure your people are trained and confident before going live.",
   },
   {
     question: "Can SAP S/4HANA be integrated with other business tools?",
     answer:
-      "Yes. SAP S/4HANA can integrate with various third-party tools, cloud platforms, and business applications, creating a connected and efficient ecosystem.",
+      "Yes. SAP S/4HANA can be connected with a wide range of third party tools, cloud platforms and business applications. This gives your business one connected system where all your tools and data work together without any issues.",
   },
   {
     question:
-      "What makes Bee Weave different from other SAP S/4HANA consulting companies?",
+      "What makes Bee Weave different from other SAP S/4HANA consulting companies in India?",
     answer:
-      "Bee Weave combines deep SAP expertise with a strong understanding of real business needs. We focus on building solutions aligned with your goals and provide continuous support beyond implementation.",
+      "Bee Weave combines deep SAP expertise with a genuine understanding of how businesses work. We do not just implement software. We build systems around your business goals and stay with you well after going live. Our unique beeAI platform also sets us apart from every other SAP consulting company in India.",
   },
   {
     question:
       "Does Bee Weave provide SAP S/4HANA consulting services across India?",
     answer:
-      "Yes. Bee Weave offers SAP S/4HANA consulting services across India, including both remote and on-site support based on your business requirements.",
+      "Yes. Bee Weave provides S/4HANA consulting services across India, working with businesses in Chennai and other major cities. Our team is fully equipped to deliver both remote and on site SAP consulting services depending on your business needs.",
   },
   {
     question:
       "How experienced is the Bee Weave team in SAP S/4HANA implementations?",
     answer:
-      "Bee Weave has certified SAP consultants with hands-on experience across industries, ensuring smooth and successful S/4HANA implementations.",
+      "Bee Weave has a team of certified SAP consultants with hands-on experience delivering S/4HANA implementations across multiple industries. Our consultants bring real world knowledge to every project, helping businesses go live smoothly and successfully.",
   },
   {
     question:
-      "Does Bee Weave handle both Greenfield and Brownfield implementations?",
+      "Does Bee Weave handle both Greenfield and Brownfield S/4HANA implementations?",
     answer:
-      "Yes. Bee Weave supports both Greenfield and Brownfield approaches, helping you choose and execute the best strategy for your business.",
+      "Yes. Bee Weave handles both Greenfield and Brownfield S/4HANA implementations. Our team evaluates your current situation, recommends the right approach and manages the full implementation from start to finish.",
   },
   {
-    question: "Can Bee Weave help migrate from SAP ECC to S/4HANA?",
+    question: "Can Bee Weave help my business migrate from SAP ECC to S/4HANA?",
     answer:
-      "Yes. Bee Weave specializes in ECC to S/4HANA migrations, ensuring a secure, smooth transition with minimal disruption to your business operations.",
+      "Absolutely. Bee Weave specialises in ECC to S/4HANA migrations across India. Our team manages the entire migration process, keeping your data safe, your business running and your team fully informed throughout the journey.",
   },
   {
-    question: "Does Bee Weave provide support after implementation?",
+    question:
+      "Does Bee Weave provide support after the SAP S/4HANA implementation is complete?",
     answer:
-      "Yes. We offer ongoing support, monitoring, and optimization to ensure your SAP S/4HANA system continues to perform efficiently.",
+      "Yes. Bee Weave stays with your business well after going live. Our team provides ongoing support, system monitoring and guidance to make sure your SAP S/4HANA system keeps performing well for your business every day.",
   },
   {
-    question: "How do I get started with Bee Weave’s SAP S/4HANA services?",
+    question: "How do I get started with Bee Weave's SAP S/4HANA services?",
     answer:
-      "You can get started by contacting our team through our website. Our consultants will understand your requirements and guide you through the next steps.",
+      "Getting started is easy. Reach out to our team through our website and one of our SAP consultants will get in touch to understand your business needs and help you take the first step towards a better ERP system.",
   },
 ];

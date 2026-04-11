@@ -3,13 +3,16 @@ import Image from "next/image";
 import client1 from "@/app/assets/Images/client1.svg";
 import client2 from "@/app/assets/Images/client2.svg";
 import client3 from "@/app/assets/Images/client3.svg";
+import { usePathname } from "next/navigation";
 
 const logos = [client1, client2, client3];
 
 const ClientMarquee = () => {
-  return (
-    <section className="w-full py-16 overflow-hidden bg-[#0d0a1a]">
+  const pathname = usePathname()
 
+  return (
+    <section className={`w-full py-20 overflow-hidden ${pathname !== "/" ? "bg-[#0d0a1a]" : ""
+      }`}>
       <h2 className="text-center text-white text-lg md:text-3xl font-semibold mb-10">
         A Community of Brands We Are Proud to Serve
       </h2>

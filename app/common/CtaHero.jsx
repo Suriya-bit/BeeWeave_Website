@@ -29,10 +29,15 @@ const CtaHero = ({
   const pathname = usePathname();
 
   return (
-    <MainLayout className={`relative w-full overflow-hidden flex items-center justify-center md:py-16 px-4 ${pathname !== "/" ? "bg-[#0d0a1a]" : ""}`}>
+    <MainLayout
+      className={`relative w-full overflow-hidden flex items-center justify-center py-16 px-4 ${pathname !== "/" ? "bg-[#0d0a1a]" : ""
+        }`}
+    >
+      {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="relative w-[600px] md:w-[1000px] h-[300px]">
-          <div className="absolute inset-0 rounded-full 
+          <div
+            className="absolute inset-0 rounded-full 
             bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.9)_0%,rgba(147,51,234,0.5)_30%,rgba(147,51,234,0.2)_55%,transparent_75%)] 
             blur-[100px]"
           />
@@ -48,10 +53,10 @@ const CtaHero = ({
                 "radial-gradient(circle at center, white 40%, transparent 80%)",
             }}
           />
-
         </div>
       </div>
 
+      {/* CONTENT */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -59,6 +64,7 @@ const CtaHero = ({
         viewport={{ once: true }}
         className="relative z-10 flex flex-col items-center text-center"
       >
+        {/* IMAGE */}
         {image && (
           <motion.div
             variants={fadeUp}
@@ -82,28 +88,32 @@ const CtaHero = ({
                 src={image}
                 alt="cta icon"
                 width={400}
-                className="object-contain block"
+                height={400}
+                className="object-contain"
               />
             </motion.div>
           </motion.div>
         )}
 
+        {/* TITLE */}
         <motion.h2
           variants={fadeUp}
-          className="text-xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-5 whitespace-pre-line max-w-2xl"
+          className="text-2xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-5 whitespace-pre-line max-w-2xl"
         >
           {title}
         </motion.h2>
 
+        {/* SUBTITLE */}
         {subTitle && (
           <motion.p
             variants={fadeUp}
-            className="text-md text-white/80 mb-8 max-w-xl"
+            className="text-base text-white/80 mb-8 max-w-xl"
           >
             {subTitle}
           </motion.p>
         )}
 
+        {/* BUTTON */}
         <motion.div variants={fadeUp}>
           <Link
             href={buttonLink}
@@ -115,7 +125,8 @@ const CtaHero = ({
           </Link>
         </motion.div>
       </motion.div>
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent to-[#0d0a1a]" />
+
+      {/* ❌ REMOVED bottom gradient line */}
     </MainLayout>
   );
 };

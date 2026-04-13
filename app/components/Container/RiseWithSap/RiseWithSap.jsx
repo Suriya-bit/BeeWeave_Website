@@ -35,12 +35,12 @@ const RiseWithSap = () => {
             />
             <ServiceIntroSection
                 title="Best RISE with SAP Consulting Services in India"
-                description="Moving to SAP cloud is a big step and Bee Weave makes sure your business takes it the right way. We provide expert RISE with SAP consulting services in India, helping businesses plan, execute and complete their cloud transition without disruption. Our team brings the right skills, a clear process and genuine dedication to every project, giving your business a modern and future ready SAP cloud environment."
+                description="Moving to SAP cloud is a big step and BEEWEAVE makes sure your business takes it the right way. We provide expert RISE with SAP consulting services in India, helping businesses plan, execute and complete their cloud transition without disruption. Our team brings the right skills, a clear process and genuine dedication to every project, giving your business a modern and future ready SAP cloud environment."
                 buttonText="Get Started with RISE with SAP"
                 buttonLink="/contact"
             />
             <ServiceFeaturesSection
-                title="What Bee Weave Delivers for Your Business with RISE with SAP?
+                title="What BEEWEAVE Delivers for Your Business with RISE with SAP?
                 "
                 items={riseWithSapFeatures}
             />
@@ -58,7 +58,7 @@ const RiseWithSap = () => {
                 logos={logos}
             />
             <ProcessSection
-                title="The Bee Weave's Process"
+                title="The BEEWEAVE's Process"
                 items={riseWithSapProcessItems}
             />
             <FAQsSection
@@ -72,7 +72,7 @@ const RiseWithSap = () => {
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
-                subTitle={"Bee Weave is ready to make your RISE with SAP transition smooth and successful."}
+                subTitle={"BEEWEAVE is ready to make your RISE with SAP transition smooth and successful."}
             />
         </>
     )

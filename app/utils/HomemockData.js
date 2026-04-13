@@ -17,42 +17,42 @@ export const features = [
     title: "SAP S/4HANA",
     href: "/services/sap-s4hana",
     description:
-      "Bee Weave offers reliable S/4HANA consulting services in India to make SAP simple for your business. Our SAP consultants in India understand how you work and build a system perfectly fitting your needs. Whether you are new to SAP S/4HANA or moving from SAP ECC, we make the whole process smooth, clean and built to last. Let us help you get SAP right.",
+      "BEEWEAVE offers reliable S/4HANA consulting services in India to make SAP simple for your business. Our SAP consultants in India understand how you work and build a system perfectly fitting your needs. Whether you are new to SAP S/4HANA or moving from SAP ECC, we make the whole process smooth, clean and built to last. Let us help you get SAP right.",
   },
   {
     img: service2,
     title: "Rise with SAP",
     href: "/services/rise-with-sap",
     description:
-      "Moving to the cloud is a big step and Bee Weave makes it easy. Our RISE with SAP consulting services in India help businesses shift to a fully managed cloud ERP without the usual stress. Our SAP consultants in India handle everything from planning to go live, keeping your operations smooth, secure and ready for continuous growth and innovation.",
+      "Moving to the cloud is a big step and BEEWEAVE makes it easy. Our RISE with SAP consulting services in India help businesses shift to a fully managed cloud ERP without the usual stress. Our SAP consultants in India handle everything from planning to go live, keeping your operations smooth, secure and ready for continuous growth and innovation.",
   },
   {
     img: service3,
     title: "Cloud Transformation",
     href: "/services/cloud-transformation",
     description:
-      "Your business deserves better than outdated infrastructure. Bee Weave is a cloud consulting company in India offering complete cloud transformation services across Azure, AWS and GCP. We help businesses migrate legacy systems, optimize cloud performance and build a secure digital environment ready to support your business goals today and in the future.",
+      "Your business deserves better than outdated infrastructure. BEEWEAVE is a cloud consulting company in India offering complete cloud transformation services across Azure, AWS and GCP. We help businesses migrate legacy systems, optimize cloud performance and build a secure digital environment ready to support your business goals today and in the future.",
   },
   {
     img: service4,
     title: "SAP BTP",
     href: "/services/sap-btp",
     description:
-      "Struggling with systems that don't talk to each other? Our SAP BTP integration services in India help businesses eliminate data silos, automate workflows and build smart extensions across their SAP landscape. Bee Weave uses SAP Business Technology Platform to connect your tools, streamline operations and keep your core ERP clean and upgrade ready.",
+      "Struggling with systems that don't talk to each other? Our SAP BTP integration services in India help businesses eliminate data silos, automate workflows and build smart extensions across their SAP landscape. BEEWEAVE uses SAP Business Technology Platform to connect your tools, streamline operations and keep your core ERP clean and upgrade ready.",
   },
   {
     img: service5,
     title: "AI for SAP",
     href: "/services/ai-for-sap",
     description:
-      "Your ERP holds a lot of data but are you using it intelligently? Bee Weave provides AI SAP consulting services in India to help businesses automate workflows, eliminate manual effort and make smarter decisions. Our beeAI platform brings enterprise grade AI into your SAP environment, keeping everything secure, compliant and built for the future.",
+      "Your ERP holds a lot of data but are you using it intelligently? BEEWEAVE provides AI SAP consulting services in India to help businesses automate workflows, eliminate manual effort and make smarter decisions. Our beeAI platform brings enterprise grade AI into your SAP environment, keeping everything secure, compliant and built for the future.",
   },
   {
     img: service6,
     title: "Odoo ERP",
     href: "/services/odoo-erp",
     description:
-      "Big ERP price tags should not stop small and mid size businesses from growing. Bee Weave offers Odoo ERP integration services in India giving businesses a powerful, flexible and budget friendly ERP alternative. We handle the full setup, customization and integration of Odoo so your team gets a system that actually makes their work easier.",
+      "Big ERP price tags should not stop small and mid size businesses from growing. BEEWEAVE offers Odoo ERP integration services in India giving businesses a powerful, flexible and budget friendly ERP alternative. We handle the full setup, customization and integration of Odoo so your team gets a system that actually makes their work easier.",
   },
 ];
 
@@ -111,13 +111,13 @@ export const cards = [
     img: choose3,
     title: "Seamless System Integration Approach",
     description:
-      "Bee Weave connects your SAP and Odoo platforms with all existing tools, giving your business one smooth and reliable system.",
+      "BEEWEAVE connects your SAP and Odoo platforms with all existing tools, giving your business one smooth and reliable system.",
   },
   {
     img: choose4,
     title: "Business-Focused Solutions Design",
     description:
-      "Every solution Bee Weave builds is designed around your actual business goals, delivering real value and measurable results every time.",
+      "Every solution BEEWEAVE builds is designed around your actual business goals, delivering real value and measurable results every time.",
   },
   {
     img: choose5,
@@ -205,35 +205,35 @@ export const faqs = [
       "Odoo is an open-source, modular ERP platform known for its flexibility and affordability, making it ideal for small and mid-sized businesses. SAP is an enterprise-grade ERP designed for large and complex organizations. The right choice depends on your business size and goals.",
   },
   {
-    question: "Who are the SAP consultants in India at Bee Weave?",
+    question: "Who are the SAP consultants in India at BEEWEAVE?",
     answer:
-      "Bee Weave is a team of certified and experienced SAP consultants in India with deep expertise across SAP S/4HANA, RISE with SAP, SAP BTP, and Odoo ERP. Our team has hands-on experience delivering ERP solutions for businesses of all sizes.",
+      "BEEWEAVE is a team of certified and experienced SAP consultants in India with deep expertise across SAP S/4HANA, RISE with SAP, SAP BTP, and Odoo ERP. Our team has hands-on experience delivering ERP solutions for businesses of all sizes.",
   },
   {
-    question: "What SAP consulting services in India does Bee Weave offer?",
+    question: "What SAP consulting services in India does BEEWEAVE offer?",
     answer:
-      "Bee Weave offers a full range of SAP consulting services in India, including SAP S/4HANA implementation, RISE with SAP, SAP BTP integration, cloud transformation, Odoo ERP solutions, and AI-powered automation through our proprietary @beeAI platform.",
+      "BEEWEAVE offers a full range of SAP consulting services in India, including SAP S/4HANA implementation, RISE with SAP, SAP BTP integration, cloud transformation, Odoo ERP solutions, and AI-powered automation through our proprietary @beeAI platform.",
   },
   {
     question:
-      "Does Bee Weave provide SAP implementation services in India for small businesses?",
+      "Does BEEWEAVE provide SAP implementation services in India for small businesses?",
     answer:
       "Yes. Our SAP implementation services in India are designed for businesses of all sizes. Whether you are a startup or an established enterprise, we tailor our approach to match your budget, goals, and timeline.",
   },
   {
     question:
-      "What makes Bee Weave different from other SAP consultants in India?",
+      "What makes BEEWEAVE different from other SAP consultants in India?",
     answer:
-      "Bee Weave stands out with its dual expertise in both SAP and Odoo, a clean core implementation philosophy, and our proprietary @beeAI platform. We don’t just implement software—we build intelligent systems designed for long-term business growth.",
+      "BEEWEAVE stands out with its dual expertise in both SAP and Odoo, a clean core implementation philosophy, and our proprietary @beeAI platform. We don’t just implement software—we build intelligent systems designed for long-term business growth.",
   },
   {
-    question: "Does Bee Weave offer support after SAP implementation?",
+    question: "Does BEEWEAVE offer support after SAP implementation?",
     answer:
       "Absolutely. Our services go beyond go-live. We provide dedicated post-implementation support, system monitoring, performance optimization, and ongoing guidance to ensure your ERP continues to perform at its best.",
   },
   {
     question:
-      "How do I get started with Bee Weave's SAP consulting services in India?",
+      "How do I get started with BEEWEAVE's SAP consulting services in India?",
     answer:
       "Getting started is simple. Reach out to our team through our website, and one of our SAP consultants will connect with you to understand your business needs and guide you toward the right ERP solution.",
   },

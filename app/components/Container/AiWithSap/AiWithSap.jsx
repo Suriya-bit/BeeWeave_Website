@@ -37,13 +37,13 @@ const AiWithSap = () => {
                 title="
 Best AI Powered SAP Service Company in India"
                 description="
-Bee Weave is a trusted AI powered SAP service company in India helping businesses make the most of their SAP investment. We use the latest artificial intelligence tools to automate workflows, improve accuracy and give your team the insights they need to grow. Our dedicated team of SAP and AI experts work closely with your business to understand your goals and deliver solutions that actually make a difference. Every solution we build is easy to use, fully secure and designed to scale as your business grows and evolves over time.
+BEEWEAVE is a trusted AI powered SAP service company in India helping businesses make the most of their SAP investment. We use the latest artificial intelligence tools to automate workflows, improve accuracy and give your team the insights they need to grow. Our dedicated team of SAP and AI experts work closely with your business to understand your goals and deliver solutions that actually make a difference. Every solution we build is easy to use, fully secure and designed to scale as your business grows and evolves over time.
 "
                 buttonText="Get Started with AI Powered SAP Services"
                 buttonLink="/contact"
             />
             <ServiceFeaturesSection
-                title="See What Bee Weave AI Powered SAP Services Actually Do for Your Business"
+                title="See What BEEWEAVE AI Powered SAP Services Actually Do for Your Business"
                 items={features}
             />
             <ServiceBenefitsSection
@@ -51,7 +51,7 @@ Bee Weave is a trusted AI powered SAP service company in India helping businesse
                 items={benefits}
             />
             <ProcessSection
-                title="The Bee Weave's Process"
+                title="The BEEWEAVE's Process"
                 items={processItems}
             />
             <ClientMarquee

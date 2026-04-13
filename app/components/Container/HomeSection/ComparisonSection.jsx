@@ -33,7 +33,7 @@ const ComparisonSection = () => {
       <div className="relative z-10">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-semibold text-white">
-            Why Partners <br /> Choose Bee Weave
+            Why Partners <br /> Choose BEEWEAVE
           </h2>
         </div>
 
@@ -63,7 +63,7 @@ const ComparisonSection = () => {
           <div className="relative rounded-2xl bg-gradient-to-b from-[#9333ea] via-[#7400FA] to-transparent p-[1px] -ml-[10px]">
             <div className="h-full w-full rounded-2xl bg-gradient-to-b from-[#7400FA] via-[#5b00d1] to-[#140024] p-8 backdrop-blur-xl">
               <h3 className="text-white text-lg font-semibold mb-3">
-                Bee Weave Approach
+                BEEWEAVE Approach
               </h3>
               <div className="h-px w-full bg-gradient-to-r from-white/70 to-transparent mb-6" />
               <ul className="space-y-4">

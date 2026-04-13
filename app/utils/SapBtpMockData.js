@@ -9,32 +9,32 @@ export const sapBtpFeatures = [
   {
     title: "Application Development & Extension",
     description:
-      "Bee Weave builds custom applications and smart extensions on SAP BTP without touching your core ERP. Our team uses low code and no code tools to develop business applications quickly, keeping your SAP system clean, upgrade ready and fully aligned with your growing business needs.",
+      "BEEWEAVE builds custom applications and smart extensions on SAP BTP without touching your core ERP. Our team uses low code and no code tools to develop business applications quickly, keeping your SAP system clean, upgrade ready and fully aligned with your growing business needs.",
   },
   {
     title: "Integration Suite",
     description:
-      "Connecting SAP with third party systems should never be complicated. Bee Weave uses SAP Integration Suite to build reliable and secure connections between your SAP landscape and all your existing business tools, giving your organisation one fully connected and smooth running technology environment to operate from every day.",
+      "Connecting SAP with third party systems should never be complicated. BEEWEAVE uses SAP Integration Suite to build reliable and secure connections between your SAP landscape and all your existing business tools, giving your organisation one fully connected and smooth running technology environment to operate from every day.",
   },
   {
     title: "Data & Analytics",
     description:
-      "Good decisions come from good data. Bee Weave leverages SAP BTP's data and analytics capabilities to give your business access to accurate, real time insights across your entire SAP landscape. Your teams get the visibility they need to make faster and smarter business decisions every single day.",
+      "Good decisions come from good data. BEEWEAVE leverages SAP BTP's data and analytics capabilities to give your business access to accurate, real time insights across your entire SAP landscape. Your teams get the visibility they need to make faster and smarter business decisions every single day.",
   },
   {
     title: "Database & Data Management (SAP HANA)",
     description:
-      "SAP HANA is one of the most powerful in memory databases available today. Bee Weave helps your business get the most out of SAP HANA, managing your data efficiently, processing information at high speed and giving your organisation a reliable and high performing database foundation to build on.",
+      "SAP HANA is one of the most powerful in memory databases available today. BEEWEAVE helps your business get the most out of SAP HANA, managing your data efficiently, processing information at high speed and giving your organisation a reliable and high performing database foundation to build on.",
   },
   {
     title: "Automation (Workflow & RPA)",
     description:
-      "Manual and repetitive tasks drain your team's time and energy. Bee Weave uses SAP BTP's automation capabilities to streamline your workflows and deploy robotic process automation across your business. Your teams spend less time on routine work and more time on tasks that truly add value to your organisation.",
+      "Manual and repetitive tasks drain your team's time and energy. BEEWEAVE uses SAP BTP's automation capabilities to streamline your workflows and deploy robotic process automation across your business. Your teams spend less time on routine work and more time on tasks that truly add value to your organisation.",
   },
   {
     title: "AI & Machine Learning",
     description:
-      "Bee Weave brings the power of AI and machine learning to your SAP environment through SAP BTP. We build intelligent models that learn from your business data, automate complex decisions and give your organisation the ability to predict, plan and perform at a higher level than ever before.",
+      "BEEWEAVE brings the power of AI and machine learning to your SAP environment through SAP BTP. We build intelligent models that learn from your business data, automate complex decisions and give your organisation the ability to predict, plan and perform at a higher level than ever before.",
   },
 ];
 
@@ -146,35 +146,35 @@ export const sapBtpFaqData = [
       "Yes. SAP BTP is designed for businesses of all sizes. Many small and mid size businesses across India are now using SAP BTP to connect their systems, automate workflows and build custom applications without the need for large IT teams or heavy investments in infrastructure.",
   },
   {
-    question: "Does Bee Weave provide SAP BTP integration services in India?",
+    question: "Does BEEWEAVE provide SAP BTP integration services in India?",
     answer:
-      "Yes. Bee Weave provides trusted SAP BTP integration services in India, helping businesses connect their SAP systems, automate workflows and build smart extensions. Our team brings deep SAP BTP expertise to every project, giving India businesses a fully connected and intelligent SAP landscape they can rely on.",
+      "Yes. BEEWEAVE provides trusted SAP BTP integration services in India, helping businesses connect their SAP systems, automate workflows and build smart extensions. Our team brings deep SAP BTP expertise to every project, giving India businesses a fully connected and intelligent SAP landscape they can rely on.",
   },
   {
-    question: "What SAP BTP services does Bee Weave offer in India?",
+    question: "What SAP BTP services does BEEWEAVE offer in India?",
     answer:
-      "Bee Weave offers a complete range of SAP BTP services in India including Integration Suite setup, application development, data analytics, SAP HANA database management, workflow automation and AI and machine learning capabilities. Our team covers everything your business needs to get the most out of SAP BTP.",
+      "BEEWEAVE offers a complete range of SAP BTP services in India including Integration Suite setup, application development, data analytics, SAP HANA database management, workflow automation and AI and machine learning capabilities. Our team covers everything your business needs to get the most out of SAP BTP.",
   },
   {
-    question: "How experienced is Bee Weave in SAP BTP integration in India?",
+    question: "How experienced is BEEWEAVE in SAP BTP integration in India?",
     answer:
-      "Bee Weave has a team of certified SAP BTP consultants in India with hands-on experience delivering integration projects across multiple industries. Our consultants bring real world SAP BTP knowledge to every project, helping businesses build connected and intelligent SAP landscapes that perform reliably and grow with their business.",
-  },
-  {
-    question:
-      "Can Bee Weave help my business maintain a Clean Core with SAP BTP in India?",
-    answer:
-      "Absolutely. Bee Weave's SAP BTP integration services in India are built around the Clean Core philosophy. We build all your extensions and customisations on SAP BTP, keeping your core ERP completely clean, upgrade ready and free from heavy custom code that could slow your business down in the future.",
+      "BEEWEAVE has a team of certified SAP BTP consultants in India with hands-on experience delivering integration projects across multiple industries. Our consultants bring real world SAP BTP knowledge to every project, helping businesses build connected and intelligent SAP landscapes that perform reliably and grow with their business.",
   },
   {
     question:
-      "Does Bee Weave provide SAP BTP support after the integration is complete?",
+      "Can BEEWEAVE help my business maintain a Clean Core with SAP BTP in India?",
     answer:
-      "Yes. Bee Weave stays with your business well after your SAP BTP integration is complete. Our SAP BTP consultants in India provide ongoing support, system monitoring and optimisation to make sure your integration keeps running well and your business continues to get the most out of SAP BTP.",
+      "Absolutely. BEEWEAVE's SAP BTP integration services in India are built around the Clean Core philosophy. We build all your extensions and customisations on SAP BTP, keeping your core ERP completely clean, upgrade ready and free from heavy custom code that could slow your business down in the future.",
   },
   {
     question:
-      "How do I get started with Bee Weave's SAP BTP integration services in India?",
+      "Does BEEWEAVE provide SAP BTP support after the integration is complete?",
+    answer:
+      "Yes. BEEWEAVE stays with your business well after your SAP BTP integration is complete. Our SAP BTP consultants in India provide ongoing support, system monitoring and optimisation to make sure your integration keeps running well and your business continues to get the most out of SAP BTP.",
+  },
+  {
+    question:
+      "How do I get started with BEEWEAVE's SAP BTP integration services in India?",
     answer:
       "Getting started is easy. Reach out to our team through our website and one of our SAP BTP consultants in India will get in touch to learn about your business needs and help you take the first step towards a smarter and more connected SAP landscape.",
   },
@@ -185,36 +185,36 @@ export const sapBtpBenefits = [
     image: benefit1,
     title: "Clean Core ERP",
     description:
-      "Bee Weave builds all your SAP extensions on SAP BTP, keeping your core ERP clean and upgrade ready. Your SAP system stays easy to manage, free from heavy custom code and always ready for the latest SAP updates without any complications.",
+      "BEEWEAVE builds all your SAP extensions on SAP BTP, keeping your core ERP clean and upgrade ready. Your SAP system stays easy to manage, free from heavy custom code and always ready for the latest SAP updates without any complications.",
   },
   {
     image: benefit2,
     title: "Seamless System Connectivity",
     description:
-      "Bee Weave uses SAP BTP Integration Suite to connect your SAP systems with all your existing business tools and third party platforms. Your organisation gets one fully connected technology environment where everything works together without any data silos or communication gaps.",
+      "BEEWEAVE uses SAP BTP Integration Suite to connect your SAP systems with all your existing business tools and third party platforms. Your organisation gets one fully connected technology environment where everything works together without any data silos or communication gaps.",
   },
   {
     image: benefit3,
     title: "Faster Application Development",
     description:
-      "Bee Weave uses SAP BTP's low code and no code tools to build custom business applications quickly. Your business gets the digital tools it needs without long development timelines, high costs or complex coding work slowing things down.",
+      "BEEWEAVE uses SAP BTP's low code and no code tools to build custom business applications quickly. Your business gets the digital tools it needs without long development timelines, high costs or complex coding work slowing things down.",
   },
   {
     image: benefit4,
     title: "Smarter Business Decisions",
     description:
-      "Bee Weave brings SAP BTP's data and analytics capabilities to your business, giving your teams access to real time and accurate insights. Your leadership gets the right information at the right time, helping your organisation make better and faster business decisions.",
+      "BEEWEAVE brings SAP BTP's data and analytics capabilities to your business, giving your teams access to real time and accurate insights. Your leadership gets the right information at the right time, helping your organisation make better and faster business decisions.",
   },
   {
     image: benefit5,
     title: "Intelligent Automation",
     description:
-      "Bee Weave uses SAP BTP automation and robotic process automation to remove repetitive manual tasks from your business. Your teams spend less time on routine work and more time on tasks that truly move your business forward every day.",
+      "BEEWEAVE uses SAP BTP automation and robotic process automation to remove repetitive manual tasks from your business. Your teams spend less time on routine work and more time on tasks that truly move your business forward every day.",
   },
   {
     image: benefit6,
     title: "Future Ready SAP Landscape",
     description:
-      "Bee Weave builds a future ready SAP landscape on SAP BTP, giving your organisation the flexibility to adopt new technologies and scale with confidence. Your SAP environment stays modern, agile and ready for whatever comes next without any big system changes or extra costs.",
+      "BEEWEAVE builds a future ready SAP landscape on SAP BTP, giving your organisation the flexibility to adopt new technologies and scale with confidence. Your SAP environment stays modern, agile and ready for whatever comes next without any big system changes or extra costs.",
   },
 ];

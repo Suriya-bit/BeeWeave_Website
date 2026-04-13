@@ -47,33 +47,33 @@ export const aboutscards = [
 
 export const aboutFaqs = [
   {
-    question: "How long has Bee Weave been in the industry?",
+    question: "How long has BEEWEAVE been in the industry?",
     answer:
-      "Bee Weave has been delivering SAP and Odoo consulting services to businesses across India and India. Our team brings years of hands-on experience across multiple industries, helping businesses implement, migrate and modernize their ERP systems successfully.",
+      "BEEWEAVE has been delivering SAP and Odoo consulting services to businesses across India and India. Our team brings years of hands-on experience across multiple industries, helping businesses implement, migrate and modernize their ERP systems successfully.",
   },
   {
-    question: "What industries does Bee Weave work with?",
+    question: "What industries does BEEWEAVE work with?",
     answer:
       "We work with businesses across a wide range of industries including manufacturing, retail, logistics, finance and more. Our team takes the time to understand each industry's unique needs and builds solutions that fit perfectly.",
   },
   {
-    question: "Does Bee Weave work with businesses outside India?",
+    question: "Does BEEWEAVE work with businesses outside India?",
     answer:
       "Yes. While we are based in India, we work with businesses across India and beyond. Our team is fully equipped to deliver both remote and on-site consulting services wherever your business is located.",
   },
   {
-    question: "How big is the Bee Weave team?",
+    question: "How big is the BEEWEAVE team?",
     answer:
-      "Bee Weave is a growing team of certified SAP consultants, Odoo specialists, cloud architects and AI engineers. Every team member brings deep expertise and a genuine passion for helping businesses succeed through better technology.",
+      "BEEWEAVE is a growing team of certified SAP consultants, Odoo specialists, cloud architects and AI engineers. Every team member brings deep expertise and a genuine passion for helping businesses succeed through better technology.",
   },
   {
-    question: "Does Bee Weave offer customized solutions or fixed packages?",
+    question: "Does BEEWEAVE offer customized solutions or fixed packages?",
     answer:
       "Every business is different and we treat it that way. We do not believe in one-size-fits-all packages. Every solution we deliver is built around your specific business needs, goals and budget.",
   },
   {
     question:
-      "How do I know if Bee Weave is the right partner for my business?",
+      "How do I know if BEEWEAVE is the right partner for my business?",
     answer:
       "The best way to find out is to have a conversation with us. We will listen to your needs, share our honest thoughts and let you decide. No pressure, no hard selling, just a genuine discussion about how we can help.",
   },

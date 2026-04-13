@@ -38,13 +38,13 @@ const OdooErpSoftware = () => {
             />
             <ServiceIntroSection
                 title="Best Odoo Erp Software Consulting, Integration and Migration Services in India "
-                description="Odoo is one of the most flexible and affordable ERP platforms available today and Bee Weave knows exactly how to make it work for your business. As a trusted Odoo ERP consulting company in India, we cover everything from Odoo ERP software consulting and integration to full system migration. Our team builds, customises and connects your Odoo platform around your exact business needs, giving you a modern ERP system built for growth."
+                description="Odoo is one of the most flexible and affordable ERP platforms available today and BEEWEAVE knows exactly how to make it work for your business. As a trusted Odoo ERP consulting company in India, we cover everything from Odoo ERP software consulting and integration to full system migration. Our team builds, customises and connects your Odoo platform around your exact business needs, giving you a modern ERP system built for growth."
                 buttonText="Begin My Odoo ERP Journey"
                 buttonLink="/contact"
             />
 
             <ServiceFeaturesSection
-                title="The Real Results Bee Weave Brings to Your Odoo ERP Journey"
+                title="The Real Results BEEWEAVE Brings to Your Odoo ERP Journey"
                 items={odooFeatures}
             />
             <ServiceBenefitsSection
@@ -52,7 +52,7 @@ const OdooErpSoftware = () => {
                 items={odooBenefits}
             />
             <ProcessSection
-                title="The Bee Weave's Process"
+                title="The BEEWEAVE's Process"
                 items={sapBtpProcessItems}
             />
             <ClientMarquee

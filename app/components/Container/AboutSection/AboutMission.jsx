@@ -58,7 +58,7 @@ const AboutMission = () => {
           custom={0}
         >
           <h2 className="text-white font-black text-3xl leading-snug mb-5">
-            We Are Bee Weave and We Mean Business
+            We Are BEEWEAVE and We Mean Business
           </h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -67,7 +67,7 @@ const AboutMission = () => {
             viewport={{ once: true }}
             className="text-white/60 text-sm leading-relaxed"
           >
-            Bee Weave is a India based SAP and Odoo consulting company
+            BEEWEAVE is a India based SAP and Odoo consulting company
             built for businesses that refuse to settle for average technology.
             We are a team of experienced SAP consultants, cloud architects and
             AI engineers driven by one shared goal: Helping businesses run

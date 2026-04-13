@@ -173,12 +173,12 @@ export const faqData = [
     question:
       "What is BeeAI and how is it different from other AI tools for SAP?",
     answer:
-      "BeeAI is Bee Weave’s proprietary AI platform built specifically for SAP and Odoo environments. It deploys intelligent agents to automate workflows, process complex business logic and deliver real-time insights in a secure and scalable way.",
+      "BeeAI is BEEWEAVE’s proprietary AI platform built specifically for SAP and Odoo environments. It deploys intelligent agents to automate workflows, process complex business logic and deliver real-time insights in a secure and scalable way.",
   },
   {
-    question: "Does Bee Weave provide AI SAP consulting services in India?",
+    question: "Does BEEWEAVE provide AI SAP consulting services in India?",
     answer:
-      "Yes. Bee Weave offers AI SAP consulting services across India, helping businesses deploy BeeAI, automate workflows and build intelligent, secure and scalable SAP environments tailored to their needs.",
+      "Yes. BEEWEAVE offers AI SAP consulting services across India, helping businesses deploy BeeAI, automate workflows and build intelligent, secure and scalable SAP environments tailored to their needs.",
   },
   {
     question: "Can BeeAI integrate with Microsoft Teams and Slack?",
@@ -186,9 +186,9 @@ export const faqData = [
       "Yes. BeeAI integrates with platforms like Microsoft Teams, Slack and internal portals, enabling users to access SAP insights and workflows directly within their everyday communication tools.",
   },
   {
-    question: "How does Bee Weave ensure BeeAI security and compliance?",
+    question: "How does BEEWEAVE ensure BeeAI security and compliance?",
     answer:
-      "Bee Weave ensures every BeeAI deployment includes strong security, encryption and audit capabilities. All AI interactions are monitored, governed and fully compliant with enterprise standards.",
+      "BEEWEAVE ensures every BeeAI deployment includes strong security, encryption and audit capabilities. All AI interactions are monitored, governed and fully compliant with enterprise standards.",
   },
   {
     question: "What capabilities does BeeAI support in SAP and Odoo?",
@@ -196,8 +196,8 @@ export const faqData = [
       "BeeAI supports real-time data access, AI-driven integrations, automated data mapping, intelligent insights and Agentic workflows across both SAP and Odoo systems.",
   },
   {
-    question: "How do I get started with Bee Weave’s BeeAI services?",
+    question: "How do I get started with BEEWEAVE’s BeeAI services?",
     answer:
-      "Getting started is simple. Reach out to Bee Weave and our AI experts will understand your business needs, guide your strategy and help you deploy BeeAI to build a smarter, more efficient ERP environment.",
+      "Getting started is simple. Reach out to BEEWEAVE and our AI experts will understand your business needs, guide your strategy and help you deploy BeeAI to build a smarter, more efficient ERP environment.",
   },
 ];

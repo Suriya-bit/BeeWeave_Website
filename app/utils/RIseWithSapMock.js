@@ -9,32 +9,32 @@ export const riseWithSapFeatures = [
   {
     title: "End-to-End Cloud ERP Transformation",
     description:
-      "A complete cloud ERP transformation needs the right partner behind it. Bee Weave takes care of everything involved in your RISE with SAP journey, delivering a well structured and future ready cloud ERP system built around your business.",
+      "A complete cloud ERP transformation needs the right partner behind it. BEEWEAVE takes care of everything involved in your RISE with SAP journey, delivering a well structured and future ready cloud ERP system built around your business.",
   },
   {
     title: "Simplified SAP Migration",
     description:
-      "SAP migration does not have to be complicated. Bee Weave takes the complexity out of your move to RISE with SAP, handling the entire migration process in a structured and secure way so your business keeps running without any interruption.",
+      "SAP migration does not have to be complicated. BEEWEAVE takes the complexity out of your move to RISE with SAP, handling the entire migration process in a structured and secure way so your business keeps running without any interruption.",
   },
   {
     title: "Managed Cloud Environment",
     description:
-      "A well managed cloud environment keeps your business running without interruptions. Bee Weave takes full responsibility for your SAP cloud infrastructure, keeping everything secure, stable and performing well so your team never has to worry about downtime or technical issues.",
+      "A well managed cloud environment keeps your business running without interruptions. BEEWEAVE takes full responsibility for your SAP cloud infrastructure, keeping everything secure, stable and performing well so your team never has to worry about downtime or technical issues.",
   },
   {
     title: "Business Process Optimization",
     description:
-      "Good technology should make your business processes better. Bee Weave works with your team to review, improve and streamline your business processes through RISE with SAP, helping your organisation run more efficiently and get better results from every department.",
+      "Good technology should make your business processes better. BEEWEAVE works with your team to review, improve and streamline your business processes through RISE with SAP, helping your organisation run more efficiently and get better results from every department.",
   },
   {
     title: "Scalable System Architecture",
     description:
-      "Your business will keep growing and your SAP system should be ready for it. Bee Weave builds a scalable cloud architecture through RISE with SAP that grows with your business, handling more users, more data and bigger operations without any issues.",
+      "Your business will keep growing and your SAP system should be ready for it. BEEWEAVE builds a scalable cloud architecture through RISE with SAP that grows with your business, handling more users, more data and bigger operations without any issues.",
   },
   {
     title: "Continuous System Support",
     description:
-      "Bee Weave stays with your business long after your RISE with SAP system goes live. Our team provides ongoing support, keeps your system running well and steps in quickly whenever your business needs help, giving you complete peace of mind.",
+      "BEEWEAVE stays with your business long after your RISE with SAP system goes live. Our team provides ongoing support, keeps your system running well and steps in quickly whenever your business needs help, giving you complete peace of mind.",
   },
 ];
 
@@ -129,42 +129,42 @@ export const riseWithSapFaqData = [
   },
   {
     question:
-      "Does Bee Weave provide RISE with SAP consulting services in India?",
+      "Does BEEWEAVE provide RISE with SAP consulting services in India?",
     answer:
-      "Yes. Bee Weave provides expert RISE with SAP consulting services across India, helping businesses plan, execute and complete their SAP cloud transformation successfully. Our team brings deep SAP knowledge and a structured delivery approach to every RISE with SAP project we take on.",
+      "Yes. BEEWEAVE provides expert RISE with SAP consulting services across India, helping businesses plan, execute and complete their SAP cloud transformation successfully. Our team brings deep SAP knowledge and a structured delivery approach to every RISE with SAP project we take on.",
   },
   {
     question:
-      "What makes Bee Weave the right partner for RISE with SAP in India?",
+      "What makes BEEWEAVE the right partner for RISE with SAP in India?",
     answer:
-      "Bee Weave combines deep SAP expertise with genuine business understanding. Our team has hands-on experience delivering SAP cloud migrations across India, giving businesses the confidence that their RISE with SAP journey will be smooth, structured and successful from start to finish.",
+      "BEEWEAVE combines deep SAP expertise with genuine business understanding. Our team has hands-on experience delivering SAP cloud migrations across India, giving businesses the confidence that their RISE with SAP journey will be smooth, structured and successful from start to finish.",
   },
   {
     question:
-      "Does Bee Weave handle the entire RISE with SAP migration process?",
+      "Does BEEWEAVE handle the entire RISE with SAP migration process?",
     answer:
-      "Yes. Bee Weave takes full ownership of your RISE with SAP migration. Our team covers everything including cloud readiness assessment, migration planning, system configuration, testing and go live support, giving your business a complete and well managed SAP cloud migration experience.",
+      "Yes. BEEWEAVE takes full ownership of your RISE with SAP migration. Our team covers everything including cloud readiness assessment, migration planning, system configuration, testing and go live support, giving your business a complete and well managed SAP cloud migration experience.",
   },
   {
     question:
-      "Can Bee Weave help businesses that are new to SAP adopt RISE with SAP?",
+      "Can BEEWEAVE help businesses that are new to SAP adopt RISE with SAP?",
     answer:
-      "Absolutely. Bee Weave works with businesses at every stage of their SAP journey. Whether you are new to SAP or already running an older SAP system, our team will guide you through the entire RISE with SAP adoption process without any confusion.",
+      "Absolutely. BEEWEAVE works with businesses at every stage of their SAP journey. Whether you are new to SAP or already running an older SAP system, our team will guide you through the entire RISE with SAP adoption process without any confusion.",
   },
   {
     question:
-      "Does Bee Weave provide post migration support for RISE with SAP?",
+      "Does BEEWEAVE provide post migration support for RISE with SAP?",
     answer:
-      "Yes. Bee Weave stays with your business well after your RISE with SAP system goes live. Our team provides ongoing support, system monitoring and guidance to keep your SAP cloud environment running at its best and your business operating without interruption.",
+      "Yes. BEEWEAVE stays with your business well after your RISE with SAP system goes live. Our team provides ongoing support, system monitoring and guidance to keep your SAP cloud environment running at its best and your business operating without interruption.",
   },
   {
     question:
-      "How does Bee Weave approach SAP cloud migration for businesses in India?",
+      "How does BEEWEAVE approach SAP cloud migration for businesses in India?",
     answer:
-      "Bee Weave follows a clear and structured approach to SAP cloud migration in India. We start with a thorough business discovery, build a detailed migration plan, configure your system carefully and support your team all the way through going live and beyond.",
+      "BEEWEAVE follows a clear and structured approach to SAP cloud migration in India. We start with a thorough business discovery, build a detailed migration plan, configure your system carefully and support your team all the way through going live and beyond.",
   },
   {
-    question: "How do I get started with Bee Weave's RISE with SAP services?",
+    question: "How do I get started with BEEWEAVE's RISE with SAP services?",
     answer:
       "Getting started is easy. Reach out to our team through our website and one of our RISE with SAP consultants will get in touch to learn about your business needs and help you take the first step towards a successful SAP cloud transformation.",
   },
@@ -175,36 +175,36 @@ export const riseWithSapBenefits = [
     image: benefit1,
     title: "Faster Move to the Cloud",
     description:
-      "Bee Weave helps your business get on SAP cloud quickly and without confusion. Our structured approach cuts down the time it takes to go live, getting your business up and running on RISE with SAP faster than you expect.",
+      "BEEWEAVE helps your business get on SAP cloud quickly and without confusion. Our structured approach cuts down the time it takes to go live, getting your business up and running on RISE with SAP faster than you expect.",
   },
   {
     image: benefit2,
     title: "One Contract for Everything",
     description:
-      "RISE with SAP bundles everything your business needs under one single contract. Bee Weave helps you get the most out of this, giving your business a simpler and more cost effective way to manage your entire SAP cloud environment.",
+      "RISE with SAP bundles everything your business needs under one single contract. BEEWEAVE helps you get the most out of this, giving your business a simpler and more cost effective way to manage your entire SAP cloud environment.",
   },
   {
     image: benefit3,
     title: "Lower IT Costs",
     description:
-      "Moving to RISE with SAP reduces the amount your business spends on IT infrastructure. Bee Weave helps your business cut down hardware costs, maintenance expenses and IT overhead, giving you more budget to invest in growing your business.",
+      "Moving to RISE with SAP reduces the amount your business spends on IT infrastructure. BEEWEAVE helps your business cut down hardware costs, maintenance expenses and IT overhead, giving you more budget to invest in growing your business.",
   },
   {
     image: benefit4,
     title: "Always Up to Date",
     description:
-      "RISE with SAP keeps your system updated automatically. Bee Weave makes sure your business always has access to the latest SAP features and improvements without any disruption to your daily operations or extra costs along the way.",
+      "RISE with SAP keeps your system updated automatically. BEEWEAVE makes sure your business always has access to the latest SAP features and improvements without any disruption to your daily operations or extra costs along the way.",
   },
   {
     image: benefit5,
     title: "Better Business Flexibility",
     description:
-      "Cloud ERP gives your business the freedom to work from anywhere and scale without limits. Bee Weave delivers RISE with SAP in a way that gives your organisation the flexibility it needs to grow and adapt without any restrictions.",
+      "Cloud ERP gives your business the freedom to work from anywhere and scale without limits. BEEWEAVE delivers RISE with SAP in a way that gives your organisation the flexibility it needs to grow and adapt without any restrictions.",
   },
   {
     image: benefit6,
     title: "Stronger Data Security",
     description:
-      "Your business data is safe with RISE with SAP. Bee Weave sets up your cloud environment with the highest security standards, keeping your business data protected, compliant and secure at all times without any compromise.",
+      "Your business data is safe with RISE with SAP. BEEWEAVE sets up your cloud environment with the highest security standards, keeping your business data protected, compliant and secure at all times without any compromise.",
   },
 ];

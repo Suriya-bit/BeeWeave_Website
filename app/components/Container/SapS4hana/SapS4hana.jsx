@@ -38,13 +38,13 @@ const SapS4hana = () => {
             />
             <ServiceIntroSection
                 title="Trusted S/4HANA Consulting & Implementation Services in India"
-                description="Bee Weave offers S/4HANA consulting and implementation services across India to help businesses move to SAP the right way. We cover everything your business needs to get started and succeed. Our SAP consultants combine deep technical knowledge with real business understanding, giving your business a clean, reliable and future ready system. We stay committed through every stage of your journey, making sure your S/4HANA implementation delivers real value and lasting results for your business."
+                description="BEEWEAVE offers S/4HANA consulting and implementation services across India to help businesses move to SAP the right way. We cover everything your business needs to get started and succeed. Our SAP consultants combine deep technical knowledge with real business understanding, giving your business a clean, reliable and future ready system. We stay committed through every stage of your journey, making sure your S/4HANA implementation delivers real value and lasting results for your business."
                 buttonText="Begin My SAP S/4HANA Journey"
                 buttonLink="/contact"
             />
 
             <ServiceFeaturesSection
-                title="What Bee Weave Delivers for Your Business with SAP S/4HANA?"
+                title="What BEEWEAVE Delivers for Your Business with SAP S/4HANA?"
                 items={features}
             />
             <ServiceBenefitsSection
@@ -52,7 +52,7 @@ const SapS4hana = () => {
                 items={benefits}
             />
             <ProcessSection
-                title="The Bee Weave's Process"
+                title="The BEEWEAVE's Process"
                 items={processItems}
             />
             <ClientMarquee
@@ -81,7 +81,7 @@ const SapS4hana = () => {
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
-                subTitle={"Businesses across India are already seeing the difference. Bee Weave is here to make sure your business does not get left behind. "}
+                subTitle={"Businesses across India are already seeing the difference. BEEWEAVE is here to make sure your business does not get left behind. "}
 
             />
         </>

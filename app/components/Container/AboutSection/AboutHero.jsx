@@ -75,7 +75,7 @@ const AboutHero = () => {
         className="relative text-sm max-w-[520px] leading-relaxed text-white/70"
       >
         Scroll down and get to know the people, the purpose and the passion
-        behind everything Bee Weave does.
+        behind everything BEEWEAVE does.
       </motion.p>
 
       <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent to-[#0d0a1a]" />

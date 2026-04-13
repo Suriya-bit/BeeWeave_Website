@@ -10,31 +10,31 @@ export const cloudFeatures = [
   {
     title: "Cloud Strategy & Planning",
     description:
-      "A poorly planned cloud move costs businesses more than they realise. Bee Weave's cloud consulting services help businesses across India build a strong cloud strategy covering platform selection, migration planning and cost optimisation. As a leading cloud consulting company, we make sure your business enters the cloud with a clear direction and a solid plan.",
+      "A poorly planned cloud move costs businesses more than they realise. BEEWEAVE's cloud consulting services help businesses across India build a strong cloud strategy covering platform selection, migration planning and cost optimisation. As a leading cloud consulting company, we make sure your business enters the cloud with a clear direction and a solid plan.",
   },
   {
     title: "Cloud Migration",
     description:
-      "Cloud migration is one of the most important steps in any business transformation journey. As a trusted cloud consulting company in India, Bee Weave manages the complete cloud migration process across AWS, Azure and Google Cloud. Our cloud migration services are structured, secure and designed to move your legacy systems to the cloud without any data loss or business interruption.",
+      "Cloud migration is one of the most important steps in any business transformation journey. As a trusted cloud consulting company in India, BEEWEAVE manages the complete cloud migration process across AWS, Azure and Google Cloud. Our cloud migration services are structured, secure and designed to move your legacy systems to the cloud without any data loss or business interruption.",
   },
   {
     title: "Cloud Infrastructure Setup",
     description:
-      "A well built cloud infrastructure is the backbone of a high performing business. Bee Weave's cloud consulting services cover the complete setup of your cloud infrastructure across AWS, Microsoft Azure and Google Cloud Platform. As a trusted cloud consulting company in India, we design, build and configure a secure, scalable and reliable cloud environment your business can depend on and grow from confidently.",
+      "A well built cloud infrastructure is the backbone of a high performing business. BEEWEAVE's cloud consulting services cover the complete setup of your cloud infrastructure across AWS, Microsoft Azure and Google Cloud Platform. As a trusted cloud consulting company in India, we design, build and configure a secure, scalable and reliable cloud environment your business can depend on and grow from confidently.",
   },
   {
     title: "Application Modernization",
     description:
-      "Application modernization is not just about moving to the cloud. It is about making your applications work better for your business. Bee Weave's cloud transformation services help businesses across India rebuild, replatform and optimise their existing applications, giving them a modern cloud native environment that performs reliably and grows with their business.",
+      "Application modernization is not just about moving to the cloud. It is about making your applications work better for your business. BEEWEAVE's cloud transformation services help businesses across India rebuild, replatform and optimise their existing applications, giving them a modern cloud native environment that performs reliably and grows with their business.",
   },
   {
     title:"Cloud Security & Compliance",
-    description :"Cloud security is critical for protecting your business data and operations. Bee Weave’s cloud consulting services in India include end-to-end security implementation, access control, data protection, and compliance management. We ensure your cloud environment is secure, follows industry standards, and protects your business from risks, threats, and data breaches while maintaining performance and reliability. "
+    description :"Cloud security is critical for protecting your business data and operations. BEEWEAVE’s cloud consulting services in India include end-to-end security implementation, access control, data protection, and compliance management. We ensure your cloud environment is secure, follows industry standards, and protects your business from risks, threats, and data breaches while maintaining performance and reliability. "
   },
   {
     title: "Cloud Monitoring & Support",
     description:
-      "Your cloud environment needs constant attention. Bee Weave monitors your entire cloud infrastructure around the clock. We catch issues before they affect your business. Our team steps in quickly whenever something needs attention. Your business stays up, running and performing well every single day without any unexpected downtime.",
+      "Your cloud environment needs constant attention. BEEWEAVE monitors your entire cloud infrastructure around the clock. We catch issues before they affect your business. Our team steps in quickly whenever something needs attention. Your business stays up, running and performing well every single day without any unexpected downtime.",
   },
   
 ];
@@ -134,34 +134,34 @@ export const cloudConsultancyFaqData = [
       "The timeline depends on the size and complexity of your business. A simple cloud migration can take a few weeks while a more complex one can take several months. Good planning and the right cloud consultancy services make the process faster and smoother for your business.",
   },
   {
-    question: "Does Bee Weave provide cloud consultancy services in India?",
+    question: "Does BEEWEAVE provide cloud consultancy services in India?",
     answer:
-      "Yes. Bee Weave provides trusted cloud consultancy services in India, helping businesses across the country plan, execute and manage their cloud adoption. Our team brings deep expertise across AWS, Microsoft Azure and Google Cloud Platform to every project we take on.",
+      "Yes. BEEWEAVE provides trusted cloud consultancy services in India, helping businesses across the country plan, execute and manage their cloud adoption. Our team brings deep expertise across AWS, Microsoft Azure and Google Cloud Platform to every project we take on.",
   },
   {
     question:
-      "What makes Bee Weave different from other cloud consultation companies in India?",
+      "What makes BEEWEAVE different from other cloud consultation companies in India?",
     answer:
-      "Bee Weave is a cloud consultation company in India that goes beyond just moving your business to the cloud. We dig deep into your business, build the right cloud strategy and stay with you long after you go live. Our team brings real expertise, a clear process and genuine dedication to every cloud project.",
+      "BEEWEAVE is a cloud consultation company in India that goes beyond just moving your business to the cloud. We dig deep into your business, build the right cloud strategy and stay with you long after you go live. Our team brings real expertise, a clear process and genuine dedication to every cloud project.",
   },
   {
-    question: "Does Bee Weave provide cloud transformation services in India?",
+    question: "Does BEEWEAVE provide cloud transformation services in India?",
     answer:
-      "Yes. Bee Weave delivers complete cloud transformation services in India, helping businesses modernise their infrastructure, migrate legacy systems and build a cloud environment built for long term growth. Our team covers everything from cloud strategy and architecture design to migration, security and ongoing support.",
+      "Yes. BEEWEAVE delivers complete cloud transformation services in India, helping businesses modernise their infrastructure, migrate legacy systems and build a cloud environment built for long term growth. Our team covers everything from cloud strategy and architecture design to migration, security and ongoing support.",
   },
   {
-    question: "Which cloud platforms does Bee Weave work with?",
+    question: "Which cloud platforms does BEEWEAVE work with?",
     answer:
-      "Bee Weave works across all three major cloud platforms including Amazon Web Services, Microsoft Azure and Google Cloud Platform. Our team helps businesses choose the right platform, set up the right architecture and manage their cloud environment for optimal performance and cost efficiency.",
+      "BEEWEAVE works across all three major cloud platforms including Amazon Web Services, Microsoft Azure and Google Cloud Platform. Our team helps businesses choose the right platform, set up the right architecture and manage their cloud environment for optimal performance and cost efficiency.",
   },
   {
     question:
-      "Does Bee Weave provide cloud consultancy services across all of India?",
+      "Does BEEWEAVE provide cloud consultancy services across all of India?",
     answer:
-      "Yes. Bee Weave provides cloud consultancy services across India, working with businesses in India and other major cities. Our team is fully equipped to deliver both remote and on site cloud consulting depending on your business location and needs.",
+      "Yes. BEEWEAVE provides cloud consultancy services across India, working with businesses in India and other major cities. Our team is fully equipped to deliver both remote and on site cloud consulting depending on your business location and needs.",
   },
   {
-    question: "How do I get started with Bee Weave's cloud services?",
+    question: "How do I get started with BEEWEAVE's cloud services?",
     answer:
       "Getting started is easy. Reach out to our team through our website and one of our cloud consultants will get in touch to learn about your business, understand your cloud goals and help you take the first step towards a smarter and more modern cloud environment.",
   },
@@ -172,36 +172,36 @@ export const cloudBenefits = [
     image: benefit1,
     title: "Reduced Infrastructure Costs",
     description:
-      "Running your own servers and hardware is expensive. Moving to the cloud with Bee Weave cuts down your infrastructure costs significantly. You only pay for what you use, freeing up the budget your business can put towards growth and other important areas.",
+      "Running your own servers and hardware is expensive. Moving to the cloud with BEEWEAVE cuts down your infrastructure costs significantly. You only pay for what you use, freeing up the budget your business can put towards growth and other important areas.",
   },
   {
     image: benefit2,
     title: "Faster Business Operations",
     description:
-      "Cloud technology makes everything run quicker. Bee Weave sets up a cloud environment that helps your teams complete tasks faster, access information instantly and get more done in less time. Your business stops being slowed down by outdated systems and starts operating at the speed it deserves.",
+      "Cloud technology makes everything run quicker. BEEWEAVE sets up a cloud environment that helps your teams complete tasks faster, access information instantly and get more done in less time. Your business stops being slowed down by outdated systems and starts operating at the speed it deserves.",
   },
   {
     image: benefit3,
     title: "Stronger Data Protection",
     description:
-      "Your business data is one of your most important assets. Bee Weave builds strong security measures into every cloud environment, keeping your data protected, backed up and safe at all times. Your business gets a cloud setup that takes data protection seriously and never cuts corners on security.",
+      "Your business data is one of your most important assets. BEEWEAVE builds strong security measures into every cloud environment, keeping your data protected, backed up and safe at all times. Your business gets a cloud setup that takes data protection seriously and never cuts corners on security.",
   },
   {
     image: benefit4,
     title: "Scalable Cloud Environment",
     description:
-      "Growing businesses need systems ready to grow with them. Bee Weave sets up a cloud environment scaling whenever your business needs it to. You never have to worry about running out of capacity or paying for a system upgrade. Your cloud simply grows as your business does.",
+      "Growing businesses need systems ready to grow with them. BEEWEAVE sets up a cloud environment scaling whenever your business needs it to. You never have to worry about running out of capacity or paying for a system upgrade. Your cloud simply grows as your business does.",
   },
   {
     image: benefit5,
     title: "Work From Anywhere",
     description:
-      "Your team can work from home, the office or anywhere else with Bee Weave's cloud setup. Everyone gets easy access to the files, tools and information they need from any device at any time. Your business keeps running well no matter where your people are.",
+      "Your team can work from home, the office or anywhere else with BEEWEAVE's cloud setup. Everyone gets easy access to the files, tools and information they need from any device at any time. Your business keeps running well no matter where your people are.",
   },
   {
     image: benefit6,
     title: "Automatic System Updates",
     description:
-      "Your systems stay up to date with Bee Weave's cloud setup. The latest features and security fixes are added automatically. Your team logs in every day to a system ready to go without any extra effort needed.",
+      "Your systems stay up to date with BEEWEAVE's cloud setup. The latest features and security fixes are added automatically. Your team logs in every day to a system ready to go without any extra effort needed.",
   },
 ];

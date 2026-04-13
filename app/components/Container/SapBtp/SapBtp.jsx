@@ -28,7 +28,7 @@ const SapBtp = () => {
                         with Expert SAP BTP Integration Services in India
                     </>
                 }
-                subtitle="Bee Weave's SAP BTP integration services in India connect your SAP systems, automate your workflows and extend your ERP without touching the core, giving your organisation a smarter and more capable technology environment."
+                subtitle="BEEWEAVE's SAP BTP integration services in India connect your SAP systems, automate your workflows and extend your ERP without touching the core, giving your organisation a smarter and more capable technology environment."
                 breadcrumbs={[
                     { label: "Home", href: "/" },
                     { label: "SAP BTP" },
@@ -37,7 +37,7 @@ const SapBtp = () => {
 
             <ServiceIntroSection
                 title="Best SAP BTP Integration Services in India "
-                description="Bee Weave is a trusted SAP BTP integration partner in India bringing deep expertise across SAP Business Technology Platform. We connect your SAP systems with third party tools, build smart extensions and automate complex workflows without touching your core ERP. Our team delivers a fully connected and intelligent SAP landscape your organisation can rely on. From integration suite and application development to data analytics and low code extensions, Bee Weave covers everything your SAP landscape needs to perform at its best."
+                description="BEEWEAVE is a trusted SAP BTP integration partner in India bringing deep expertise across SAP Business Technology Platform. We connect your SAP systems with third party tools, build smart extensions and automate complex workflows without touching your core ERP. Our team delivers a fully connected and intelligent SAP landscape your organisation can rely on. From integration suite and application development to data analytics and low code extensions, BEEWEAVE covers everything your SAP landscape needs to perform at its best."
                 buttonText="Begin My SAP BTP Journey"
                 buttonLink="/contact"
             />
@@ -51,7 +51,7 @@ const SapBtp = () => {
                 logos={logos}
             />
             <ServiceFeaturesSection
-                title="The Real Impact Bee Weave Delivers to Your SAP BTP Integration Journey"
+                title="The Real Impact BEEWEAVE Delivers to Your SAP BTP Integration Journey"
                 items={sapBtpFeatures}
             />
             <ServiceBenefitsSection
@@ -59,7 +59,7 @@ const SapBtp = () => {
                 items={sapBtpBenefits}
             />
             <ProcessSection
-                title="The Bee Weave's Process"
+                title="The BEEWEAVE's Process"
                 items={sapBtpProcessItems}
             />
             <ImpactSection
@@ -79,7 +79,7 @@ const SapBtp = () => {
                 buttonLink="/contact"
                 image={animation_icon}
                 showGrid={true}
-                subTitle={"Bee Weave is here to connect, integrate and extend your SAP systems the right way. "}
+                subTitle={"BEEWEAVE is here to connect, integrate and extend your SAP systems the right way. "}
             />
         </>
     )

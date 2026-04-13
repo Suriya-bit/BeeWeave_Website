@@ -39,7 +39,7 @@ ${active ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
             transition={{ duration: 0.6 }}
             className="text-2xl md:text-3xl font-bold text-white text-center mb-10 leading-snug"
           >
-            Why Choose Bee Weave for SAP & Odoo
+            Why Choose BEEWEAVE for SAP & Odoo
             <br />
             ERP Consulting & Implementation Services
           </motion.h2>

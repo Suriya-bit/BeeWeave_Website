@@ -37,12 +37,12 @@ and build digital environments which are built to perform, scale and grow with y
             />
             <ServiceIntroSection
                 title="Best Cloud Consulting & Transformation Services in India"
-                description="Cloud technology has changed the way businesses work and Bee Weave is here to help yours keep up. We are a leading cloud consulting company in India with hands-on experience across AWS, Microsoft Azure and Google Cloud Platform. Our cloud transformation services take the stress out of moving to the cloud, giving your business a secure, reliable and cost friendly environment to operate and grow from. Whether you are migrating legacy systems, building a hybrid cloud environment or planning a complete cloud migration strategy, Bee Weave brings the right expertise and a structured approach to make your cloud journey smooth, successful and built for long term business growth."
+                description="Cloud technology has changed the way businesses work and BEEWEAVE is here to help yours keep up. We are a leading cloud consulting company in India with hands-on experience across AWS, Microsoft Azure and Google Cloud Platform. Our cloud transformation services take the stress out of moving to the cloud, giving your business a secure, reliable and cost friendly environment to operate and grow from. Whether you are migrating legacy systems, building a hybrid cloud environment or planning a complete cloud migration strategy, BEEWEAVE brings the right expertise and a structured approach to make your cloud journey smooth, successful and built for long term business growth."
                 buttonText="Begin My Cloud Journey"
                 buttonLink="/contact"
             />
             <ServiceFeaturesSection
-                title="The Real Value Bee Weave Brings to Your Cloud Transformation Journey"
+                title="The Real Value BEEWEAVE Brings to Your Cloud Transformation Journey"
                 items={cloudFeatures}
             />
             <ServiceBenefitsSection
@@ -50,7 +50,7 @@ and build digital environments which are built to perform, scale and grow with y
                 items={cloudBenefits}
             />
             <ProcessSection
-                title="The Bee Weave's Process"
+                title="The BEEWEAVE's Process"
                 items={cloudProcessItems}
             />
             <ClientMarquee

@@ -38,7 +38,7 @@ const socials = [
 const Footer = () => {
   const pathname = usePathname()
   return (
-    <footer className={`${pathname !== "/" ? "bg-[#0d0a1a]" : ""}  px-6 lg:px-30 py-16 `}>
+    <footer className={`${pathname !== "/" ? "bg-[#0d0a1a]" : ""}  px-6 lg:px-30 pt-16 pb-5 `}>
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex flex-col gap-6 items-start">
           <div>
@@ -120,7 +120,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/40">
+      <div className="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/40">
         <p>
           © {new Date().getFullYear()} BEEWEAVE. All rights reserved.
         </p>

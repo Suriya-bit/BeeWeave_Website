@@ -41,15 +41,7 @@ const SapBtp = () => {
                 buttonText="Begin My SAP BTP Journey"
                 buttonLink="/contact"
             />
-            <ClientMarquee
-                title={
-                    <>
-                        A Community of Brands
-                        We Are Proud to Serve
-                    </>
-                }
-                logos={logos}
-            />
+
             <ServiceFeaturesSection
                 title="The Real Impact BEEWEAVE Delivers to Your SAP BTP Integration Journey"
                 items={sapBtpFeatures}
@@ -61,6 +53,15 @@ const SapBtp = () => {
             <ProcessSection
                 title="The BEEWEAVE's Process"
                 items={sapBtpProcessItems}
+            />
+            <ClientMarquee
+                title={
+                    <>
+                        A Community of Brands
+                        We Are Proud to Serve
+                    </>
+                }
+                logos={logos}
             />
             <ImpactSection
                 title="Measurable Business Impact with SAP BTP"

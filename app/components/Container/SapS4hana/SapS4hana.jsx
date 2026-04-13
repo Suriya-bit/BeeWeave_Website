@@ -30,7 +30,7 @@ const SapS4hana = () => {
                         Implementation Services!
                     </>
                 }
-                subtitle="We provide expert SAP S/4HANA consulting and implementation services in Chennai, helping businesses move to a smarter ERP system and build a stronger foundation for long term growth."
+                subtitle="We provide expert SAP S/4HANA consulting and implementation services in India, helping businesses move to a smarter ERP system and build a stronger foundation for long term growth."
                 breadcrumbs={[
                     { label: "Home", href: "/" },
                     { label: "SAP S/4HANA" },

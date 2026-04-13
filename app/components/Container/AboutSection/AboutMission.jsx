@@ -67,7 +67,7 @@ const AboutMission = () => {
             viewport={{ once: true }}
             className="text-white/60 text-sm leading-relaxed"
           >
-            Bee Waave is a Chennai based SAP and Odoo consulting company
+            Bee Waave is a India based SAP and Odoo consulting company
             built for businesses that refuse to settle for average technology.
             We are a team of experienced SAP consultants, cloud architects and
             AI engineers driven by one shared goal: Helping businesses run

@@ -158,7 +158,7 @@ export const cloudConsultancyFaqData = [
     question:
       "Does Bee Weave provide cloud consultancy services across all of India?",
     answer:
-      "Yes. Bee Weave provides cloud consultancy services across India, working with businesses in Chennai and other major cities. Our team is fully equipped to deliver both remote and on site cloud consulting depending on your business location and needs.",
+      "Yes. Bee Weave provides cloud consultancy services across India, working with businesses in India and other major cities. Our team is fully equipped to deliver both remote and on site cloud consulting depending on your business location and needs.",
   },
   {
     question: "How do I get started with Bee Weave's cloud services?",

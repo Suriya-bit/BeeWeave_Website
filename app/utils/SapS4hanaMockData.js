@@ -184,7 +184,7 @@ export const faqData = [
     question:
       "Does Bee Weave provide SAP S/4HANA consulting services across India?",
     answer:
-      "Yes. Bee Weave provides S/4HANA consulting services across India, working with businesses in Chennai and other major cities. Our team is fully equipped to deliver both remote and on site SAP consulting services depending on your business needs.",
+      "Yes. Bee Weave provides S/4HANA consulting services across India, working with businesses in India and other major cities. Our team is fully equipped to deliver both remote and on site SAP consulting services depending on your business needs.",
   },
   {
     question:

@@ -30,7 +30,7 @@ const OdooErpSoftware = () => {
                         Software Consulting Services in India
                     </>
                 }
-                subtitle="We provide expert Odoo ERP software consulting and integration services in Chennai, helping businesses move to a smarter, more affordable ERP system built around the way they actually work."
+                subtitle="We provide expert Odoo ERP software consulting and integration services in India, helping businesses move to a smarter, more affordable ERP system built around the way they actually work."
                 breadcrumbs={[
                     { label: "Home", href: "/" },
                     { label: "Odoo ERP Software" },

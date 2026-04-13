@@ -118,7 +118,7 @@ export const sapBtpFaqData = [
   {
     question: "What is SAP BTP and what does it do for my business?",
     answer:
-      "SAP Business Technology Platform is a cloud platform that helps businesses connect, extend and build on top of their SAP systems. It brings together integration, application development, data analytics and automation under one platform, making it easier for businesses in Chennai and across India to get more out of their SAP investment.",
+      "SAP Business Technology Platform is a cloud platform that helps businesses connect, extend and build on top of their SAP systems. It brings together integration, application development, data analytics and automation under one platform, making it easier for businesses in India and across India to get more out of their SAP investment.",
   },
   {
     question: "How does SAP BTP integration work?",
@@ -146,37 +146,37 @@ export const sapBtpFaqData = [
       "Yes. SAP BTP is designed for businesses of all sizes. Many small and mid size businesses across India are now using SAP BTP to connect their systems, automate workflows and build custom applications without the need for large IT teams or heavy investments in infrastructure.",
   },
   {
-    question: "Does Bee Weave provide SAP BTP integration services in Chennai?",
+    question: "Does Bee Weave provide SAP BTP integration services in India?",
     answer:
-      "Yes. Bee Weave provides trusted SAP BTP integration services in Chennai, helping businesses connect their SAP systems, automate workflows and build smart extensions. Our team brings deep SAP BTP expertise to every project, giving Chennai businesses a fully connected and intelligent SAP landscape they can rely on.",
+      "Yes. Bee Weave provides trusted SAP BTP integration services in India, helping businesses connect their SAP systems, automate workflows and build smart extensions. Our team brings deep SAP BTP expertise to every project, giving India businesses a fully connected and intelligent SAP landscape they can rely on.",
   },
   {
-    question: "What SAP BTP services does Bee Weave offer in Chennai?",
+    question: "What SAP BTP services does Bee Weave offer in India?",
     answer:
-      "Bee Weave offers a complete range of SAP BTP services in Chennai including Integration Suite setup, application development, data analytics, SAP HANA database management, workflow automation and AI and machine learning capabilities. Our team covers everything your business needs to get the most out of SAP BTP.",
+      "Bee Weave offers a complete range of SAP BTP services in India including Integration Suite setup, application development, data analytics, SAP HANA database management, workflow automation and AI and machine learning capabilities. Our team covers everything your business needs to get the most out of SAP BTP.",
   },
   {
-    question: "How experienced is Bee Weave in SAP BTP integration in Chennai?",
+    question: "How experienced is Bee Weave in SAP BTP integration in India?",
     answer:
-      "Bee Weave has a team of certified SAP BTP consultants in Chennai with hands-on experience delivering integration projects across multiple industries. Our consultants bring real world SAP BTP knowledge to every project, helping businesses build connected and intelligent SAP landscapes that perform reliably and grow with their business.",
+      "Bee Weave has a team of certified SAP BTP consultants in India with hands-on experience delivering integration projects across multiple industries. Our consultants bring real world SAP BTP knowledge to every project, helping businesses build connected and intelligent SAP landscapes that perform reliably and grow with their business.",
   },
   {
     question:
-      "Can Bee Weave help my business maintain a Clean Core with SAP BTP in Chennai?",
+      "Can Bee Weave help my business maintain a Clean Core with SAP BTP in India?",
     answer:
-      "Absolutely. Bee Weave's SAP BTP integration services in Chennai are built around the Clean Core philosophy. We build all your extensions and customisations on SAP BTP, keeping your core ERP completely clean, upgrade ready and free from heavy custom code that could slow your business down in the future.",
+      "Absolutely. Bee Weave's SAP BTP integration services in India are built around the Clean Core philosophy. We build all your extensions and customisations on SAP BTP, keeping your core ERP completely clean, upgrade ready and free from heavy custom code that could slow your business down in the future.",
   },
   {
     question:
       "Does Bee Weave provide SAP BTP support after the integration is complete?",
     answer:
-      "Yes. Bee Weave stays with your business well after your SAP BTP integration is complete. Our SAP BTP consultants in Chennai provide ongoing support, system monitoring and optimisation to make sure your integration keeps running well and your business continues to get the most out of SAP BTP.",
+      "Yes. Bee Weave stays with your business well after your SAP BTP integration is complete. Our SAP BTP consultants in India provide ongoing support, system monitoring and optimisation to make sure your integration keeps running well and your business continues to get the most out of SAP BTP.",
   },
   {
     question:
-      "How do I get started with Bee Weave's SAP BTP integration services in Chennai?",
+      "How do I get started with Bee Weave's SAP BTP integration services in India?",
     answer:
-      "Getting started is easy. Reach out to our team through our website and one of our SAP BTP consultants in Chennai will get in touch to learn about your business needs and help you take the first step towards a smarter and more connected SAP landscape.",
+      "Getting started is easy. Reach out to our team through our website and one of our SAP BTP consultants in India will get in touch to learn about your business needs and help you take the first step towards a smarter and more connected SAP landscape.",
   },
 ];
 

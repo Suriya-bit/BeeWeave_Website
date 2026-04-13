@@ -49,7 +49,7 @@ export const aboutFaqs = [
   {
     question: "How long has Bee Waave been in the industry?",
     answer:
-      "Bee Waave has been delivering SAP and Odoo consulting services to businesses across Chennai and India. Our team brings years of hands-on experience across multiple industries, helping businesses implement, migrate and modernize their ERP systems successfully.",
+      "Bee Waave has been delivering SAP and Odoo consulting services to businesses across India and India. Our team brings years of hands-on experience across multiple industries, helping businesses implement, migrate and modernize their ERP systems successfully.",
   },
   {
     question: "What industries does Bee Waave work with?",
@@ -57,9 +57,9 @@ export const aboutFaqs = [
       "We work with businesses across a wide range of industries including manufacturing, retail, logistics, finance and more. Our team takes the time to understand each industry's unique needs and builds solutions that fit perfectly.",
   },
   {
-    question: "Does Bee Waave work with businesses outside Chennai?",
+    question: "Does Bee Waave work with businesses outside India?",
     answer:
-      "Yes. While we are based in Chennai, we work with businesses across India and beyond. Our team is fully equipped to deliver both remote and on-site consulting services wherever your business is located.",
+      "Yes. While we are based in India, we work with businesses across India and beyond. Our team is fully equipped to deliver both remote and on-site consulting services wherever your business is located.",
   },
   {
     question: "How big is the Bee Waave team?",

@@ -93,7 +93,7 @@ export default function Collaborate() {
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Address</p>
                             <p className="text-white text-sm font-medium leading-relaxed">
                                 No. 1, A Block, Flat no.S-1, VOC Street, Ram Nagar,<br />
-                                Ambattur Chennai - 600 053
+                                Ambattur India - 600 053
                             </p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">

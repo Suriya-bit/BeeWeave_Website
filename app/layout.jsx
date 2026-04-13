@@ -1,7 +1,6 @@
-import Footer from "./components/Common/Footer/Footer";
-import Header from "./components/Common/Header/Header";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import LayoutWrapper from "./LayoutWrapper/LayoutWrapper";
 
 
 export const metadata = {
@@ -17,12 +16,12 @@ const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
 });
 export default function RootLayout({ children }) {
+
+
   return (
     <html lang="en">
       <body className={jakarta.variable} suppressHydrationWarning={true}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );

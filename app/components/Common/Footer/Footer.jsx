@@ -31,8 +31,8 @@ const legal = [
 
 const socials = [
   { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61573340975393" },
-  { icon: FaInstagram, href: "https://www.instagram.com/beeweavesap/" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/company/beeweave-beesap/" },
+  { icon: FaInstagram, href: " https://www.instagram.com/beew.eavesap/" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/beeweave-sap-487152403/" },
 ];
 
 const Footer = () => {
@@ -59,7 +59,7 @@ const Footer = () => {
           <div className="flex items-center gap-3">
             {socials?.map((social, i) => (
               <Link
-              target="_blank"
+                target="_blank"
                 key={i}
                 href={social.href}
                 className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-white hover:border-white/50 transition"

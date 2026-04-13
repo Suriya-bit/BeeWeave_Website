@@ -4,7 +4,6 @@ import Link from "next/link";
 import MainLayout from "@/app/common/MainLayout";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FcVlc } from "react-icons/fc";
 
 const container = {
   hidden: {},

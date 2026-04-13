@@ -67,7 +67,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full z-50 sticky top-0 left-0 transition-all duration-300 bg-transparent backdrop-blur-sm backdrop-brightness-100">
+      <header className="w-full z-50 sticky top-0 left-0 transition-all duration-300 bg-transparent backdrop-blur-sm backdrop-brightness-100 border-b border-gray-800">
         <div className="px-6 lg:px-30">
           <div className="flex items-center h-24 gap-6">
             {!menuOpen && (

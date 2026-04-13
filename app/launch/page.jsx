@@ -2,6 +2,8 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const item = {
     hidden: { opacity: 0, y: 28 },
@@ -11,6 +13,13 @@ const item = {
         transition: { duration: 0.9, ease: [0.16, 1, 0.3, 1], delay },
     }),
 };
+
+const socials = [
+    { icon: FaFacebook, href: "https://www.facebook.com/profile.php?id=61573340975393" },
+    { icon: FaInstagram, href: " https://www.instagram.com/beew.eavesap/" },
+    { icon: FaLinkedin, href: "https://www.linkedin.com/in/beeweave-sap-487152403/" },
+];
+
 
 const FlipCard = ({ value, label, delay }) => {
 
@@ -261,12 +270,24 @@ const ContributedSection = () => {
                     initial="hidden"
                     animate="visible"
                     custom={1.0}
-                    className="flex items-center gap-[9px] mt-1"
+                    className="flex items-center gap-[9px] my-1"
                 >
                     <span className="font-medium tracking-[0.1em] text-[#e0eaff]" style={{ fontSize: "18px" }}>
                         BEEWEAVE
                     </span>
                 </motion.div>
+                <div className="flex items-center gap-3">
+                    {socials?.map((social, i) => (
+                        <Link
+                            target="_blank"
+                            key={i}
+                            href={social.href}
+                            className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-white hover:border-white/50 transition"
+                        >
+                            <social.icon size={16} />
+                        </Link>
+                    ))}
+                </div>
                 <motion.p
                     variants={item}
                     initial="hidden"
@@ -299,7 +320,7 @@ const ContributedSection = () => {
                             initial={{ opacity: 0, scale: 0.7 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                            className="mb-10"
+                            className="mb-8"
                         >
                             <motion.a
                                 href="https://bee-weave-website.vercel.app/"

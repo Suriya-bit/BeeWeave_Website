@@ -14,7 +14,7 @@ const itemVariants = {
     visible: { opacity: 1, y: 0 },
 };
 
-const ProcessSection = ({ title = "The Bee Waave's Process", items = [] }) => {
+const ProcessSection = ({ title = "The Bee Weave's Process", items = [] }) => {
     return (
         <div className="w-full py-16 px-6 md:px-20 bg-[#0d0a1a]">
             <motion.h2

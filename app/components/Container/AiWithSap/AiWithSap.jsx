@@ -51,7 +51,7 @@ Bee Weave is a trusted AI powered SAP service company in India helping businesse
                 items={benefits}
             />
             <ProcessSection
-                title="The Bee Waave's Process"
+                title="The Bee Weave's Process"
                 items={processItems}
             />
             <ClientMarquee

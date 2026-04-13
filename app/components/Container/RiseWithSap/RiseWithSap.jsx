@@ -58,7 +58,7 @@ const RiseWithSap = () => {
                 logos={logos}
             />
             <ProcessSection
-                title="The Bee Waave's Process"
+                title="The Bee Weave's Process"
                 items={riseWithSapProcessItems}
             />
             <FAQsSection

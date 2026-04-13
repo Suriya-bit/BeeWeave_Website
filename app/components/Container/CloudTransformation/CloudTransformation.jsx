@@ -50,7 +50,7 @@ and build digital environments which are built to perform, scale and grow with y
                 items={cloudBenefits}
             />
             <ProcessSection
-                title="The Bee Waave's Process"
+                title="The Bee Weave's Process"
                 items={cloudProcessItems}
             />
             <ClientMarquee

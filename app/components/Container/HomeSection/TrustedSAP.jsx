@@ -37,7 +37,7 @@ const cardVariant = {
   },
 };
 
-const paragraph = `Bee Waave is a team of experienced SAP consultants in India helping businesses take control of their ERP journey. We work with companies of all sizes to implement, migrate and modernize their systems using SAP and Odoo. We believe good technology should make business simpler, not harder. That is why every solution we build is practical, clean and built to grow with you.`;
+const paragraph = `Bee Weave is a team of experienced SAP consultants in India helping businesses take control of their ERP journey. We work with companies of all sizes to implement, migrate and modernize their systems using SAP and Odoo. We believe good technology should make business simpler, not harder. That is why every solution we build is practical, clean and built to grow with you.`;
 const words = paragraph.split(" ");
 
 const loopedFeatures = [...features, ...features];

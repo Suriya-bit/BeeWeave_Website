@@ -17,28 +17,28 @@ export const features = [
     title: "SAP S/4HANA",
     href: "/services/sap-s4hana",
     description:
-      "Bee Waave offers reliable S/4HANA consulting services in India to make SAP simple for your business. Our SAP consultants in India understand how you work and build a system perfectly fitting your needs. Whether you are new to SAP S/4HANA or moving from SAP ECC, we make the whole process smooth, clean and built to last. Let us help you get SAP right.",
+      "Bee Weave offers reliable S/4HANA consulting services in India to make SAP simple for your business. Our SAP consultants in India understand how you work and build a system perfectly fitting your needs. Whether you are new to SAP S/4HANA or moving from SAP ECC, we make the whole process smooth, clean and built to last. Let us help you get SAP right.",
   },
   {
     img: service2,
     title: "Rise with SAP",
     href: "/services/rise-with-sap",
     description:
-      "Moving to the cloud is a big step and Bee Waave makes it easy. Our RISE with SAP consulting services in India help businesses shift to a fully managed cloud ERP without the usual stress. Our SAP consultants in India handle everything from planning to go live, keeping your operations smooth, secure and ready for continuous growth and innovation.",
+      "Moving to the cloud is a big step and Bee Weave makes it easy. Our RISE with SAP consulting services in India help businesses shift to a fully managed cloud ERP without the usual stress. Our SAP consultants in India handle everything from planning to go live, keeping your operations smooth, secure and ready for continuous growth and innovation.",
   },
   {
     img: service3,
     title: "Cloud Transformation",
     href: "/services/cloud-transformation",
     description:
-      "Your business deserves better than outdated infrastructure. Bee Waave is a cloud consulting company in India offering complete cloud transformation services across Azure, AWS and GCP. We help businesses migrate legacy systems, optimize cloud performance and build a secure digital environment ready to support your business goals today and in the future.",
+      "Your business deserves better than outdated infrastructure. Bee Weave is a cloud consulting company in India offering complete cloud transformation services across Azure, AWS and GCP. We help businesses migrate legacy systems, optimize cloud performance and build a secure digital environment ready to support your business goals today and in the future.",
   },
   {
     img: service4,
     title: "SAP BTP",
     href: "/services/sap-btp",
     description:
-      "Struggling with systems that don't talk to each other? Our SAP BTP integration services in India help businesses eliminate data silos, automate workflows and build smart extensions across their SAP landscape. Bee Waave uses SAP Business Technology Platform to connect your tools, streamline operations and keep your core ERP clean and upgrade ready.",
+      "Struggling with systems that don't talk to each other? Our SAP BTP integration services in India help businesses eliminate data silos, automate workflows and build smart extensions across their SAP landscape. Bee Weave uses SAP Business Technology Platform to connect your tools, streamline operations and keep your core ERP clean and upgrade ready.",
   },
   {
     img: service5,
@@ -111,13 +111,13 @@ export const cards = [
     img: choose3,
     title: "Seamless System Integration Approach",
     description:
-      "Bee Waave connects your SAP and Odoo platforms with all existing tools, giving your business one smooth and reliable system.",
+      "Bee Weave connects your SAP and Odoo platforms with all existing tools, giving your business one smooth and reliable system.",
   },
   {
     img: choose4,
     title: "Business-Focused Solutions Design",
     description:
-      "Every solution Bee Waave builds is designed around your actual business goals, delivering real value and measurable results every time.",
+      "Every solution Bee Weave builds is designed around your actual business goals, delivering real value and measurable results every time.",
   },
   {
     img: choose5,

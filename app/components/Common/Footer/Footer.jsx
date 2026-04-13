@@ -57,8 +57,9 @@ const Footer = () => {
             experience and local presence your business needs to succeed.
           </p>
           <div className="flex items-center gap-3">
-            {socials.map((social, i) => (
+            {socials?.map((social, i) => (
               <Link
+              target="_blank"
                 key={i}
                 href={social.href}
                 className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-white hover:border-white/50 transition"

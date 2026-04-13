@@ -148,6 +148,13 @@ rounded-xl transition-all duration-300"
                   <span className="text-sm font-semibold text-white">EN</span>
                 </div>
               </div>
+              <Link href="https://www.beeweave.fr/en" target="_blank">
+                <div className="p-[1.5px] rounded-full bg-gradient-to-r from-[#7400FA] to-[#BC13F7] cursor-pointer">
+                  <div className="w-10 h-10 flex items-center justify-center rounded-full bg-[#0D0B1E]">
+                    <span className="text-sm font-semibold text-white">FR</span>
+                  </div>
+                </div>
+              </Link>
               <Link
                 href="/contact"
                 className="group inline-flex items-center gap-2 px-5 py-2 rounded-md text-sm font-semibold text-white bg-linear-to-r from-[#7400FA] to-[#BC13F7] hover:opacity-95 active:scale-95 transition-all shadow-lg shadow-purple-900/40 overflow-hidden relative"
@@ -170,7 +177,13 @@ rounded-xl transition-all duration-300"
                   <span className="text-sm font-semibold text-white">EN</span>
                 </div>
               </div>
-
+              <Link href="https://www.beeweave.fr/en" target="_blank">
+                <div className="p-[1.5px] rounded-full bg-gradient-to-r from-[#7400FA] to-[#BC13F7] cursor-pointer">
+                  <div className="w-10 h-10 flex items-center justify-center rounded-full bg-[#0D0B1E]">
+                    <span className="text-sm font-semibold text-white">FR</span>
+                  </div>
+                </div>
+              </Link>
               <div className="p-[1.5px] rounded-full bg-linear-to-r from-[#7400FA] to-[#BC13F7]">
                 <button
                   onClick={() => setMenuOpen(!menuOpen)}

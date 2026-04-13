@@ -47,7 +47,7 @@ const AboutChoose = () => {
             viewport={{ once: true }}
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
-            w-[1200px] md:w-[1600px] h-[700px] 
+            w-[1200px]  h-[700px] 
             bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.6)_0%,rgba(130,57,215,0.35)_30%,rgba(130,57,215,0.15)_55%,transparent_75%)] 
             blur-[160px] rounded-full pointer-events-none z-0"
           />

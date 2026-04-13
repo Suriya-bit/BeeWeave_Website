@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import footerLogo from "@/app/assets/Images/footer-logo.svg";
-import { FaFacebookF, FaInstagram, FaYoutube, FaGlobe, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import webdads2u from "@/app/assets/Images/webdads2u-logo.svg";
+import footerLogo from "@/app/assets/Images/footerlog.webp";
 import { usePathname } from "next/navigation";
+
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -42,16 +42,15 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex flex-col gap-6 items-start">
           <div>
-            <div className="relative w-16 h-16">
+            <div className="relative w-50 h-20">
               <Image
                 src={footerLogo}
                 alt="Logo"
                 fill
-                className="object-contain"
+                className="object-cover"
                 priority
               />
             </div>
-            <p >Quality Woven. Scale Built In</p>
           </div>
           <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">
             Our SAP implementation services in India bring the skills,

@@ -151,7 +151,7 @@ export default function CareerForm() {
 
                     <div className="flex flex-col gap-6">
                         <div className="border-l-2 border-purple-500 pl-4">
-                            <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">
+                            <p className="text-white text-xs uppercase tracking-widest mb-1">
                                 Email Id
                             </p>
                             <p className="text-white text-sm font-medium">

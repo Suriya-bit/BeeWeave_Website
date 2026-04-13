@@ -25,7 +25,7 @@ const itemFade = {
 
 const AboutChoose = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-30 py-28 bg-[#0d0a1a] overflow-x-hidden">
+    <MainLayout className="relative px-6 lg:px-30 py-28 bg-[#0d0a1a] overflow-visible">
       <div className="relative z-10">
         <motion.h2
           initial="hidden"
@@ -61,10 +61,12 @@ const AboutChoose = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.2 }}
-                className="group relative flex flex-col justify-between gap-4 p-8 rounded-2xl h-full 
-                border border-[#7400FA]/30 bg-[#0b0018] 
-                transition-all duration-300 
-                hover:border-[#9b4dff] hover:shadow-[0_0_35px_rgba(116,0,250,0.35)]"
+           className="group relative flex flex-col justify-between gap-4 p-8 rounded-2xl h-full
+border-t border-b border-[#7400FA]/30
+bg-[#0b0018]
+transition-all duration-300
+hover:border-[#9b4dff]
+hover:shadow-[0_0_35px_rgba(116,0,250,0.35)]"
               >
                 <div className="flex flex-col gap-3">
                   <motion.div

@@ -15,8 +15,8 @@ const AboutSection = () => {
       <AboutHero />
       <AboutMission />
       <AboutChoose />
-      <ClientMarquee />
       <ProcessSection />
+      <ClientMarquee />
       <FAQsSection />
       <CtaHero
         title={`We Are Ready to Help.\nAre You Ready to Grow?`}

@@ -86,14 +86,21 @@ export default function Collaborate() {
                             <p className="text-white text-sm font-medium">suriya.govind@beesap.ai</p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">
-                            <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">Phone Number</p>
-                            <p className="text-white text-sm font-medium">99400 626 85 / 979 108 108 3</p>
+                            <p className="text-white text-xs uppercase tracking-widest mb-1">Phone Number</p>
+                            <p className="text-white text-sm font-medium">99400 626 85 / +91- 979.108.108.3</p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">
-                            <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">Address</p>
+                            <p className="text-white text-xs uppercase tracking-widest mb-1">Address</p>
                             <p className="text-white text-sm font-medium leading-relaxed">
                                 No. 1, A Block, Flat no.S-1, VOC Street, Ram Nagar,<br />
                                 Ambattur Chennai - 600 053
+                            </p>
+                        </div>
+                        <div className="border-l-4 border-purple-500 pl-4">
+                            <p className="text-white text-xs uppercase tracking-widest mb-1">Address</p>
+                            <p className="text-white text-sm font-medium leading-relaxed md:max-w-sm">
+                                beeweave – EuraTechnologies
+                                165 Avenue de Bretagne, 59000 Lille, France
                             </p>
                         </div>
                     </div>

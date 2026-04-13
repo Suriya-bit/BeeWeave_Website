@@ -42,15 +42,7 @@ const OdooErpSoftware = () => {
                 buttonText="Begin My Odoo ERP Journey"
                 buttonLink="/contact"
             />
-            <ClientMarquee
-                title={
-                    <>
-                        A Community of Brands
-                        We Are Proud to Serve
-                    </>
-                }
-                logos={logos}
-            />
+
             <ServiceFeaturesSection
                 title="The Real Results Bee Weave Brings to Your Odoo ERP Journey"
                 items={odooFeatures}
@@ -62,6 +54,15 @@ const OdooErpSoftware = () => {
             <ProcessSection
                 title="The Bee Waave's Process"
                 items={sapBtpProcessItems}
+            />
+            <ClientMarquee
+                title={
+                    <>
+                        A Community of Brands
+                        We Are Proud to Serve
+                    </>
+                }
+                logos={logos}
             />
             <ImpactSection
                 title="Measurable Business Impact with Odoo Erp "

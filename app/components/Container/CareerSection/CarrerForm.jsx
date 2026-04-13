@@ -155,7 +155,7 @@ export default function CareerForm() {
                                 Email Id
                             </p>
                             <p className="text-white text-sm font-medium">
-                                suriya.govind@beesap.ai
+                                contact@beeweave.ai
                             </p>
                         </div>
                     </div>

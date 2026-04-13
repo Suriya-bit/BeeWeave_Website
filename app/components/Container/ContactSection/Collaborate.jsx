@@ -130,7 +130,7 @@ export default function Collaborate() {
                     <div className="flex flex-col gap-6">
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Email Id</p>
-                            <p className="text-white text-sm font-medium">suriya.govind@beesap.ai</p>
+                            <p className="text-white text-sm font-medium">contact@beeweave.ai</p>
                         </div>
 
                         <div className="border-l-4 border-purple-500 pl-4">

@@ -145,16 +145,13 @@ const TrustedSAP = () => {
             onMouseEnter={() => (isPausedRef.current = true)}
             onMouseLeave={() => (isPausedRef.current = false)}
           >
-            {loopedFeatures.map((feature, i) => (
-              <motion.div
+            {loopedFeatures?.map((feature, i) => (
+              <div
                 key={i}
-                variants={cardVariant}
-                initial="hidden"
-                whileInView="visible"
                 className="group will-change-transform transform-gpu"
               >
                 <div className="relative p-px rounded-2xl bg-gradient-to-b from-[#9333ea] via-[#7e22ce] to-transparent">
-                  <div className="relative flex flex-col w-[260px] h-[500px] md:w-[370px] md:h-[400px] p-6 rounded-2xl overflow-hidden bg-[#0b0018] transition-all duration-300">
+                  <div className="relative flex flex-col w-[300px] h-[500px] md:w-[370px] md:h-[400px] p-6 rounded-2xl overflow-hidden bg-[#0b0018] transition-all duration-300">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_100%,rgba(124,58,237,0.12),transparent_65%)] pointer-events-none" />
                     <div className="absolute inset-0 bg-gradient-to-br from-[#7400FB]/10 to-transparent opacity-20 pointer-events-none" />
                     <div className="relative z-10 flex flex-col h-full">
@@ -183,7 +180,7 @@ const TrustedSAP = () => {
                     </div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>

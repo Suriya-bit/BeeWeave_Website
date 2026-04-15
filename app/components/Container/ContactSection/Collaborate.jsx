@@ -132,12 +132,10 @@ export default function Collaborate() {
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Email Id</p>
                             <p className="text-white text-sm font-medium">contact@beeweave.ai</p>
                         </div>
-
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Phone Number</p>
-                            <p className="text-white text-sm font-medium">99400 626 85</p>
+                            <p className="text-white text-sm font-medium">+91-979.108.108.3</p>
                         </div>
-
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Address (India)</p>
                             <p className="text-white text-sm font-medium leading-relaxed">
@@ -145,7 +143,6 @@ export default function Collaborate() {
                                 Ambattur India - 600 053 
                             </p>
                         </div>
-
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Address(europe)</p>
                             <p className="text-white text-sm font-medium leading-relaxed md:max-w-sm">

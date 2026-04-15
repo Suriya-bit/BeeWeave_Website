@@ -44,7 +44,7 @@ ${active ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
             ERP Consulting & Implementation Services
           </motion.h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 items-stretch">
             {cards?.map((card, i) => (
               <motion.div
                 key={i}

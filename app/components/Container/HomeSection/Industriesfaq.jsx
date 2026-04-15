@@ -34,7 +34,7 @@ export default function IndustriesFaq() {
 
   return (
     <div className="text-white font-sans">
-      <MainLayout className="py-20 px-4">
+      <MainLayout className="py-10 md:py-20 px-4">
         <h2 className="text-center text-2xl md:text-5xl font-semibold mb-14">
           Industries We Serve
         </h2>

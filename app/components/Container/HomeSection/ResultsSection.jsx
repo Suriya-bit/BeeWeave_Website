@@ -14,7 +14,7 @@ const fadeUp = {
   }),
 };
 
-const cell = "p-8 flex flex-col gap-4";
+const cell = " p-2 md:p-8 flex flex-col gap-4";
 const statNum = "text-4xl font-bold text-[#7400FA]";
 const statTxt = "text-xs text-white leading-tight max-w-[100px]";
 const borderT = "border-t border-[#7400FA]/30 p-5";

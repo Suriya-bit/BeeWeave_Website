@@ -14,7 +14,7 @@ const fadeUp = {
 
 const AboutHero = () => {
   return (
-    <MainLayout className="relative min-h-[521px] flex flex-col items-center justify-center text-center px-6 py-30 overflow-hidden bg-[#0d0a1a]">
+    <MainLayout className="relative md:min-h-[521px] flex flex-col items-center justify-center text-center px-6 py-30 overflow-hidden bg-[#0d0a1a]">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}

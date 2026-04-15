@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { aboutscards } from "@/app/utils/AboutmockData";
 import MainLayout from "@/app/common/MainLayout";
 
-const cardFade = {
+const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: (i) => ({
     opacity: 1,
@@ -14,97 +14,59 @@ const cardFade = {
   }),
 };
 
-const itemFade = {
-  hidden: { opacity: 0, y: 20 },
-  visible: (delay = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut", delay },
-  }),
-};
-
 const AboutChoose = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-30 py-28 bg-[#0d0a1a] overflow-visible">
-      <div className="relative z-10">
-        <motion.h2
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={itemFade}
-          custom={0.2}
-          className="text-2xl md:text-3xl font-bold text-white text-center mb-14 leading-snug"
-        >
-          Values That Drive Smart
-          <br />
-          ERP Transformation
-        </motion.h2>
+    <MainLayout className="relative px-6 lg:px-24 py-28 bg-[#0d0a1a] overflow-hidden">
+      <div className="relative max-w-7xl mx-auto">
 
-        <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.85 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.45),transparent_45%)]" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[200px] bg-[radial-gradient(circle_at_center,#c084fc_0%,transparent_60%)] blur-[60px] rounded-full" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[300px] bg-[radial-gradient(circle_at_center,#9333ea_0%,transparent_70%)] blur-[100px] opacity-80 rounded-full" />
+        </div>
+
+        <div className="relative z-10">
+          <motion.h2
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.2, ease: "easeOut" }}
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
-            w-[1200px]  h-[700px] 
-            bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.6)_0%,rgba(130,57,215,0.35)_30%,rgba(130,57,215,0.15)_55%,transparent_75%)] 
-            blur-[160px] rounded-full pointer-events-none z-0"
-          />
+            transition={{ duration: 0.6 }}
+            className="text-2xl md:text-3xl font-bold text-white text-center mb-14 leading-snug"
+          >
+            Values That Drive Smart
+            <br />
+            ERP Transformation
+          </motion.h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 items-stretch">
             {aboutscards?.map((card, i) => (
               <motion.div
                 key={i}
                 custom={i}
-                variants={cardFade}
+                variants={fadeUp}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.2 }}
-           className="group relative flex flex-col justify-between gap-4 p-8 rounded-2xl h-full
-border-t border-b border-[#7400FA]/30
-bg-[#0b0018]
-transition-all duration-300
-hover:border-[#9b4dff]
-hover:shadow-[0_0_35px_rgba(116,0,250,0.35)]"
+                className="group relative flex flex-col gap-4 p-8 rounded-2xl h-full border border-[#7400FA]/30 bg-[#12002a] transition-all duration-300"
               >
-                <div className="flex flex-col gap-3">
-                  <motion.div
-                    variants={itemFade}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    custom={0.2}
-                  >
-                    <Image src={card.img} alt="icon" width={40} height={40} />
-                  </motion.div>
+                <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.25),transparent_70%)]" />
 
-                  <motion.h3
-                    variants={itemFade}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    custom={0.3}
-                    className="text-lg font-semibold text-white max-w-[241px]"
-                  >
+                <div className="flex flex-col gap-3 relative z-10 flex-1">
+                  <Image src={card.img} alt="icon" width={40} height={40} />
+
+                  <h3 className="text-lg font-semibold text-white">
                     {card.title}
-                  </motion.h3>
+                  </h3>
 
-                  <motion.p
-                    variants={itemFade}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    custom={0.4}
-                    className="text-sm text-white/60 leading-relaxed"
-                  >
+                  <p className="text-sm text-white/60 leading-relaxed">
                     {card.description}
-                  </motion.p>
+                  </p>
                 </div>
               </motion.div>
             ))}
           </div>
         </div>
+
       </div>
     </MainLayout>
   );

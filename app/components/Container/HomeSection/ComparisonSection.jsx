@@ -23,7 +23,7 @@ const rightPoints = [
 
 const ComparisonSection = () => {
   return (
-    <MainLayout className="relative px-6 lg:px-30 py-20 overflow-hidden ">
+    <MainLayout className="relative px-6 lg:px-30 py-10 md:py-20 overflow-hidden ">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.3),transparent_35%)]" />
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[120px] bg-[radial-gradient(circle_at_center,#c084fc_0%,transparent_60%)] blur-[100px] opacity-80 rounded-full" />
@@ -60,7 +60,7 @@ const ComparisonSection = () => {
               </ul>
             </div>
           </div>
-          <div className="relative rounded-2xl bg-gradient-to-b from-[#9333ea] via-[#7400FA] to-transparent p-[1px] -ml-[10px]">
+          <div className="relative rounded-2xl bg-gradient-to-b from-[#9333ea] via-[#7400FA] to-transparent p-[1px] -mt-[20px] md:mt-0 md:-ml-[10px]">
             <div className="h-full w-full rounded-2xl bg-gradient-to-b from-[#7400FA] via-[#5b00d1] to-[#140024] p-8 backdrop-blur-xl">
               <h3 className="text-white text-lg font-semibold mb-3">
                 BEEWEAVE Approach

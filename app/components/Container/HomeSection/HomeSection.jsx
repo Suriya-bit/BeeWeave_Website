@@ -26,7 +26,7 @@ const item = {
 
 const HomeSection = () => {
   return (
-    <MainLayout className="relative min-h-screen bg-black flex flex-col items-center pt-10 md:pt-40 overflow-hidden">
+    <MainLayout className="relative min-h-[100dvh] bg-black flex flex-col items-center justify-center md:justify-start  md:pt-40 overflow-hidden">
       <motion.div
         initial={{ opacity: 0, scale: 1.2, y: 40 }}
         animate={{ opacity: 0.8, scale: 1.5, y: 0 }}

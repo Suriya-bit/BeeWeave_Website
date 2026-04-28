@@ -134,7 +134,7 @@ export default function Collaborate() {
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Phone Number</p>
-                            <p className="text-white text-sm font-medium">+91-979.108.108.3</p>
+                            <p className="text-white text-sm font-medium">+91-95000.35.108</p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Address (India)</p>

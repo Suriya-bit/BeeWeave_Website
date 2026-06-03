@@ -7,6 +7,9 @@ export const metadata = {
   title: "BeeWeave - Your Ultimate AI Resource Hub in 2025",
   description:
     "Discover the best AI tools, resources, and insights at BeeWeave.",
+  verification: {
+    google: "De0yegm7cjCpN-tRgB5pCmB4QN7ms4PQIMuSuLYivXw",
+  },
 };
 
 const jakarta = Plus_Jakarta_Sans({

@@ -32,7 +32,7 @@ const legal = [
 const socials = [
   { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61573340975393" },
   { icon: FaInstagram, href: " https://www.instagram.com/beew.eavesap/" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/in/beeweave-sap-487152403/" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/beeweave-india-487152403/" },
 ];
 
 const Footer = () => {

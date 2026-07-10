@@ -31,7 +31,7 @@ const legal = [
 
 const socials = [
   { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61573340975393" },
-  { icon: FaInstagram, href: " https://www.instagram.com/beew.eavesap/" },
+  { icon: FaInstagram, href: "https://www.instagram.com/beeweave_india/" },
   { icon: FaLinkedin, href: "https://www.linkedin.com/in/beeweave-ex-beesap-487152403/" },
 ];
 

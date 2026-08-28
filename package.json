@@ -11,8 +11,6 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@reduxjs/toolkit": "^2.10.0",
-    "@studio-freight/lenis": "^1.0.42",
-    "canvas-confetti": "^1.9.4",
     "cross-env": "^10.1.0",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.462.0",

@@ -109,20 +109,20 @@ export default function Collaborate() {
                 className="absolute left-[-250px] top-30 w-[250px] md:w-[350px] h-[360px] bg-[#7400FA] opacity-20 blur-[60px] rounded-full pointer-events-none"
             />
 
-            <div className="relative z-10 px-6 md:px-30 py-16 flex flex-col md:flex-row gap-16 items-start">
+            <div className="relative z-10 px-4 sm:px-6 md:px-30 py-10 md:py-16 flex flex-col md:flex-row gap-10 md:gap-16 items-start">
                 <motion.div
                     variants={fadeLeft}
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true }}
-                    className="flex-1 flex flex-col justify-center gap-8"
+                    className="flex-1 flex flex-col justify-center gap-6 md:gap-8"
                 >
                     <div>
-                        <h2 className="text-white text-4xl font-bold leading-tight tracking-tight mb-4">
+                        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold leading-tight tracking-tight mb-4">
                             We're here to connect<br />
                             collaborate and <span className="text-white">Create.</span>
                         </h2>
-                        <p className="text-sm leading-relaxed">
+                        <p className="text-sm leading-relaxed text-white/80">
                             Questions, ideas or partnership opportunities? Reach out—our team's ready to help.
                         </p>
                     </div>
@@ -130,7 +130,7 @@ export default function Collaborate() {
                     <div className="flex flex-col gap-6">
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Email Id</p>
-                            <p className="text-white text-sm font-medium">contact@beeweave.ai</p>
+                            <p className="text-white text-sm font-medium break-all">contact@beeweave.ai</p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Phone Number</p>
@@ -147,14 +147,15 @@ export default function Collaborate() {
                             </p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">
-                            <p className="text-white text-xs uppercase tracking-widest mb-1">Address(europe)</p>
-                            <p className="text-white text-sm font-medium leading-relaxed md:max-w-sm">
+                            <p className="text-white text-xs uppercase tracking-widest mb-1">Address (Europe)</p>
+                            <p className="text-white text-sm font-medium leading-relaxed md:max-w-sm break-words">
                                 beeweave – EuraTechnologies
                                 165 Avenue de Bretagne, 59000 Lille, France
                             </p>
                         </div>
                     </div>
                 </motion.div>
+
                 <motion.div
                     variants={fadeRight}
                     initial="hidden"
@@ -162,12 +163,12 @@ export default function Collaborate() {
                     viewport={{ once: true }}
                     className="flex-1 relative rounded-2xl overflow-hidden 
 bg-gradient-to-br from-[#14002a] via-[#15012c] to-[#0c0316] 
-border border-white/10 shadow-[0_0_40px_rgba(130,57,215,0.2)]"
+border border-white/10 shadow-[0_0_40px_rgba(130,57,215,0.2)] w-full"
                 >
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(130,57,215,0.15),transparent_70%)] pointer-events-none" />
 
-                    <div className="relative z-10 px-8 py-10">
-                        <h3 className="text-white text-xl font-semibold mb-8">
+                    <div className="relative z-10 px-4 sm:px-6 md:px-8 py-6 md:py-10">
+                        <h3 className="text-white text-lg sm:text-xl font-semibold mb-6 md:mb-8">
                             Contact us
                         </h3>
 
@@ -175,48 +176,75 @@ border border-white/10 shadow-[0_0_40px_rgba(130,57,215,0.2)]"
                             initial="hidden"
                             whileInView="show"
                             viewport={{ once: true }}
-                            className="flex flex-col gap-6"
+                            className="flex flex-col gap-5 md:gap-6"
                         >
-
-                            <motion.div variants={fadeUp} custom={1} className="flex gap-6">
+                            {/* Name & Email - Stack on mobile, row on larger screens */}
+                            <motion.div variants={fadeUp} custom={1} className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                                 <div className="flex-1 flex flex-col gap-2">
                                     <label className="text-white/60 text-xs">Name</label>
-                                    <input id="name" type="text" value={formData.name} onChange={handleChange}
+                                    <input
+                                        id="name"
+                                        type="text"
+                                        value={formData.name}
+                                        onChange={handleChange}
                                         className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
+                                    {errors.name && <p className="text-red-400 text-xs">{errors.name}</p>}
                                 </div>
 
                                 <div className="flex-1 flex flex-col gap-2">
                                     <label className="text-white/60 text-xs">Email Id</label>
-                                    <input id="email" type="email" value={formData.email} onChange={handleChange}
+                                    <input
+                                        id="email"
+                                        type="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
                                         className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
+                                    {errors.email && <p className="text-red-400 text-xs">{errors.email}</p>}
                                 </div>
                             </motion.div>
 
-                            <motion.div variants={fadeUp} custom={2} className="flex gap-6">
+                            {/* Mobile & Subject - Stack on mobile, row on larger screens */}
+                            <motion.div variants={fadeUp} custom={2} className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                                 <div className="flex-1 flex flex-col gap-2">
                                     <label className="text-white/60 text-xs">Mobile Number</label>
-                                    <input id="mobile" type="tel" value={formData.mobile} onChange={handleChange}
+                                    <input
+                                        id="mobile"
+                                        type="tel"
+                                        value={formData.mobile}
+                                        onChange={handleChange}
                                         className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
+                                    {errors.mobile && <p className="text-red-400 text-xs">{errors.mobile}</p>}
                                 </div>
 
                                 <div className="flex-1 flex flex-col gap-2">
                                     <label className="text-white/60 text-xs">Subject</label>
-                                    <input id="subject" type="text" value={formData.subject} onChange={handleChange}
+                                    <input
+                                        id="subject"
+                                        type="text"
+                                        value={formData.subject}
+                                        onChange={handleChange}
                                         className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                     />
+                                    {errors.subject && <p className="text-red-400 text-xs">{errors.subject}</p>}
                                 </div>
                             </motion.div>
 
+                            {/* Interest - Full width */}
                             <motion.div variants={fadeUp} custom={3} className="flex flex-col gap-2">
                                 <label className="text-white/60 text-xs">
                                     Tell us about your interest in
                                 </label>
-                                <input id="interest" type="text" value={formData.interest} onChange={handleChange}
+                                <input
+                                    id="interest"
+                                    type="text"
+                                    value={formData.interest}
+                                    onChange={handleChange}
                                     className="bg-transparent border-b border-white/20 text-white text-sm py-2 focus:outline-none focus:border-[#9b4dff] transition-all duration-300"
                                 />
+                                {errors.interest && <p className="text-red-400 text-xs">{errors.interest}</p>}
                             </motion.div>
 
                             <motion.button
@@ -227,7 +255,7 @@ border border-white/10 shadow-[0_0_40px_rgba(130,57,215,0.2)]"
                                 transition={{ duration: 0.4 }}
                                 disabled={loading}
                                 onClick={handleSubmit}
-                                className="group relative mt-6 w-full py-7 rounded-xl text-white text-sm font-semibold transition-all overflow-hidden"
+                                className="group relative mt-4 md:mt-6 w-full py-5 md:py-7 rounded-xl text-white text-sm font-semibold transition-all overflow-hidden"
                             >
                                 <span className="absolute inset-0 rounded-xl p-[1px] bg-gradient-to-r from-[#ffffff80] via-[#c084fc] to-[#ffffff80]">
                                     <span className="flex items-center justify-center w-full h-full rounded-xl bg-gradient-to-b from-[#14002a] via-[#15012c] to-[#0c0316]">

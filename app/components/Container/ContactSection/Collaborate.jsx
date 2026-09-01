@@ -139,8 +139,11 @@ export default function Collaborate() {
                         <div className="border-l-4 border-purple-500 pl-4">
                             <p className="text-white text-xs uppercase tracking-widest mb-1">Address (India)</p>
                             <p className="text-white text-sm font-medium leading-relaxed">
-                                No. 1, A Block, Flat no.S-1, VOC Street, Ram Nagar,<br />
-                                Ambattur India - 600 053 
+                                BeeWeave Technology Pvt. Ltd.,<br />
+                                Prince Info Park, B-Block, 6th Floor,<br />
+                                No. 81-B, 2nd Main Road,<br />
+                                Ambattur Industrial Estate,<br />
+                                Ambattur, Chennai - 600058
                             </p>
                         </div>
                         <div className="border-l-4 border-purple-500 pl-4">

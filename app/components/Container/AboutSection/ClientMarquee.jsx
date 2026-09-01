@@ -3,9 +3,10 @@ import Image from "next/image";
 import client1 from "@/app/assets/Images/client1.svg";
 import client2 from "@/app/assets/Images/client2.svg";
 import client3 from "@/app/assets/Images/client3.svg";
+import client4 from "@/app/assets/Images/client3.png";
 import { usePathname } from "next/navigation";
 
-const logos = [client1, client2, client3];
+const logos = [client1, client2, client3, client4];
 
 const ClientMarquee = () => {
   const pathname = usePathname()
